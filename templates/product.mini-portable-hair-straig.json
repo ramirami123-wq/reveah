@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "liquid_VrFpUF": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.star-review-wrapper {\ndisplay: flex;\nalign-items: center;\ngap: 8px;\nflex-shrink: 0;\n}\n.star-icons svg {\nwidth: 20px;\nheight: 20px;\nfill: black; /* Your deep red color */\n}\n.review-text {\nfont-size: 16px;\nfont-weight: 500;\ncolor: #333;\nwhite-space: nowrap;\n}\n@media (max-width: 480px) {\n.star-review-wrapper {\nflex-direction: row;\njustify-content: center;\n}\n​\n}\n</style>\n<div class=\"star-review-wrapper\">\n<div class=\"star-icons\">\n<!-- 5 Rounded Stars -->\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n</div>\n<div class=\"review-text\">\n<strong>5</strong> by <strong>124+</strong> Customers\n</div>\n</div>"
+          }
+        },
         "liquid_KKiNTm": {
           "type": "liquid",
           "name": "Hurry",
@@ -22,7 +28,7 @@
         "liquid_WqHpzt": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">✨ Spacious & Organized</span> – Keep all your cosmetics, skincare, and essentials neatly arranged in one place.<br><br>\n<span style=\"font-weight: bold;\">🧳 Travel-Ready Design</span> – Lightweight and compact, perfect for daily use, trips, or on-the-go touch-ups.<br><br>\n<span style=\"font-weight: bold;\">💖 Stylish & Durable</span> – Designed by Nazzemni to combine elegance with long-lasting quality for everyday convenience.\n</div>"
+            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">✨ Wireless & Portable</span> – Style your hair anytime, anywhere with a compact cordless design perfect for on-the-go touch-ups.<br><br>\n<span style=\"font-weight: bold;\">🔥 Fast Heat-Up</span> – Ready in just 30 seconds with 3 adjustable temperature levels for all hair types.<br><br>\n<span style=\"font-weight: bold;\">💖 Smooth & Frizz-Free</span> – Easily tame frizz, fix bangs, and achieve a polished look in minutes.\n</div>"
           }
         },
         "variant_picker": {
@@ -54,11 +60,12 @@
           "type": "liquid",
           "name": "Order now to receive by",
           "settings": {
-            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f5f5f5; font-size: 15px; border-radius: 13px; margin-top: 12px; margin-bottom: 12px; display: flex; align-items: center;\"> \n    <span class=\"em\" style=\"margin-right: 8px;\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#545454\">\n            <path d=\"M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z\"/>\n        </svg> \n    </span>\n    <span>Order now to receive by <span id=\"delivery-dates\" style=\"font-weight: bold;\"></span></span>\n</div>\n\n<script>\n    document.addEventListener('DOMContentLoaded', function() {\n        var currentDate = new Date();\n        var minDeliveryDate = new Date();\n        minDeliveryDate.setDate(currentDate.getDate() + 2);\n\n        var maxDeliveryDate = new Date();\n        maxDeliveryDate.setDate(currentDate.getDate() + 3);\n\n        var formatDate = function(date) {\n            var dayNames = [\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"];\n            var monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\",\n                \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"\n            ];\n            var day = date.getDate();\n            var month = monthNames[date.getMonth()];\n            var weekday = dayNames[date.getDay()];\n            return weekday + \", \" + month + \" \" + day;\n        };\n\n        var deliverySpan = document.getElementById('delivery-dates');\n        deliverySpan.textContent = formatDate(minDeliveryDate) + ' – ' + formatDate(maxDeliveryDate);\n    });\n</script>"
+            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f5f5f5; font-size: 15px; border-radius: 13px; margin-top: 12px; margin-bottom: 12px; display: flex; align-items: center;\"> \n    <span class=\"em\" style=\"margin-right: 8px;\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#545454\">\n            <path d=\"M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z\"/>\n        </svg> \n    </span>\n    <span>Order now to receive in <span id=\"delivery-dates\" style=\"font-weight: bold;\"></span></span>\n</div>\n\n<script>\n    document.addEventListener('DOMContentLoaded', function() {\n        var currentDate = new Date();\n        var minDeliveryDate = new Date();\n        minDeliveryDate.setDate(currentDate.getDate() + 2); // 2 day from now\n\n        var maxDeliveryDate = new Date();\n        maxDeliveryDate.setDate(currentDate.getDate() + 3); // 3 days from now\n\n        var formatDate = function(date) {\n            var monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\",\n              \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"\n            ];\n            var day = date.getDate();\n            var monthIndex = date.getMonth();\n            return monthNames[monthIndex] + \" \" + day;\n        };\n\n        var deliverySpan = document.getElementById('delivery-dates');\n        deliverySpan.textContent = formatDate(minDeliveryDate) + ' - ' + formatDate(maxDeliveryDate);\n    });\n</script>"
           }
         }
       },
       "block_order": [
+        "liquid_VrFpUF",
         "liquid_KKiNTm",
         "liquid_WqHpzt",
         "variant_picker",
@@ -113,10 +120,10 @@
           "type": "ai_gen_block_adef03d",
           "name": "Free delivery on orders",
           "settings": {
-            "text_1": "Free Delivery  on orders over $40",
-            "text_2": "Free Delivery  on orders over $40",
-            "text_3": "Free Delivery  on orders over $40",
-            "text_4": "Free Delivery  on orders over $40",
+            "text_1": "Free Delivery  on orders over $50",
+            "text_2": "Free Delivery  on orders over $50",
+            "text_3": "Free Delivery  on orders over $50",
+            "text_4": "Free Delivery  on orders over $50",
             "show_icon": false,
             "icon_type": "star",
             "icon_size": 20,
@@ -147,10 +154,11 @@
         "item_BrjwQF": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/aaa1.webp",
             "tab_label": "Item",
             "subheading": "",
-            "title": "",
-            "content": "<p><br/>This Makeup Pouch is designed to keep your essentials organized, accessible, and ready wherever you go.</p><p>With its spacious interior and smart compartments, it easily stores cosmetics, skincare, toiletries, and everyday items in one neat place.<br/><br/></p>",
+            "title": "Style Anytime, Anywhere",
+            "content": "<p><br/>No more worrying about messy hair during busy days or unexpected plans. This mini wireless straightener lets you fix your hair instantly—whether you're at university, work, or out with friends. Stay polished wherever life takes you.</p>",
             "button_text": "",
             "button_link": ""
           }
@@ -179,10 +187,10 @@
         "ai_gen_block_adef03d_CK93df": {
           "type": "ai_gen_block_adef03d",
           "settings": {
-            "text_1": "Free shipping on orders over $50",
-            "text_2": "Shop now and save 20%",
-            "text_3": "New arrivals every week",
-            "text_4": "100% satisfaction guaranteed",
+            "text_1": "Good hair days shouldn’t depend on time or place.",
+            "text_2": "Good hair days shouldn’t depend on time or place.",
+            "text_3": "Good hair days shouldn’t depend on time or place.",
+            "text_4": "Good hair days shouldn’t depend on time or place.",
             "show_icon": false,
             "icon_type": "star",
             "icon_size": 20,
@@ -214,10 +222,11 @@
         "item_GpEwj6": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/aa3.jpg",
             "tab_label": "",
             "subheading": "",
-            "title": "",
-            "content": "<p><br/>Stylish yet practical, this pouch helps you stay prepared without adding bulk to your bag. Whether at home or on the move, Nazzemni makes organization simple and elegant. ✨<br/><br/></p>",
+            "title": "Fast, Easy, and Effortless Beauty",
+            "content": "<p>Designed for quick touch-ups, this straightening comb heats up in seconds and smooths your hair with ease. Perfect for taming frizz, fixing bangs, and keeping your look fresh without spending hours styling.</p>",
             "button_text": "",
             "button_link": ""
           }
@@ -246,7 +255,7 @@
         "item_77LR69": {
           "type": "item",
           "settings": {
-            "row_heading": "Large capacity — fits all essentials in one pouch",
+            "row_heading": "Compact & Travel-Friendly",
             "first_column": "Yes",
             "second_column": "No",
             "third_column": "",
@@ -256,7 +265,7 @@
         "item_dEPCJH": {
           "type": "item",
           "settings": {
-            "row_heading": "Lightweight & travel-friendly",
+            "row_heading": "Fast Heating Technology",
             "first_column": "Yes",
             "second_column": "No",
             "third_column": "",
@@ -266,7 +275,7 @@
         "item_KWPwtH": {
           "type": "item",
           "settings": {
-            "row_heading": "Stylish modern design",
+            "row_heading": "Gentle on Hair",
             "first_column": "Yes",
             "second_column": "No",
             "third_column": "",
@@ -276,7 +285,7 @@
         "item_jEyeCX": {
           "type": "item",
           "settings": {
-            "row_heading": "Durable materials for daily use",
+            "row_heading": "Affordable Quality",
             "first_column": "Yes",
             "second_column": "No",
             "third_column": "",
@@ -419,36 +428,36 @@
         "question_adqrYK": {
           "type": "question",
           "settings": {
-            "title": "Is the pouch suitable for travel?",
-            "answer": "<p>Yes! The Nazzemni Makeup Pouch is lightweight, compact, and travel-friendly — ideal for vacations, business trips, gym bags, or everyday use.</p>"
+            "title": "How long does it take to heat up?",
+            "answer": "<p>The straightener heats up quickly—usually within a few minutes—so you can start styling almost immediately.</p>"
           }
         },
         "question_TDP7NK": {
           "type": "question",
           "settings": {
-            "title": "Does it have compartments inside?",
-            "answer": "<p>Absolutely. It features multiple partitions to help you keep items organized and easy to find.</p>"
+            "title": "Is this straightener suitable for all hair types?",
+            "answer": "<p>Yes! It works well on most hair types including straight, wavy, and slightly curly hair. For very thick or tightly curled hair, multiple passes may be needed.</p>"
           }
         },
         "question_hPGXCN": {
           "type": "question",
           "settings": {
-            "title": "Can it be used for things other than makeup?",
-            "answer": "<p>Of course! Many customers use it for toiletries, tech accessories, stationery, or small personal items.<br/></p>"
+            "title": "Is it safe to carry in a bag?",
+            "answer": "<p>Yes, its compact design makes it easy to carry. Just make sure it has cooled down before placing it in your bag.</p>"
           }
         },
         "question_7Rxwez": {
           "type": "question",
           "settings": {
-            "title": "Is this a good gift option?",
-            "answer": "<p>Definitely. Its stylish design and practicality make it a great gift for friends, family, or anyone who loves staying organized.</p>"
+            "title": "Does it damage hair?",
+            "answer": "<p>When used properly, it’s designed to be gentle on your hair. For best results, avoid using it on wet hair and don’t keep it in one spot too long.</p>"
           }
         },
         "question_Pzgd7t": {
           "type": "question",
           "settings": {
-            "title": "Is it lightweight to carry?",
-            "answer": "<p>Yes, it’s designed to be portable and easy to carry without adding bulk to your bag. </p>"
+            "title": "Is it easy to use for beginners?",
+            "answer": "<p>Yes! The simple design makes it very easy to handle, even if you’ve never used a straightener before.</p>"
           }
         }
       },
@@ -482,7 +491,7 @@
         "judge_me_reviews_review_widget_eTHqed": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "review_data": "sample_data",
+            "review_data": "real_data",
             "max_width": 1200,
             "show_shop_reviews": false,
             "empty_state": "empty_widget"
