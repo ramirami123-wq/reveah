@@ -15,6 +15,7 @@
         "image_dDjEhE": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Reveah_IG_Logo_4_-_Maria_Boumonsif_1.png",
             "text_position": "middle_center",
             "subheading": "",
             "title": "",
@@ -74,7 +75,7 @@
         "liquid_rJ676C": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">✨ Spacious & Organized</span> – Keep all your cosmetics, skincare, and essentials neatly arranged in one place.<br><br>\n<span style=\"font-weight: bold;\">✨ Travel-Ready Design</span> – Lightweight and compact, perfect for daily use, trips, or on-the-go touch-ups.<br><br>\n<span style=\"font-weight: bold;\">💖 Stylish & Durable</span> – Designed by Nazzemni to combine elegance with long-lasting quality for everyday convenience.\n</div>"
+            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">✨ Wireless & Portable</span> – Style your hair anytime, anywhere with a compact cordless design perfect for on-the-go touch-ups.<br><br>\n<span style=\"font-weight: bold;\">🔥 Fast Heat-Up</span> – Ready in just 30 seconds with 3 adjustable temperature levels for all hair types.<br><br>\n<span style=\"font-weight: bold;\">💖 Smooth & Frizz-Free</span> – Easily tame frizz, fix bangs, and achieve a polished look in minutes.\n</div>"
           }
         },
         "variant_picker_wEqQPV": {
@@ -119,7 +120,7 @@
         "show_sku": false,
         "show_taxes_included": false,
         "show_product_rating": false,
-        "show_share_buttons": true,
+        "show_share_buttons": false,
         "help_page": "",
         "enable_video_autoplay": true,
         "enable_video_looping": false,
@@ -138,8 +139,8 @@
           "type": "ai_gen_block_adef03d",
           "settings": {
             "text_1": "Free shipping on orders over $50",
-            "text_2": "Shop now and save 20%",
-            "text_3": "New arrivals every week",
+            "text_2": "100% satisfaction guaranteed",
+            "text_3": "Free shipping on orders over $50",
             "text_4": "100% satisfaction guaranteed",
             "show_icon": false,
             "icon_type": "star",
@@ -175,8 +176,8 @@
       "name": "Rich text",
       "settings": {
         "subheading": "",
-        "title": "About Nazzemni",
-        "content": "<p>At <strong>Nazzemni</strong>, we believe that staying organized should be simple, stylish, and stress-free. Our mission is to create practical everyday essentials that make your life easier — whether you’re at home, at work, or on the move.</p><p>We focus on thoughtfully designed products that combine functionality, quality, and modern style. From travel accessories to daily organizers, every Nazzemni item is made to help you carry what you need, neatly and confidently.</p><p>We understand that your essentials matter, which is why we prioritize durability, convenience, and elegant design in everything we offer. Our goal is to help you feel prepared, organized, and effortlessly put together — wherever life takes you.</p><p><strong>Nazzemni — Organize Your Day, Elevate Your Style.</strong> ✨</p>",
+        "title": "About Reveah",
+        "content": "<p>At <strong>Reveah</strong>, we believe beauty should be simple, fast, and accessible wherever life takes you. That’s why we focus on smart, portable beauty essentials designed to keep you looking your best—anytime, anywhere.</p><p>We carefully select products that combine convenience, quality, and style, making them perfect for busy mornings, travel, and last-minute plans. Our goal is to help you stay confident and ready without the hassle.</p><p>With reliable service, fast delivery, and a commitment to customer satisfaction, we’re here to make your everyday beauty routine easier and more enjoyable.</p>",
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
@@ -195,10 +196,10 @@
         "ai_gen_block_adef03d_F7KPrG": {
           "type": "ai_gen_block_adef03d",
           "settings": {
-            "text_1": "Free shipping on orders over $50",
-            "text_2": "Shop now and save 20%",
-            "text_3": "New arrivals every week",
-            "text_4": "100% satisfaction guaranteed",
+            "text_1": "free delivery for  orders over 50$",
+            "text_2": "free delivery for  orders over 50$",
+            "text_3": "free delivery for  orders over 50$",
+            "text_4": "free delivery for  orders over 50$",
             "show_icon": false,
             "icon_type": "star",
             "icon_size": 20,
@@ -237,22 +238,22 @@
         "question_fxK4gt": {
           "type": "question",
           "settings": {
-            "title": "Do you ship overseas?",
-            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "What payment methods do you accept?",
+            "answer": "<p>We offer <strong>Cash on Delivery (COD)</strong> for your convenience.</p>"
           }
         },
         "question_q9TLGc": {
           "type": "question",
           "settings": {
-            "title": "How long will it take to get my order?",
-            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "Can I use the product while traveling?",
+            "answer": "<p>Yes! Our products are <strong>portable and travel-friendly</strong>, designed for easy use anywhere.</p>"
           }
         },
         "question_L3j9VJ": {
           "type": "question",
           "settings": {
-            "title": "Any question?",
-            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "Is the product safe to use?",
+            "answer": "<p>Yes, the product is designed with <strong>safe temperature settings</strong> to suit different hair types.</p>"
           }
         }
       },
