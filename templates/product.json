@@ -16,7 +16,7 @@
           "type": "liquid",
           "name": "Hurry",
           "settings": {
-            "liquid": "<section class=\"sale-timer\" aria-label=\"Sale countdown timer\">\n  <style>\n    .sale-timer{\n      width:100%;\n      padding:22px 12px;\n      display:flex;\n      justify-content:center;\n      background:#FFFFF;\n      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;\n    }\n    .sale-timer__wrap{\n      text-align:center;\n    }\n    .sale-timer__label{\n      font-size:24px;\n      font-weight:500;\n      color:#111;\n      margin:0 0 14px 0;\n      line-height:1.1;\n    }\n\n    .sale-timer__row{\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      gap:10px;\n    }\n\n    .sale-timer__box{\n      width:88px;\n      height:68px;\n      background:#2a3e79;\n      color:white;\n      border-radius:6px;\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      font-size:34px;\n      font-weight:700;\n      letter-spacing:1px;\n      font-variant-numeric: tabular-nums;\n    }\n\n    .sale-timer__colon{\n      font-size:32px;\n      font-weight:700;\n      color:#00000;\n      line-height:1;\n      transform: translateY(-1px);\n      user-select:none;\n    }\n\n    @media (max-width:420px){\n      .sale-timer__label{ font-size:20px; }\n      .sale-timer__box{ width:72px; height:58px; font-size:30px; }\n      .sale-timer__colon{ font-size:28px; }\n      .sale-timer__row{ gap:8px; }\n    }\n  </style>\n\n  <div class=\"sale-timer__wrap\">\n    <div class=\"sale-timer__label\">Hurry! Sale ends in</div>\n\n    <div class=\"sale-timer__row\" role=\"timer\" aria-live=\"polite\">\n      <div class=\"sale-timer__box\" id=\"st-hours\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-mins\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-secs\">00</div>\n    </div>\n  </div>\n\n  <script>\n    (function () {\n      const durationHours = 12; // change if needed\n      const endAt = Date.now() + durationHours * 60 * 60 * 1000;\n\n      const h = document.getElementById(\"st-hours\");\n      const m = document.getElementById(\"st-mins\");\n      const s = document.getElementById(\"st-secs\");\n\n      const pad = n => String(n).padStart(2, \"0\");\n\n      function update(){\n        let diff = endAt - Date.now();\n        if(diff < 0) diff = 0;\n\n        const total = Math.floor(diff / 1000);\n        h.textContent = pad(Math.floor(total / 3600));\n        m.textContent = pad(Math.floor((total % 3600) / 60));\n        s.textContent = pad(total % 60);\n\n        if(diff === 0) clearInterval(timer);\n      }\n\n      update();\n      const timer = setInterval(update, 1000);\n    })();\n  </script>\n</section>"
+            "liquid": "<section class=\"sale-timer\" aria-label=\"Sale countdown timer\">\n  <style>\n    .sale-timer{\n      width:100%;\n      padding:22px 12px;\n      display:flex;\n      justify-content:center;\n      background:#FFFFF;\n      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;\n    }\n    .sale-timer__wrap{\n      text-align:center;\n    }\n    .sale-timer__label{\n      font-size:24px;\n      font-weight:500;\n      color:#111;\n      margin:0 0 14px 0;\n      line-height:1.1;\n    }\n\n    .sale-timer__row{\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      gap:10px;\n    }\n\n    .sale-timer__box{\n      width:88px;\n      height:68px;\n      background:black;\n      color:white;\n      border-radius:6px;\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      font-size:34px;\n      font-weight:700;\n      letter-spacing:1px;\n      font-variant-numeric: tabular-nums;\n    }\n\n    .sale-timer__colon{\n      font-size:32px;\n      font-weight:700;\n      color:#00000;\n      line-height:1;\n      transform: translateY(-1px);\n      user-select:none;\n    }\n\n    @media (max-width:420px){\n      .sale-timer__label{ font-size:20px; }\n      .sale-timer__box{ width:72px; height:58px; font-size:30px; }\n      .sale-timer__colon{ font-size:28px; }\n      .sale-timer__row{ gap:8px; }\n    }\n  </style>\n\n  <div class=\"sale-timer__wrap\">\n    <div class=\"sale-timer__label\">Hurry! Sale ends in</div>\n\n    <div class=\"sale-timer__row\" role=\"timer\" aria-live=\"polite\">\n      <div class=\"sale-timer__box\" id=\"st-hours\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-mins\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-secs\">00</div>\n    </div>\n  </div>\n\n  <script>\n    (function () {\n      const durationHours = 12; // change if needed\n      const endAt = Date.now() + durationHours * 60 * 60 * 1000;\n\n      const h = document.getElementById(\"st-hours\");\n      const m = document.getElementById(\"st-mins\");\n      const s = document.getElementById(\"st-secs\");\n\n      const pad = n => String(n).padStart(2, \"0\");\n\n      function update(){\n        let diff = endAt - Date.now();\n        if(diff < 0) diff = 0;\n\n        const total = Math.floor(diff / 1000);\n        h.textContent = pad(Math.floor(total / 3600));\n        m.textContent = pad(Math.floor((total % 3600) / 60));\n        s.textContent = pad(total % 60);\n\n        if(diff === 0) clearInterval(timer);\n      }\n\n      update();\n      const timer = setInterval(update, 1000);\n    })();\n  </script>\n</section>"
           }
         },
         "liquid_WqHpzt": {
@@ -125,13 +125,13 @@
             "text_size": 16,
             "text_weight": "500",
             "text_transform": "none",
-            "text_color": "#000000",
+            "text_color": "#ffffff",
             "speed": 5,
             "pause_on_hover": true,
             "item_spacing": 60,
             "padding_vertical": 10,
             "desktop_width_percent": 100,
-            "background_color": "#f7f7f7"
+            "background_color": "#000000"
           },
           "blocks": {}
         }
@@ -183,7 +183,7 @@
             "text_2": "Shop now and save 20%",
             "text_3": "New arrivals every week",
             "text_4": "100% satisfaction guaranteed",
-            "show_icon": true,
+            "show_icon": false,
             "icon_type": "star",
             "icon_size": 20,
             "icon_color": "#0c1b54",
@@ -191,13 +191,13 @@
             "text_size": 16,
             "text_weight": "500",
             "text_transform": "none",
-            "text_color": "#000000",
-            "speed": 30,
+            "text_color": "#ffffff",
+            "speed": 5,
             "pause_on_hover": true,
             "item_spacing": 60,
             "padding_vertical": 20,
             "desktop_width_percent": 100,
-            "background_color": "#f7f7f7"
+            "background_color": "#000000"
           },
           "blocks": {}
         }
@@ -371,23 +371,23 @@
         "second_button_border_thickness": 2,
         "table_heading_color": "#2f1718",
         "table_heading_active_color": "#ffffff",
-        "table_heading_bg_active_color": "#2a3e79",
+        "table_heading_bg_active_color": "#000000",
         "table_column_active_bg_color": "#ffffff",
-        "table_column_active_border_color": "#2a3e79",
+        "table_column_active_border_color": "#000000",
         "table_row_border_color": "#d3cabc",
         "table_row_heading_color": "#2f1718",
         "table_row_text_color": "#2f1718",
-        "table_row_active_text_color": "#2a3e79",
-        "button_color": "#2a3e79",
+        "table_row_active_text_color": "#000000",
+        "button_color": "#000000",
         "button_hover_color": "#ffffff",
         "button_bg_color": "",
-        "button_bg_hover_color": "#2a3e79",
-        "button_border_color": "#2a3e79",
-        "button_border_hover_color": "#2a3e79",
+        "button_bg_hover_color": "#000000",
+        "button_border_color": "#000000",
+        "button_border_hover_color": "#000000",
         "second_button_color": "#ffffff",
         "second_button_hover_color": "#ffffff",
-        "second_button_bg_color": "#2a3e79",
-        "second_button_bg_hover_color": "#2a3e79",
+        "second_button_bg_color": "#000000",
+        "second_button_bg_hover_color": "#000000",
         "second_button_border_color": "#2a3e79",
         "second_button_border_hover_color": "#2a3e79",
         "heading_color": "#2f1718",
