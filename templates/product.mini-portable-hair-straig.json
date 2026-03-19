@@ -231,7 +231,7 @@
         "reveal_on_scroll": true,
         "background_type": "full_width",
         "background_overlap": "image",
-        "image_position": "left",
+        "image_position": "right",
         "text_alignment": "center",
         "cycle_speed": 8,
         "accent_background": "rgba(0,0,0,0)",
