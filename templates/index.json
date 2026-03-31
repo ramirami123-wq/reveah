@@ -9,35 +9,34 @@
  */
 {
   "sections": {
-    "slideshow": {
+    "slideshow_j8D4he": {
       "type": "slideshow",
       "blocks": {
-        "image_dDjEhE": {
+        "image_7VmcDc": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/kamila-maciejewska-b2bXKspL5MY-unsplash_cropped_processed_by_imagy_8bc9e37e-ba42-408c-ad1b-3fe60e42b160.jpg",
             "mobile_image": "shopify://shop_images/kamila-maciejewska-b2bXKspL5MY-unsplash_cropped_processed_by_imagy_8bc9e37e-ba42-408c-ad1b-3fe60e42b160.jpg",
             "text_position": "middle_center",
-            "subheading": "",
+            "subheading": "Portable Beauty & Skincare",
             "title": "",
-            "button_1_text": "",
-            "button_1_link": "",
+            "button_1_text": "Shop Collection",
+            "button_1_link": "shopify://collections",
             "button_2_text": "",
             "button_2_link": "",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 7
+            "overlay_opacity": 30
           }
         },
-        "slide-1": {
+        "image_X7JdqC": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "text_position": "middle_center",
-            "subheading": "",
-            "title": "",
+            "subheading": "Tell your story",
+            "title": "Slide 2",
             "button_1_text": "",
             "button_1_link": "",
             "button_2_text": "",
@@ -51,9 +50,10 @@
         }
       },
       "block_order": [
-        "image_dDjEhE",
-        "slide-1"
+        "image_7VmcDc",
+        "image_X7JdqC"
       ],
+      "name": "Slideshow",
       "settings": {
         "section_height": "auto",
         "transition_type": "sweep",
@@ -282,7 +282,7 @@
     }
   },
   "order": [
-    "slideshow",
+    "slideshow_j8D4he",
     "featured_product_qm78ER",
     "blocks_W6eMYL",
     "17721123692ddca8e9",
