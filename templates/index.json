@@ -15,7 +15,7 @@
         "image_dDjEhE": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Gemini_Generated_Image_ko4341ko4341ko43.png",
+            "image": "shopify://shop_images/Portable_Beauty_Skincae.png",
             "text_position": "middle_center",
             "subheading": "",
             "title": "",
@@ -54,7 +54,7 @@
         "slide-1"
       ],
       "settings": {
-        "section_height": "fit",
+        "section_height": "auto",
         "transition_type": "sweep",
         "show_initial_transition": false,
         "autoplay": true,
