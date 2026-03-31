@@ -15,6 +15,7 @@
         "image_dDjEhE": {
           "type": "image",
           "settings": {
+            "split_image": "shopify://shop_images/kamila-maciejewska-b2bXKspL5MY-unsplash.jpg",
             "mobile_image": "shopify://shop_images/kamila-maciejewska-b2bXKspL5MY-unsplash.jpg",
             "text_position": "middle_center",
             "subheading": "",
