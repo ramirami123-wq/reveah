@@ -432,13 +432,6 @@
             "answer": "<p>It’s simple! The brush features a telescopic handle. When you twist the base, the bristles retract fully into the brush head. This pushes all the trapped hair, lint, and product buildup to the flat surface, allowing you to swipe it away in one second.</p>"
           }
         },
-        "question_xRq4aa": {
-          "type": "question",
-          "settings": {
-            "title": "Is it easy to carry for travel?",
-            "answer": "<p>Definitely. At just 24cm long and featuring a lightweight, ergonomic design, it fits easily into handbags, gym bags, or carry-ons. Plus, because the bristles can retract, they won't get bent or damaged while stored in your bag.</p>"
-          }
-        },
         "question_hPGXCN": {
           "type": "question",
           "settings": {
@@ -453,6 +446,13 @@
             "answer": "<p>Absolutely. Each bristle is tipped with rounded massage particles. These gently stimulate blood flow to the scalp while you brush, promoting healthier hair growth and providing a relaxing, spa-like experience.</p>"
           }
         },
+        "question_xRq4aa": {
+          "type": "question",
+          "settings": {
+            "title": "Is it easy to carry for travel?",
+            "answer": "<p>Definitely. At just 24cm long and featuring a lightweight, ergonomic design, it fits easily into handbags, gym bags, or carry-ons. Plus, because the bristles can retract, they won't get bent or damaged while stored in your bag.</p>"
+          }
+        },
         "question_Pzgd7t": {
           "type": "question",
           "settings": {
@@ -464,9 +464,9 @@
       "block_order": [
         "category_y3mKtw",
         "question_TDP7NK",
-        "question_xRq4aa",
         "question_hPGXCN",
         "question_7Rxwez",
+        "question_xRq4aa",
         "question_Pzgd7t"
       ],
       "name": "FAQ",
