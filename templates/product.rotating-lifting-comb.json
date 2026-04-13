@@ -216,6 +216,39 @@
       "name": "Marquee",
       "settings": {}
     },
+    "image_with_text_MGKt3b": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_tdkW4f": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1774869196_phplos60k5ottlv1ZEQ59d.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "Gentle Styling for All Hair Types",
+            "content": "<p><strong>One Brush, All Styles.</strong> From long curls to short layers, our anti-static bristles are designed to glide through any texture. The soft-touch tips ensure that styling isn't just easy—it's a comfortable, relaxing part of your self-care routine.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_tdkW4f"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "com_6hdjLn": {
       "type": "com",
       "blocks": {
@@ -232,7 +265,7 @@
         "item_dEPCJH": {
           "type": "item",
           "settings": {
-            "row_heading": "Fast Heating Technology",
+            "row_heading": "Gentle on Hair",
             "first_column": "Yes",
             "second_column": "No",
             "third_column": "",
@@ -481,6 +514,7 @@
     "1772112756b71eda01",
     "image_with_text_ThDXAp",
     "blocks_DQCCVR",
+    "image_with_text_MGKt3b",
     "com_6hdjLn",
     "faq_cbkQ3V",
     "1772123363ce666331",
