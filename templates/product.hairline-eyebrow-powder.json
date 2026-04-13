@@ -151,21 +151,21 @@
     "image_with_text_8YkwVd": {
       "type": "image-with-text",
       "blocks": {
-        "item_BrjwQF": {
+        "item_FX4FrR": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/aaa1.webp",
-            "tab_label": "Item",
+            "image": "shopify://shop_images/1767015643_phpk62k86j8fqk83YA4rYq_1_5f30e856-c642-4ea2-a4e1-2954213706b1.jpg",
+            "tab_label": "",
             "subheading": "",
-            "title": "Style Anytime, Anywhere",
-            "content": "<p><br/>No more worrying about messy hair during busy days or unexpected plans. This mini wireless straightener lets you fix your hair instantly—whether you're at university, work, or out with friends. Stay polished wherever life takes you.</p>",
+            "title": "Instantly Fuller Hairlines",
+            "content": "<p><strong>The Secret to a Perfect Hairline.</strong> Whether you're wearing your hair up or down, our hairline stamp provides quick, easy coverage that resists wind and moisture. Get a fuller look and sharper edges in just a few taps.</p>",
             "button_text": "",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "item_BrjwQF"
+        "item_FX4FrR"
       ],
       "name": "Image with text",
       "settings": {
