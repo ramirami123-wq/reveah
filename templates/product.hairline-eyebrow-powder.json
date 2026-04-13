@@ -219,21 +219,21 @@
     "image_with_text_XrnFrQ": {
       "type": "image-with-text",
       "blocks": {
-        "item_GpEwj6": {
+        "item_6DzqGf": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/aa3.jpg",
-            "tab_label": "",
+            "image": "shopify://shop_images/1767015644_phpvlbeq2rsqe0lfibuRRj_acebbd62-6ab6-47cd-80be-3b2501761c55.jpg",
+            "tab_label": "Item",
             "subheading": "",
-            "title": "Fast, Easy, and Effortless Beauty",
-            "content": "<p>Designed for quick touch-ups, this straightening comb heats up in seconds and smooths your hair with ease. Perfect for taming frizz, fixing bangs, and keeping your look fresh without spending hours styling.</p>",
+            "title": "Instant Brow Transformation",
+            "content": "<p><strong>Say Goodbye to Sparse Brows.</strong> Whether you're filling in gaps or completely reshaping, our high-pigment powder blends seamlessly for a natural, fuller look that lasts all day without smudging.</p>",
             "button_text": "",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "item_GpEwj6"
+        "item_6DzqGf"
       ],
       "name": "Image with text",
       "settings": {
