@@ -255,7 +255,7 @@
         "item_77LR69": {
           "type": "item",
           "settings": {
-            "row_heading": "Compact & Travel-Friendly",
+            "row_heading": "2-in-1 Versatility",
             "first_column": "Yes",
             "second_column": "No",
             "third_column": "",
@@ -265,7 +265,7 @@
         "item_dEPCJH": {
           "type": "item",
           "settings": {
-            "row_heading": "Fast Heating Technology",
+            "row_heading": "Waterproof & Sweat-Proof",
             "first_column": "Yes",
             "second_column": "No",
             "third_column": "",
@@ -275,7 +275,7 @@
         "item_KWPwtH": {
           "type": "item",
           "settings": {
-            "row_heading": "Gentle on Hair",
+            "row_heading": "Mess-Free Sponge Stamp",
             "first_column": "Yes",
             "second_column": "No",
             "third_column": "",
@@ -285,7 +285,7 @@
         "item_jEyeCX": {
           "type": "item",
           "settings": {
-            "row_heading": "Affordable Quality",
+            "row_heading": "Natural Blend Technology",
             "first_column": "Yes",
             "second_column": "No",
             "third_column": "",
@@ -428,36 +428,36 @@
         "question_adqrYK": {
           "type": "question",
           "settings": {
-            "title": "How long does it take to heat up?",
-            "answer": "<p>The straightener heats up quickly—usually within a few minutes—so you can start styling almost immediately.</p>"
+            "title": "Is the powder smudge-proof and waterproof?",
+            "answer": "<p>Yes! Our formula is specifically designed to be waterproof and sweat-proof, ensuring your hairline and brows stay perfectly defined all day, whether you're at the gym or caught in the rain.<br/></p>"
           }
         },
         "question_TDP7NK": {
           "type": "question",
           "settings": {
-            "title": "Is this straightener suitable for all hair types?",
-            "answer": "<p>Yes! It works well on most hair types including straight, wavy, and slightly curly hair. For very thick or tightly curled hair, multiple passes may be needed.</p>"
+            "title": "Can I use this on both my eyebrows and my hairline?",
+            "answer": "<p>Absolutely. This is a versatile 2-in-1 product. Use the included stencils for a professional eyebrow shape, or tap the sponge applicator directly onto sparse areas along your hairline for instant, natural-looking coverage.</p>"
           }
         },
         "question_hPGXCN": {
           "type": "question",
           "settings": {
-            "title": "Is it safe to carry in a bag?",
-            "answer": "<p>Yes, its compact design makes it easy to carry. Just make sure it has cooled down before placing it in your bag.</p>"
+            "title": "Will the finish look natural or like makeup?",
+            "answer": "<p>It looks completely natural. The fine-milled powder mimics the texture of real hair and blends seamlessly into your skin and existing strands, making it undetectable even in bright sunlight.</p>"
           }
         },
         "question_7Rxwez": {
           "type": "question",
           "settings": {
-            "title": "Does it damage hair?",
-            "answer": "<p>When used properly, it’s designed to be gentle on your hair. For best results, avoid using it on wet hair and don’t keep it in one spot too long.</p>"
+            "title": "How do I choose the right shade for my hair?",
+            "answer": "<p>For the most natural look, we recommend choosing a shade that matches your hair's root color. Because the powder is buildable, you can apply a light layer for a softer look or add more for a deeper, bolder finish.</p>"
           }
         },
         "question_Pzgd7t": {
           "type": "question",
           "settings": {
-            "title": "Is it easy to use for beginners?",
-            "answer": "<p>Yes! The simple design makes it very easy to handle, even if you’ve never used a straightener before.</p>"
+            "title": "How do I remove the product at the end of the day?",
+            "answer": "<p>While the formula is long-wearing, it is easily removed with your regular facial cleanser, makeup remover, or a gentle shampoo if used on the hairline.</p>"
           }
         }
       },
