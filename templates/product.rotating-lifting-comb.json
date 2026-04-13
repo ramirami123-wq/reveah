@@ -148,24 +148,24 @@
       ],
       "settings": {}
     },
-    "image_with_text_8YkwVd": {
+    "image_with_text_ThDXAp": {
       "type": "image-with-text",
       "blocks": {
-        "item_BrjwQF": {
+        "item_HatFJV": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/aaa1.webp",
-            "tab_label": "Item",
+            "image": "shopify://shop_images/1774869196_phpub8uupdiubu14PWIAfg_2f90bb38-c021-4711-8bc0-5365bdbed36e.jpg",
+            "tab_label": "ITEM",
             "subheading": "",
-            "title": "Style Anytime, Anywhere",
-            "content": "<p><br/>No more worrying about messy hair during busy days or unexpected plans. This mini wireless straightener lets you fix your hair instantly—whether you're at university, work, or out with friends. Stay polished wherever life takes you.</p>",
+            "title": "Effortless One-Click Cleaning",
+            "content": "<p> Our innovative telescopic handle retracts the bristles with a single turn, pushing trapped hair and lint to the surface for instant, mess-free removal.<br/><br/></p>",
             "button_text": "",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "item_BrjwQF"
+        "item_HatFJV"
       ],
       "name": "Image with text",
       "settings": {
@@ -215,39 +215,6 @@
       ],
       "name": "Marquee",
       "settings": {}
-    },
-    "image_with_text_XrnFrQ": {
-      "type": "image-with-text",
-      "blocks": {
-        "item_GpEwj6": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/aa3.jpg",
-            "tab_label": "",
-            "subheading": "",
-            "title": "Fast, Easy, and Effortless Beauty",
-            "content": "<p>Designed for quick touch-ups, this straightening comb heats up in seconds and smooths your hair with ease. Perfect for taming frizz, fixing bangs, and keeping your look fresh without spending hours styling.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_GpEwj6"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "background_overlap": "image",
-        "image_position": "right",
-        "text_alignment": "center",
-        "cycle_speed": 8,
-        "accent_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
     },
     "com_6hdjLn": {
       "type": "com",
@@ -512,9 +479,8 @@
     "product-content",
     "product-recommendations",
     "1772112756b71eda01",
-    "image_with_text_8YkwVd",
+    "image_with_text_ThDXAp",
     "blocks_DQCCVR",
-    "image_with_text_XrnFrQ",
     "com_6hdjLn",
     "faq_cbkQ3V",
     "1772123363ce666331",
