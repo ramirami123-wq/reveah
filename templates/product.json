@@ -260,7 +260,7 @@
         "item_77LR69": {
           "type": "item",
           "settings": {
-            "row_heading": "Large capacity — fits all essentials in one pouch",
+            "row_heading": "Compact & Travel-Friendly",
             "first_column": "Yes",
             "second_column": "No",
             "third_column": "",
@@ -270,7 +270,7 @@
         "item_dEPCJH": {
           "type": "item",
           "settings": {
-            "row_heading": "Lightweight & travel-friendly",
+            "row_heading": "Gentle on Hair",
             "first_column": "Yes",
             "second_column": "No",
             "third_column": "",
@@ -280,7 +280,7 @@
         "item_KWPwtH": {
           "type": "item",
           "settings": {
-            "row_heading": "Stylish modern design",
+            "row_heading": "Self-Cleaning Mechanism",
             "first_column": "Yes",
             "second_column": "No",
             "third_column": "",
@@ -290,7 +290,7 @@
         "item_jEyeCX": {
           "type": "item",
           "settings": {
-            "row_heading": "Durable materials for daily use",
+            "row_heading": "Affordable Quality",
             "first_column": "Yes",
             "second_column": "No",
             "third_column": "",
@@ -433,36 +433,36 @@
         "question_adqrYK": {
           "type": "question",
           "settings": {
-            "title": "Is the pouch suitable for travel?",
-            "answer": "<p>Yes! The Nazzemni Makeup Pouch is lightweight, compact, and travel-friendly — ideal for vacations, business trips, gym bags, or everyday use.</p>"
+            "title": "How exactly does the self-cleaning mechanism work?",
+            "answer": "<p>It’s simple! The brush features a telescopic handle. When you twist the base, the bristles retract fully into the brush head. This pushes all the trapped hair, lint, and product buildup to the flat surface, allowing you to swipe it away in one second.</p>"
           }
         },
         "question_TDP7NK": {
           "type": "question",
           "settings": {
-            "title": "Does it have compartments inside?",
-            "answer": "<p>Absolutely. It features multiple partitions to help you keep items organized and easy to find.</p>"
+            "title": "Is this brush suitable for thick or curly hair?",
+            "answer": "<p>Yes! The bristles are made from a high-elastic, anti-static material designed to glide through all hair textures—including thick, curly, and layered styles—without snagging or pulling.</p>"
           }
         },
         "question_hPGXCN": {
           "type": "question",
           "settings": {
-            "title": "Can it be used for things other than makeup?",
-            "answer": "<p>Of course! Many customers use it for toiletries, tech accessories, stationery, or small personal items.<br/></p>"
+            "title": "Does the brush help with scalp health?",
+            "answer": "<p>Absolutely. Each bristle is tipped with rounded massage particles. These gently stimulate blood flow to the scalp while you brush, promoting healthier hair growth and providing a relaxing, spa-like experience.</p>"
           }
         },
         "question_7Rxwez": {
           "type": "question",
           "settings": {
-            "title": "Is this a good gift option?",
-            "answer": "<p>Definitely. Its stylish design and practicality make it a great gift for friends, family, or anyone who loves staying organized.</p>"
+            "title": "Is it easy to carry for travel?",
+            "answer": "<p>Definitely. At just 24cm long and featuring a lightweight, ergonomic design, it fits easily into handbags, gym bags, or carry-ons. Plus, because the bristles can retract, they won't get bent or damaged while stored in your bag.</p>"
           }
         },
         "question_Pzgd7t": {
           "type": "question",
           "settings": {
-            "title": "Is it lightweight to carry?",
-            "answer": "<p>Yes, it’s designed to be portable and easy to carry without adding bulk to your bag. </p>"
+            "title": "How do I keep the brush itself clean?",
+            "answer": "<p>Because the bristles retract, the flat surface of the brush is very easy to wipe down with a damp cloth or a sanitizing wipe. This prevents the buildup of oils and skin cells that usually get stuck at the base of traditional brushes.</p>"
           }
         }
       },
