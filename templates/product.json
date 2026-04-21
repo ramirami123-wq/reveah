@@ -144,18 +144,6 @@
     "image_with_text_8YkwVd": {
       "type": "image-with-text",
       "blocks": {
-        "item_UNWbgi": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/1767015643_phpk62k86j8fqk83YA4rYq.jpg",
-            "tab_label": "",
-            "subheading": "",
-            "title": "Instantly Fuller Hairlines",
-            "content": "<p><strong>The Secret to a Perfect </strong>Hairline. Whether you're wearing your hair up or down, our hairline stamp provides quick, easy coverage that resists wind and moisture. Get a fuller look and sharper edges in just a few taps.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
         "item_7VwKqE": {
           "type": "item",
           "settings": {
@@ -170,7 +158,6 @@
         }
       },
       "block_order": [
-        "item_UNWbgi",
         "item_7VwKqE"
       ],
       "name": "Image with text",
