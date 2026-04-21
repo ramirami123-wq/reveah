@@ -212,6 +212,18 @@
     "image_with_text_XrnFrQ": {
       "type": "image-with-text",
       "blocks": {
+        "item_pWHkjV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1774869196_phplos60k5ottlv1ZEQ59d_8b5bf173-7c68-43dc-9a50-4643275f6a17.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Gentle Styling for All HairTypes",
+            "content": "<p><strong>One Brush, All Styles.</strong>From long curls to short layers, our anti-static bristles are designed to glide through any texture. The soft-touch tips ensure that styling isn't just easy—it's a comfortable, relaxing part of your self-care routine.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
         "item_GpEwj6": {
           "type": "item",
           "settings": {
@@ -225,6 +237,7 @@
         }
       },
       "block_order": [
+        "item_pWHkjV",
         "item_GpEwj6"
       ],
       "name": "Image with text",
