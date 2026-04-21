@@ -22,7 +22,7 @@
         "liquid_WqHpzt": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">✨ Spacious & Organized</span> – Keep all your cosmetics, skincare, and essentials neatly arranged in one place.<br><br>\n<span style=\"font-weight: bold;\">🧳 Travel-Ready Design</span> – Lightweight and compact, perfect for daily use, trips, or on-the-go touch-ups.<br><br>\n<span style=\"font-weight: bold;\">💖 Stylish & Durable</span> – Designed by Nazzemni to combine elegance with long-lasting quality for everyday convenience.\n</div>"
+            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">✨ One-Twist Instant Clean</span> –  A simple turn of the handle retracts the bristles, instantly releasing trapped hair for a mess-free, hygienic brush in seconds.<br><br>\n<span style=\"font-weight: bold;\">🔥 Scalp-Soothing Detangler</span> – Anti-static bristles with soft massage tips gently glide through knots while soothing your scalp.<br><br>\n<span style=\"font-weight: bold;\">💖 Sleek & Travel-Ready</span> – A lightweight, ergonomic design that fits in your bag for quick, frizz-free touch-ups anywhere.\n</div>"
           }
         },
         "variant_picker": {
@@ -144,20 +144,21 @@
     "image_with_text_8YkwVd": {
       "type": "image-with-text",
       "blocks": {
-        "item_BrjwQF": {
+        "item_7VwKqE": {
           "type": "item",
           "settings": {
-            "tab_label": "Item",
+            "image": "shopify://shop_images/1774869196_phpub8uupdiubu14PWIAfg_c69da598-e548-41a1-8778-acffd987a72c.jpg",
+            "tab_label": "",
             "subheading": "",
-            "title": "",
-            "content": "<p><br/>This Makeup Pouch is designed to keep your essentials organized, accessible, and ready wherever you go.</p><p>With its spacious interior and smart compartments, it easily stores cosmetics, skincare, toiletries, and everyday items in one neat place.<br/><br/></p>",
+            "title": "Effortless One-ClickCleaning",
+            "content": "<p> Our innovative telescopic handle retracts the bristles with a single turn, pushing trapped hair and lint to the surface for instant, mess-free removal.<br/><br/></p>",
             "button_text": "",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "item_BrjwQF"
+        "item_7VwKqE"
       ],
       "name": "Image with text",
       "settings": {
