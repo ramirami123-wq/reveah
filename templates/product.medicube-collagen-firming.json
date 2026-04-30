@@ -230,23 +230,10 @@
             "button_text": "",
             "button_link": ""
           }
-        },
-        "item_tc7FcQ": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/1763644046_php4cviuke9jeng80U1nGa.jpg",
-            "tab_label": "",
-            "subheading": "",
-            "title": "Proven Results. Pure Satisfaction.",
-            "content": "<p>Real results you can trust. After just 4 weeks, users reported a 100% satisfaction rate in skin radiance, hydration, and the fading of pigmentation. Experience a perfected complexion with a formula that delivers on every promise.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
-        "item_WVxMhB",
-        "item_tc7FcQ"
+        "item_WVxMhB"
       ],
       "name": "Image with text",
       "settings": {
