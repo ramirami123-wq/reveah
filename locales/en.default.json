@@ -200,7 +200,7 @@
     "volume_pricing": {
       "title": "Volume pricing",
       "minimum": "{{ minimum_quantity }}+",
-      "price_at_each": "{{ price }}/ea | Free Delivery"
+      "price_at_each": "{{ price }}/ea"
     },
     "form": {
       "choose_options": "Choose options",
