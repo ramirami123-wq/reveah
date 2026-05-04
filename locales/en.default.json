@@ -165,7 +165,7 @@
     },
     "product": {
       "sold_out": "Sold out",
-      "discount_html": "Save {{ savings }} Save {{ Free Delivery}}",
+      "discount_html": "Save {{ savings }} <span class=\"delivery-badge\">Free Delivery</span>",
       "from_price_html": "From {{ price_min }}",
       "add_to_cart": "+ Add to cart",
       "add_to_cart_short": "+ Add to cart",
