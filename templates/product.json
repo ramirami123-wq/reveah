@@ -12,12 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "liquid_dWwGUw": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div style=\"display: flex; gap: 8px; align-items: center; margin-top: 10px;\">\n  <!-- Your existing Save badge logic (Theme dependent) -->\n  <span style=\"background-color: #d05d5d; color: white; padding: 4px 8px; font-weight: bold; font-size: 12px; text-transform: uppercase;\">\n    Save $11.00\n  </span>\n\n  <!-- The New Free Delivery Box -->\n  <span style=\"background-color: #000000; color: white; padding: 4px 8px; font-weight: bold; font-size: 12px; text-transform: uppercase;\">\n    Free Delivery\n  </span>\n</div>"
-          }
-        },
         "liquid_KKiNTm": {
           "type": "liquid",
           "name": "Hurry",
@@ -65,7 +59,6 @@
         }
       },
       "block_order": [
-        "liquid_dWwGUw",
         "liquid_KKiNTm",
         "liquid_WqHpzt",
         "variant_picker",
