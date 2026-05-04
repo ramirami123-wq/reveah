@@ -128,7 +128,7 @@
         "liquid_hYNxgg": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">✨ One-Twist Instant Clean</span> –  A simple turn of the handle retracts the bristles, instantly releasing trapped hair for a mess-free, hygienic brush in seconds.<br><br>\n<span style=\"font-weight: bold;\">🔥 Scalp-Soothing Detangler</span> – Anti-static bristles with soft massage tips gently glide through knots while soothing your scalp.<br><br>\n<span style=\"font-weight: bold;\">💖 Sleek & Travel-Ready</span> – A lightweight, ergonomic design that fits in your bag for quick, frizz-free touch-ups anywhere.\n</div>"
+            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">✨ Dual-Action Radiance Boost</span> –  A potent blend of Vitamin Water and Vitamin C derivatives works to visibly brighten dull skin and fade the appearance of dark spots.<br><br>\n<span style=\"font-weight: bold;\">🔥 Concentrated Capsule Technology</span> – Encapsulated active ingredients burst upon application, ensuring maximum freshness and deep delivery into the skin’s surface.<br><br>\n<span style=\"font-weight: bold;\">💖 Pore-Refining Glow</span> – Infused with 5% Niacinamide to smooth skin texture and minimize the look of pores, leaving you with a hydrated, \"glass skin\" finish.\n</div>"
           }
         },
         "variant_picker_V3NB38": {
@@ -198,7 +198,7 @@
         "liquid_9Ajh3U": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">✨ Seamless 2-in-1 Coverage</span> – Instantly fill in sparse hairlines and shape perfectly defined eyebrows with one versatile, travel-friendly tool.<br><br>\n<span style=\"font-weight: bold;\">🔥 Sweat-Proof & Natural</span> – This long-lasting, waterproof formula blends effortlessly into your hair and skin for a realistic finish that stays put all day.<br>\n<span style=\"font-weight: bold;\">💖 Mess-Free Application</span> – The soft sponge-tip applicator ensures precise, even distribution of the fine-milled powder without clumping or fallout.\n</div>"
+            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">✨ Glow + Protect in One Step</span> – Get radiant, healthy-looking skin while shielding it from the sun with this collagen-infused sunscreen.<br><br>\n\n<span style=\"font-weight: bold;\">☀️ SPF 50+ Powerful Protection</span> – Defends your skin against harmful UV rays to help prevent sun damage, dark spots, and premature aging.<br><br>\n<span style=\"font-weight: bold;\">👜 Perfect for Everyday Use</span> – Ideal for daily wear, whether alone or under makeup for a flawless, protected look.\n</div>"
           }
         },
         "variant_picker_MT3fQQ": {
@@ -236,7 +236,7 @@
       ],
       "name": "Featured product",
       "settings": {
-        "product": "hairline-eyebrow-powder",
+        "product": "medicube-collagen-firming-suncream",
         "subheading": "",
         "title": "",
         "show_vendor": false,
