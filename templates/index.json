@@ -368,15 +368,15 @@
         "question_q9TLGc": {
           "type": "question",
           "settings": {
-            "title": "Can I use the product while traveling?",
-            "answer": "<p>Yes! Our products are <strong>portable and travel-friendly</strong>, designed for easy use anywhere.</p>"
+            "title": "Are your products safe to use?",
+            "answer": "<p>Yes, all Reveah products are made with high-quality materials and are designed for safe, everyday use.</p>"
           }
         },
         "question_L3j9VJ": {
           "type": "question",
           "settings": {
-            "title": "Is the product safe to use?",
-            "answer": "<p>Yes, the product is designed with <strong>safe temperature settings</strong> to suit different hair types.</p>"
+            "title": "How can I contact customer support?",
+            "answer": "<p>You can reach us anytime through our website or social media pages, and our team will be happy to assist you.</p>"
           }
         }
       },
