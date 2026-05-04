@@ -181,7 +181,7 @@
       "description": "Description",
       "reviews": "Reviews ({{ rating_count }})",
       "sku": "SKU:",
-      "regular_price": "Regular price",
+      "regular_price": "Regular price|free delivery",
       "sale_price": "Sale price",
       "view_in_space": "View in your space",
       "zoom": "Zoom",
