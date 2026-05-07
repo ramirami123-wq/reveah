@@ -28,7 +28,7 @@
             "button_background": "#c8a24a",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 20
           }
         }
       },
@@ -85,7 +85,7 @@
             "image_width": 100,
             "image_border": "rgba(0,0,0,0)",
             "title": "🚚",
-            "content": "<p>Fast Lebanon-wide Free Delivery</p>",
+            "content": "<p>Lebanon-wide Free Delivery</p>",
             "link_text": "",
             "link_url": "",
             "link_style": "link",
