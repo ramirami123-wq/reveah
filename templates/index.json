@@ -48,6 +48,72 @@
         "background": "rgba(0,0,0,0)"
       }
     },
+    "multi_column_agU6dC": {
+      "type": "multi-column",
+      "blocks": {
+        "item_BXGbRh": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "",
+            "content": "<p>⭐⭐⭐⭐⭐</p><p>Premium Beauty Essentials</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_UA7Ypi": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "✨",
+            "content": "<p>Trusted by Thousands</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "item_kFEdKU": {
+          "type": "item",
+          "settings": {
+            "image_width": 100,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "🚚",
+            "content": "<p>Fast Lebanon-wide Free Delivery</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "item_BXGbRh",
+        "item_UA7Ypi",
+        "item_kFEdKU"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": false,
+        "subheading": "Join thousands of happy customers in Lebanon.",
+        "title": "Real Results, Real Glow",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "medium",
+        "desktop_item_size": "medium",
+        "spacing": "normal",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "featured_product_qm78ER": {
       "type": "featured-product",
       "blocks": {
@@ -97,6 +163,7 @@
         "quantity_selector_FxNdca",
         "buy_buttons_G7pwtX"
       ],
+      "custom_css": [],
       "name": "Featured product",
       "settings": {
         "product": "medicube-txa-niacinamide-capsule-cream-red",
@@ -408,6 +475,7 @@
   },
   "order": [
     "slideshow_j8D4he",
+    "multi_column_agU6dC",
     "featured_product_qm78ER",
     "featured_product_PRMUbw",
     "featured_product_cHi8jN",
