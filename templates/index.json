@@ -15,12 +15,12 @@
         "image_pMTVDn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Medicube_TXA_Niacinamide_Capsule_Cream_JP3_a7bfe3eb-12cb-4d53-89b4-ac27667ace19.webp",
+            "image": "shopify://shop_images/Untitled_design-3_33ca34a9-c869-4744-88a4-92cae9d4beca.webp",
             "mobile_image": "shopify://shop_images/Untitled_design-3_33ca34a9-c869-4744-88a4-92cae9d4beca.webp",
             "text_position": "bottom_left",
             "subheading": "",
-            "title": "Korean Skincare for Clear, Glowing Skin ✨",
-            "button_1_text": "Shop Best Sellers",
+            "title": "Glass Skin Starts Here✨",
+            "button_1_text": "Get the Glow!",
             "button_1_link": "shopify://collections",
             "button_2_text": "",
             "button_2_link": "",
@@ -28,7 +28,7 @@
             "button_background": "#c8a24a",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 14
+            "overlay_opacity": 20
           }
         }
       },
