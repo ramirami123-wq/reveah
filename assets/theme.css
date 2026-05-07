@@ -469,7 +469,7 @@ p a:not(.button), .rte a:not(.button), .link {
 }
 
 .heading--small.link {
-  line-height: 1.4;
+  line-height: 1.8;
 }
 
 @media screen and (pointer: fine) {
