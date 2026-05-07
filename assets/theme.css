@@ -2213,7 +2213,7 @@ p a:not(.button), .rte a:not(.button), .link {
 }
 
 .banner--centered {
-  justify-content: bottom;
+  justify-content: center;
 }
 
 .banner--margin {
@@ -2247,7 +2247,7 @@ p a:not(.button), .rte a:not(.button), .link {
 
 @media screen and (min-width: 741px) {
   .banner {
-    padding: 13px 18px;
+    padding: 13px 10px;
   }
 }
 
