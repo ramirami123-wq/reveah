@@ -12,13 +12,13 @@
     "slideshow_j8D4he": {
       "type": "slideshow",
       "blocks": {
-        "image_7VmcDc": {
+        "image_pMTVDn": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Medicube_TXA_Niacinamide_Capsule_Cream_JP3_a7bfe3eb-12cb-4d53-89b4-ac27667ace19.webp",
-            "mobile_image": "shopify://shop_images/TXA-Niacinamide-Capsule-Cream-55G-MEDICUBE-2.webp",
+            "mobile_image": "shopify://shop_images/Medicube_TXA_Niacinamide_Capsule_Cream_JP3_a7bfe3eb-12cb-4d53-89b4-ac27667ace19.webp",
             "text_position": "bottom_left",
-            "subheading": "Viral skincare products loved for hydration, brightening & glass skin results.",
+            "subheading": "",
             "title": "Korean Skincare for Clear, Glowing Skin ✨",
             "button_1_text": "Shop Best Sellers",
             "button_1_link": "shopify://collections",
@@ -33,9 +33,11 @@
         }
       },
       "block_order": [
-        "image_7VmcDc"
+        "image_pMTVDn"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".button {border-radius: 4px !important; /* Adjust this number for more or less roundness */}"
+      ],
       "name": "Slideshow",
       "settings": {
         "section_height": "auto",
