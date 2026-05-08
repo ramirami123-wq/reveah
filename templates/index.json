@@ -151,6 +151,12 @@
             "liquid": "<div style=\"margin-top:-12px; ;font-size:13px; line-height:1.9; color:#444;\">\n<div>✓🛡️ 100% Authentic Korean Skincare</div>\n<div>✓🚚Free Delivery Across Lebanon</div>\n<div>✓💳Cash on Delivery Available</div>\n</div>"
           }
         },
+        "liquid_rJ676C": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12p; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">✨Dual-Action Radiance </span> – A potent capsule-in-gel formula that dissolves instantly to brighten dull skin and deliver a clear, high-gloss \"glass skin\" finish.<br>\n<span style=\"font-weight: bold;\">💖Targeted Blemish Correction</span> – Powered by 5% Niacinamide and TXA to visibly fade stubborn dark spots and hyperpigmentation for a perfectly even skin tone.<br>\n<span style=\"font-weight: bold;\">🌿Deep Hydration & Soothing</span> – A lightweight, fast-absorbing texture that melts into the skin to refine pores and lock in a healthy, all-day glow.\n</div>"
+          }
+        },
         "buy_buttons_G7pwtX": {
           "type": "buy_buttons",
           "settings": {
@@ -161,12 +167,6 @@
             "buy_now_button_background": "rgba(0,0,0,0)",
             "buy_now_button_text_color": "rgba(0,0,0,0)"
           }
-        },
-        "liquid_rJ676C": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12p; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">✨Dual-Action Radiance </span> – A potent capsule-in-gel formula that dissolves instantly to brighten dull skin and deliver a clear, high-gloss \"glass skin\" finish.<br>\n<span style=\"font-weight: bold;\">💖Targeted Blemish Correction</span> – Powered by 5% Niacinamide and TXA to visibly fade stubborn dark spots and hyperpigmentation for a perfectly even skin tone.<br>\n<span style=\"font-weight: bold;\">🌿Deep Hydration & Soothing</span> – A lightweight, fast-absorbing texture that melts into the skin to refine pores and lock in a healthy, all-day glow.\n</div>"
-          }
         }
       },
       "block_order": [
@@ -175,8 +175,8 @@
         "variant_picker_wEqQPV",
         "quantity_selector_FxNdca",
         "liquid_dyMKrp",
-        "buy_buttons_G7pwtX",
-        "liquid_rJ676C"
+        "liquid_rJ676C",
+        "buy_buttons_G7pwtX"
       ],
       "custom_css": [],
       "name": "Featured product",
@@ -243,12 +243,6 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "liquid_YnVmCB": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div style=\"margin-top:-12px; ;font-size:13px; line-height:1.9; color:#444;\">\n<div>✓🛡️ 100% Authentic Korean Skincare</div>\n<div>✓🚚Free Delivery Across Lebanon</div>\n<div>✓💳Cash on Delivery Available</div>\n</div>"
-          }
-        },
         "buy_buttons_Hkq8PW": {
           "type": "buy_buttons",
           "settings": {
@@ -258,6 +252,12 @@
             "atc_button_text_color": "rgba(0,0,0,0)",
             "buy_now_button_background": "rgba(0,0,0,0)",
             "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "liquid_YnVmCB": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"margin-top:-12px; ;font-size:13px; line-height:1.9; color:#444;\">\n<div>✓🛡️ 100% Authentic Korean Skincare</div>\n<div>✓🚚Free Delivery Across Lebanon</div>\n<div>✓💳Cash on Delivery Available</div>\n</div>"
           }
         },
         "liquid_hYNxgg": {
@@ -272,8 +272,8 @@
         "liquid_yhVVWw",
         "variant_picker_V3NB38",
         "quantity_selector_X38AwW",
-        "liquid_YnVmCB",
         "buy_buttons_Hkq8PW",
+        "liquid_YnVmCB",
         "liquid_hYNxgg"
       ],
       "name": "Featured product",
@@ -333,12 +333,6 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "liquid_WUfNV8": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div style=\"margin-top:-12px; ;font-size:13px; line-height:1.9; color:#444;\">\n<div>✓🛡️ 100% Authentic Korean Skincare</div>\n<div>✓🚚Free Delivery Across Lebanon</div>\n<div>✓💳Cash on Delivery Available</div>\n</div>"
-          }
-        },
         "buy_buttons_bx6VaR": {
           "type": "buy_buttons",
           "settings": {
@@ -348,6 +342,12 @@
             "atc_button_text_color": "rgba(0,0,0,0)",
             "buy_now_button_background": "rgba(0,0,0,0)",
             "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "liquid_WUfNV8": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"margin-top:-12px; ;font-size:13px; line-height:1.9; color:#444;\">\n<div>✓🛡️ 100% Authentic Korean Skincare</div>\n<div>✓🚚Free Delivery Across Lebanon</div>\n<div>✓💳Cash on Delivery Available</div>\n</div>"
           }
         },
         "liquid_6BVGJe": {
@@ -368,8 +368,8 @@
         "liquid_3xnHtr",
         "variant_picker_MT3fQQ",
         "quantity_selector_EjjfFX",
-        "liquid_WUfNV8",
         "buy_buttons_bx6VaR",
+        "liquid_WUfNV8",
         "liquid_6BVGJe",
         "liquid_9Ajh3U"
       ],
