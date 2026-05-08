@@ -51,6 +51,20 @@
             "menu": "footer"
           }
         },
+        "social_media_4x7pin": {
+          "type": "social_media",
+          "settings": {
+            "title": "Follow us",
+            "content": "<p>To configure social media, go to your social media settings. Change this text in the theme editor.</p>"
+          }
+        },
+        "text_G3hrgJ": {
+          "type": "text",
+          "settings": {
+            "title": "About our store",
+            "content": "<p>Email: Support.reveah@gmail.com</p><p>Whatsapp:+96170653968</p>"
+          }
+        },
         "newsletter": {
           "type": "newsletter",
           "settings": {
@@ -61,6 +75,8 @@
       },
       "block_order": [
         "links",
+        "social_media_4x7pin",
+        "text_G3hrgJ",
         "newsletter"
       ],
       "settings": {
