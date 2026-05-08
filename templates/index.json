@@ -9,19 +9,6 @@
  */
 {
   "sections": {
-    "custom_liquid_QXd8Xd": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "liquid": "<hr style=\"border: 0; border-top: 1px solid #e0e0e0; ;\">",
-        "add_vertical_spacing": false,
-        "background_type": "full_width",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
     "slideshow_j8D4he": {
       "type": "slideshow",
       "blocks": {
@@ -161,7 +148,7 @@
         "liquid_dyMKrp": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"margin-top:-12px; margin-bottom:12px;font-size:13px; line-height:1.9; color:#444;\">\n<div>✓🛡️ 100% Authentic Korean Skincare</div>\n<div>✓🚚Free Delivery Across Lebanon</div>\n<div>✓💳Cash on Delivery Available</div>\n</div>"
+            "liquid": "<div style=\"margin-top:-12px; ;font-size:13px; line-height:1.9; color:#444;\">\n<div>✓🛡️ 100% Authentic Korean Skincare</div>\n<div>✓🚚Free Delivery Across Lebanon</div>\n<div>✓💳Cash on Delivery Available</div>\n</div>"
           }
         },
         "buy_buttons_G7pwtX": {
@@ -209,6 +196,19 @@
         "show_thumbnails_on_mobile": false,
         "desktop_thumbnails_position": "bottom",
         "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_liquid_QXd8Xd": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<hr style=\"border: 0; border-top: 1px solid #e0e0e0; ;\">",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
