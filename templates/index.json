@@ -105,13 +105,13 @@
         "stack_items": false,
         "subheading": "",
         "title": "Real Results, Real Glow",
-        "content": "<p><strong>Join thousands of happy customers in Lebanon.</strong></p>",
+        "content": "<p>Join thousands of happy customers in Lebanon.</p>",
         "column_alignment": "center",
         "mobile_item_size": "small",
         "desktop_item_size": "medium",
         "spacing": "tight",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
+        "background": "#ffffff",
+        "text_color": "#000000"
       }
     },
     "featured_product_qm78ER": {
