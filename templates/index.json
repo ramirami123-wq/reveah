@@ -20,15 +20,15 @@
             "text_position": "middle_center",
             "subheading": "💖 100% Authentic Products",
             "title": "Glass Skin Starts Here✨",
-            "button_1_text": "Shop Best Sellers",
+            "button_1_text": "",
             "button_1_link": "shopify://collections",
-            "button_2_text": "",
+            "button_2_text": "Shop Best Sellers",
             "button_2_link": "",
             "text_color": "#ffffff",
             "button_background": "#c8a24a",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 20
+            "overlay_opacity": 28
           }
         }
       },
