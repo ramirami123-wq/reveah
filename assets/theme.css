@@ -3330,7 +3330,7 @@ split-lines {
 }
 
 .rating__star {
-  color: rgb(rgb(255, 193, 7));
+  color: rgb(255, 193, 7);
 }
 
 .rating__star--empty {
