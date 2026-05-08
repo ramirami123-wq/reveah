@@ -3331,7 +3331,7 @@ split-lines {
 
 .rating__star {
   color: rgb(255, 193, 7);
-  font-size:10px;
+  font-size:30px;
 }
 
 .rating__star--empty {
