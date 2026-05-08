@@ -11,7 +11,21 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
     /* Sets the color for all stars (Gold) */
     --product-star-rating: 255, 193, 7 !important;
   }
+/* This forces the product meta container to behave like a column */
+.product-meta {
+  display: flex;
+  flex-direction: column;
+}
 
+/* Forces the rating to appear first in the visual order */
+.product-meta__reviews-badge, .rating {
+  order: -1; 
+  margin-bottom: 10px; /* Adds space between stars and price */
+}
+
+.product-meta__title {
+  order: -2; /* Keeps title at the very top */
+}
   /* Target the rating stars container */
   .rating__stars, .rating-star, .testimonial__rating {
     --star-size: 20px; /* Change this number to make them bigger or smaller */
