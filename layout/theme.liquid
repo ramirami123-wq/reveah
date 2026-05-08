@@ -6,34 +6,7 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
   all events, dependencies...) in the "custom.js" file, located in the Assets folder.
 ------------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
-<style>
-  :root {
-    --product-star-rating: 255, 193, 7 !important;
-  }
 
-  /* Target ONLY the stars inside the product meta area to protect the hero */
-  .product-meta .rating__stars, 
-  .product-meta .rating-star,
-  .product-item-meta .rating-star {
-    --star-size: 24px; 
-    display: inline-flex !important;
-    gap: 2px;
-  }
-
-  /* Scalable SVG icons without affecting container heights */
-  .product-meta .rating__stars svg, 
-  .product-meta .rating-star svg,
-  .product-item-meta .rating-star svg {
-    width: var(--star-size) !important;
-    height: var(--star-size) !important;
-    flex: none !important;
-  }
-
-  /* Keep the half-star gradient in sync */
-  #rating-star-gradient-half stop {
-    stop-color: rgb(255, 193, 7) !important;
-  }
-</style>
 <!doctype html>
 
 {%- assign direction = 'ltr' -%}

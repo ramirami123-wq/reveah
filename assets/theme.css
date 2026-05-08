@@ -1,28 +1,6 @@
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
 /*! PhotoSwipe main CSS by Dmitry Semenov | photoswipe.com | MIT license */
-/* 1. Universal Color Change */
-:root {
-  --product-star-rating: 255, 193, 7 !important;
-}
 
-/* 2. Target specific product stars so it doesn't break layout */
-.product-meta .rating__stars, 
-.product-meta .rating-star {
-  display: inline-flex !important;
-  align-items: center;
-}
-
-/* 3. Increase Size */
-.product-meta .rating__stars svg, 
-.product-meta .rating-star svg {
-  width: 24px !important;
-  height: 24px !important;
-}
-
-/* 4. Keep Half-Star Gradient gold */
-#rating-star-gradient-half stop {
-  stop-color: rgb(255, 193, 7) !important;
-}
 @media screen and (max-width: 740px) {
   .hidden-phone {
     display: none !important;
@@ -3352,7 +3330,7 @@ split-lines {
 }
 
 .rating__star {
-  color: rgb(var(--product-star-rating));
+  color: rgb(rgb(255, 193, 7));
 }
 
 .rating__star--empty {
