@@ -439,7 +439,7 @@
       "settings": {
         "subheading": "",
         "title": "About Reveah",
-        "content": "<h3><strong>Smart Beauty. Clinical Results.</strong></h3><p>We don’t believe in \"filler\" beauty. <strong>Reveah</strong> was founded to bring professional-grade innovation and authentic clinical skincare directly to your daily routine.</p><ul><li><strong>Expertly Curated:</strong> We hand-select high-performance formulas—from advanced capsule-in-gel tech to smart beauty devices.</li><li><strong>100% Authentic:</strong> Every product is directly sourced and personally tested for stability and performance.</li><li><strong>Results-Driven:</strong> We prioritize high-concentration formulas and professional-grade tech to deliver visible skin transformations, effortlessly.<br/><br/><br/><br/></li></ul>",
+        "content": "<h3><strong>Smart Beauty. Clinical Results.</strong></h3><p>We don’t believe in \"filler\" beauty. <strong>Reveah</strong> was founded to bring professional-grade innovation and authentic clinical skincare directly to your daily routine.</p><ul><li><strong>Expertly Curated:</strong> We hand-select high-performance formulas—from advanced capsule-in-gel tech to smart beauty devices.</li><li><strong>100% Authentic:</strong> Every product is directly sourced and personally tested for stability and performance.</li><li><strong>Results-Driven:</strong> We prioritize high-concentration formulas and professional-grade tech to deliver visible skin transformations, effortlessly.</li></ul>",
         "button_text": "",
         "button_link": "",
         "background_type": "full_width",
@@ -517,13 +517,29 @@
             "title": "How can I contact customer support?",
             "answer": "<p>You can reach us anytime through our website or social media pages, and our team will be happy to assist you.</p>"
           }
+        },
+        "question_DQGMnX": {
+          "type": "question",
+          "settings": {
+            "title": "How long does shipping take?",
+            "answer": "<p>We process all orders within 24 hours. Delivery typically takes <strong>3-5 business days</strong> across Lebanon..</p>"
+          }
+        },
+        "question_Lxw4Qt": {
+          "type": "question",
+          "settings": {
+            "title": "Can I track my order?",
+            "answer": "<p>Yes! you can send us am email at support.reveah@gmail.com or send us a message at 70653968 to check your order status!</p>"
+          }
         }
       },
       "block_order": [
         "category_7Gixeb",
         "question_fxK4gt",
         "question_q9TLGc",
-        "question_L3j9VJ"
+        "question_L3j9VJ",
+        "question_DQGMnX",
+        "question_Lxw4Qt"
       ],
       "name": "FAQ",
       "settings": {
