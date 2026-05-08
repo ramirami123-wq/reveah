@@ -6,28 +6,7 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
   all events, dependencies...) in the "custom.js" file, located in the Assets folder.
 ------------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
-<style>
-  
 
-  /* Target the rating stars container */
-  .rating__stars, .rating-star, .testimonial__rating {
-    --star-size: 20px; /* Change this number to make them bigger or smaller */
-    font-size: var(--star-size) !important;
-    width: auto !important;
-    height: auto !important;
-  }
-
-  /* Ensures the SVG stars scale up correctly */
-  .rating__stars svg, .rating-star svg {
-    width: var(--star-size) !important;
-    height: var(--star-size) !important;
-  }
-
-  /* Matches the half-star gradient to your chosen color */
-  #rating-star-gradient-half stop {
-    stop-color: rgb(255, 193, 7) !important;
-  }
-</style>
 <!doctype html>
 
 {%- assign direction = 'ltr' -%}
