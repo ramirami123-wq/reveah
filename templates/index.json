@@ -62,7 +62,7 @@
             "link_url": "",
             "link_style": "link",
             "text_alignment": "center",
-            "vertical_alignment": "start"
+            "vertical_alignment": "center"
           }
         },
         "item_UA7Ypi": {
@@ -74,7 +74,7 @@
             "content": "<p>Trusted by Thousands</p>",
             "link_text": "",
             "link_url": "",
-            "link_style": "link",
+            "link_style": "button",
             "text_alignment": "center",
             "vertical_alignment": "start"
           }
@@ -107,9 +107,9 @@
         "title": "Real Results, Real Glow",
         "content": "",
         "column_alignment": "center",
-        "mobile_item_size": "medium",
+        "mobile_item_size": "small",
         "desktop_item_size": "medium",
-        "spacing": "normal",
+        "spacing": "tight",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
