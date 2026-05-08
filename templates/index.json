@@ -9,6 +9,19 @@
  */
 {
   "sections": {
+    "custom_liquid_QXd8Xd": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<hr style=\"border: 0; border-top: 1px solid #e0e0e0; ;\">",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "slideshow_j8D4he": {
       "type": "slideshow",
       "blocks": {
@@ -492,6 +505,7 @@
     "slideshow_j8D4he",
     "multi_column_agU6dC",
     "featured_product_qm78ER",
+    "custom_liquid_QXd8Xd",
     "featured_product_PRMUbw",
     "featured_product_cHi8jN",
     "blocks_W6eMYL",
