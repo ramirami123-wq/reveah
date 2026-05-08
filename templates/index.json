@@ -313,17 +313,10 @@
     "featured_product_cHi8jN": {
       "type": "featured-product",
       "blocks": {
-        "liquid_6BVGJe": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<style>\n  .star-review-wrapper {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    flex-shrink: 0;\n  }\n\n  .star-icons svg {\n    width: 20px;\n    height: 20px;\n    fill: #D2D2D2; /* Your deep red color */\n  }\n\n  .review-text {\n    font-size: 16px;\n    font-weight: 500;\n    color: #333;\n    white-space: nowrap;\n  }\n\n  @media (max-width: 480px) {\n    .star-review-wrapper {\n      flex-direction: row;\n      justify-content: center;\n    }\n\n    .review-text {\n      font-size: 15px;\n    }\n  }\n</style>\n\n<div class=\"star-review-wrapper\">\n  <div class=\"star-icons\">\n    <!-- 5 Rounded Stars -->\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n  </div>\n  <div class=\"review-text\">\n    <strong>5</strong> by <strong>20</strong> Customers\n  </div>\n</div>"
-          }
-        },
-        "liquid_9Ajh3U": {
+        "liquid_3xnHtr": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">✨ Glow + Protect in One Step</span> – Get radiant, healthy-looking skin while shielding it from the sun with this collagen-infused sunscreen.<br><br>\n\n<span style=\"font-weight: bold;\">☀️ SPF 50+ Powerful Protection</span> – Defends your skin against harmful UV rays to help prevent sun damage, dark spots, and premature aging.<br><br>\n<span style=\"font-weight: bold;\">👜 Perfect for Everyday Use</span> – Ideal for daily wear, whether alone or under makeup for a flawless, protected look.\n</div>"
+            "liquid": "<div style=\"font-size:15px; color:#555; margin-top:-4%;margin-bottom:-4%;\">\n✨ 3-in-1: Sun Protection, Collagen Boost & Glowy Makeup Base\n</div>"
           }
         },
         "variant_picker_MT3fQQ": {
@@ -340,24 +333,45 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "liquid_WUfNV8": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"margin-top:-12px; ;font-size:13px; line-height:1.9; color:#444;\">\n<div>✓🛡️ 100% Authentic Korean Skincare</div>\n<div>✓🚚Free Delivery Across Lebanon</div>\n<div>✓💳Cash on Delivery Available</div>\n</div>"
+          }
+        },
         "buy_buttons_bx6VaR": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": true,
+            "show_payment_button": false,
             "show_gift_card_recipient": false,
             "atc_button_background": "rgba(0,0,0,0)",
             "atc_button_text_color": "rgba(0,0,0,0)",
             "buy_now_button_background": "rgba(0,0,0,0)",
             "buy_now_button_text_color": "rgba(0,0,0,0)"
           }
+        },
+        "liquid_6BVGJe": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<style>\n  .star-review-wrapper {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    flex-shrink: 0;\n  }\n\n  .star-icons svg {\n    width: 20px;\n    height: 20px;\n    fill: #D2D2D2; /* Your deep red color */\n  }\n\n  .review-text {\n    font-size: 16px;\n    font-weight: 500;\n    color: #333;\n    white-space: nowrap;\n  }\n\n  @media (max-width: 480px) {\n    .star-review-wrapper {\n      flex-direction: row;\n      justify-content: center;\n    }\n\n    .review-text {\n      font-size: 15px;\n    }\n  }\n</style>\n\n<div class=\"star-review-wrapper\">\n  <div class=\"star-icons\">\n    <!-- 5 Rounded Stars -->\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n  </div>\n  <div class=\"review-text\">\n    <strong>5</strong> by <strong>20</strong> Customers\n  </div>\n</div>"
+          }
+        },
+        "liquid_9Ajh3U": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 14px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.5;\">\n<span style=\"font-weight: bold;\">✨ Glow & Protect</span> – A collagen-infused 3-in-1 formula that hydrates, firms, and shields in one step.<br>\n<span style=\"font-weight: bold;\">☀️ SPF 50+ Defense</span> – Powerful UVA/UVB protection to prevent dark spots, sun damage, and aging.<br>\n<span style=\"font-weight: bold;\">👜 Daily Essential</span> – Lightweight and non-greasy; perfect as a standalone glow or a flawless makeup primer.\n</div>"
+          }
         }
       },
       "block_order": [
-        "liquid_6BVGJe",
-        "liquid_9Ajh3U",
+        "liquid_3xnHtr",
         "variant_picker_MT3fQQ",
         "quantity_selector_EjjfFX",
-        "buy_buttons_bx6VaR"
+        "liquid_WUfNV8",
+        "buy_buttons_bx6VaR",
+        "liquid_6BVGJe",
+        "liquid_9Ajh3U"
       ],
       "name": "Featured product",
       "settings": {
@@ -367,7 +381,7 @@
         "show_vendor": false,
         "show_sku": false,
         "show_taxes_included": false,
-        "show_product_rating": false,
+        "show_product_rating": true,
         "show_share_buttons": false,
         "help_page": "",
         "enable_video_autoplay": true,
