@@ -6,7 +6,17 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
   all events, dependencies...) in the "custom.js" file, located in the Assets folder.
 ------------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
+<style>
+  :root {
+    /* This changes the full stars - using Gold (RGB) */
+    --product-star-rating: 255, 193, 7 !important; 
+  }
 
+  /* This ensures your SVG gradient for half-stars also matches */
+  #rating-star-gradient-half stop {
+    stop-color: rgb(255, 193, 7) !important;
+  }
+</style>
 <!doctype html>
 
 {%- assign direction = 'ltr' -%}
@@ -88,7 +98,7 @@ NOTE TO DEVELOPERS: welcome to Focal theme! We hope that you will enjoy editing 
       <linearGradient id="rating-star-gradient-half">
         <stop offset="50%" stop-color="rgb(var(--product-star-rating))" />
         <stop offset="50%" stop-color="rgb(var(--product-star-rating))" stop-opacity="0.4"  />
-          <color="rgb(255, 193, 7)">
+          
       </linearGradient>
       
     </svg>
