@@ -47,7 +47,7 @@
     "product_add_to_cart": false,
     "show_product_rating": true,
     "product_color_display": "hide",
-    "product_image_size": "short",
+    "product_image_size": "square",
     "cart_type": "drawer",
     "cart_icon": "tote_bag",
     "cart_show_free_shipping_threshold": false,
