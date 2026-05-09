@@ -12,17 +12,10 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "liquid_KKiNTm": {
-          "type": "liquid",
-          "name": "Hurry",
-          "settings": {
-            "liquid": "<section class=\"sale-timer\" aria-label=\"Sale countdown timer\">\n  <style>\n    .sale-timer{\n      width:100%;\n      padding:22px 12px;\n      display:flex;\n      justify-content:center;\n      background:#FFFFF;\n      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;\n    }\n    .sale-timer__wrap{\n      text-align:center;\n    }\n    .sale-timer__label{\n      font-size:24px;\n      font-weight:500;\n      color:#111;\n      margin:0 0 14px 0;\n      line-height:1.1;\n    }\n\n    .sale-timer__row{\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      gap:10px;\n    }\n\n    .sale-timer__box{\n      width:88px;\n      height:68px;\n      background:black;\n      color:white;\n      border-radius:6px;\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      font-size:34px;\n      font-weight:700;\n      letter-spacing:1px;\n      font-variant-numeric: tabular-nums;\n    }\n\n    .sale-timer__colon{\n      font-size:32px;\n      font-weight:700;\n      color:#00000;\n      line-height:1;\n      transform: translateY(-1px);\n      user-select:none;\n    }\n\n    @media (max-width:420px){\n      .sale-timer__label{ font-size:20px; }\n      .sale-timer__box{ width:72px; height:58px; font-size:30px; }\n      .sale-timer__colon{ font-size:28px; }\n      .sale-timer__row{ gap:8px; }\n    }\n  </style>\n\n  <div class=\"sale-timer__wrap\">\n    <div class=\"sale-timer__label\">Hurry! Sale ends in</div>\n\n    <div class=\"sale-timer__row\" role=\"timer\" aria-live=\"polite\">\n      <div class=\"sale-timer__box\" id=\"st-hours\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-mins\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-secs\">00</div>\n    </div>\n  </div>\n\n  <script>\n    (function () {\n      const durationHours = 12; // change if needed\n      const endAt = Date.now() + durationHours * 60 * 60 * 1000;\n\n      const h = document.getElementById(\"st-hours\");\n      const m = document.getElementById(\"st-mins\");\n      const s = document.getElementById(\"st-secs\");\n\n      const pad = n => String(n).padStart(2, \"0\");\n\n      function update(){\n        let diff = endAt - Date.now();\n        if(diff < 0) diff = 0;\n\n        const total = Math.floor(diff / 1000);\n        h.textContent = pad(Math.floor(total / 3600));\n        m.textContent = pad(Math.floor((total % 3600) / 60));\n        s.textContent = pad(total % 60);\n\n        if(diff === 0) clearInterval(timer);\n      }\n\n      update();\n      const timer = setInterval(update, 1000);\n    })();\n  </script>\n</section>"
-          }
-        },
-        "liquid_WqHpzt": {
+        "liquid_gqtX9r": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">✨Dual-Action Radiance </span> – The unique capsule-in-gel formula combines brightening TXA with Niacinamide to instantly revive dull skin and even out your complexion for a glass-skin finish.<br><br>\n<span style=\"font-weight: bold;\">💖Targeted Blemish Correction</span> – High-potency 5% Niacinamide and TXA work together to fade the appearance of stubborn dark spots and hyperpigmentation, helping you achieve a clearer, more uniform skin tone.<br><br>\n<span style=\"font-weight: bold;\">🌿Deep Hydration & Soothing</span> – Lightweight yet deeply nourishing, this cream melts into the skin to refine texture and calm irritation, keeping your face soft, smooth, and glowing all day long.\n</div>"
+            "liquid": "<div style=\"font-size:15px; color:#555; margin-top:-4%;margin-bottom:-4%;\">\n✨ Brightens dull skin & boosts glow\n</div>"
           }
         },
         "variant_picker": {
@@ -50,27 +43,62 @@
             "buy_now_button_text_color": "rgba(0,0,0,0)"
           }
         },
+        "liquid_4hHKNF": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"margin-top:-12px; ;font-size:13px; line-height:1.9; color:#444;\">\n<div>✓🛡️ 100% Authentic Korean Skincare</div>\n<div>✓💵 100% refund for damaged or defective items.</div>\n<div>✓🚚Free Delivery Across Lebanon</div>\n<div>✓💳Cash on Delivery Available</div>\n</div>"
+          }
+        },
+        "liquid_a4czDX": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-conversion-booster\" style=\"margin-bottom: 20px; font-family: inherit; line-height: 1.4;\">\n  \n  <div style=\"display: flex; gap: 10px; margin-bottom: 12px; border-bottom: 1px solid #f0f0f0; padding-bottom: 8px;\">\n    <div style=\"flex: 1; font-size: 12px;\"><strong>SKIN TYPE</strong><br>All</div>\n  <div style=\"flex: 1; font-size: 12px;\"><strong>TEXTURE</strong><br>Melting Gel</div>\n    <div style=\"flex: 1; font-size: 12px;\"><strong>SIZE</strong><br>55g / 1.94oz</div>\n  </div>\n\n  <div style=\"margin-bottom: 15px;\">\n    <p style=\"font-size: 13px; margin: 0 0 5px 0;\"><strong>✨ Brightening Power:</strong></p>\n    <ul style=\"margin: 0; padding-left: 18px; font-size: 13px; color: #444;\">\n      <li><strong>5% Niacinamide + TXA:</strong> Fades dark spots & marks.</li>\n      <li><strong>Glutathione:</strong> Delivers the \"Glass Skin\" glow.</li>\n    </ul>\n  </div>\n\n  <div style=\"background: #FAF8F6; padding: 10px; border-radius: 6px; border: 1px solid #E8E2DD;\">\n    <p style=\"font-size: 13px; margin: 0 0 5px 0;\"><strong>📝 How to Use:</strong></p>\n    <div style=\"font-size: 12px; color: #666; line-height: 1.6;\">\n      Mix 1-2 capsules with gel → Massage until melted → Use AM/PM\n    </div>\n  </div>\n\n</div>\n<p style=\"font-size: 11px; color: #888; margin-top: 8px; text-align: center;\">\n  Questions? See our <a href=\"/policies/refund-policy\" style=\"color: #666; text-decoration: underline;\">Return & Refund Policy</a>\n</p>"
+          }
+        },
+        "liquid_KKiNTm": {
+          "type": "liquid",
+          "name": "Hurry",
+          "settings": {
+            "liquid": "<section class=\"sale-timer\" aria-label=\"Sale countdown timer\">\n  <style>\n    .sale-timer{\n      width:100%;\n      padding:22px 12px;\n      display:flex;\n      justify-content:center;\n      background:#FFFFF;\n      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;\n    }\n    .sale-timer__wrap{\n      text-align:center;\n    }\n    .sale-timer__label{\n      font-size:24px;\n      font-weight:500;\n      color:#111;\n      margin:0 0 14px 0;\n      line-height:1.1;\n    }\n\n    .sale-timer__row{\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      gap:10px;\n    }\n\n    .sale-timer__box{\n      width:88px;\n      height:68px;\n      background:black;\n      color:white;\n      border-radius:6px;\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      font-size:34px;\n      font-weight:700;\n      letter-spacing:1px;\n      font-variant-numeric: tabular-nums;\n    }\n\n    .sale-timer__colon{\n      font-size:32px;\n      font-weight:700;\n      color:#00000;\n      line-height:1;\n      transform: translateY(-1px);\n      user-select:none;\n    }\n\n    @media (max-width:420px){\n      .sale-timer__label{ font-size:20px; }\n      .sale-timer__box{ width:72px; height:58px; font-size:30px; }\n      .sale-timer__colon{ font-size:28px; }\n      .sale-timer__row{ gap:8px; }\n    }\n  </style>\n\n  <div class=\"sale-timer__wrap\">\n    <div class=\"sale-timer__label\">Flash Sale! ends in</div>\n\n    <div class=\"sale-timer__row\" role=\"timer\" aria-live=\"polite\">\n      <div class=\"sale-timer__box\" id=\"st-hours\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-mins\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-secs\">00</div>\n    </div>\n  </div>\n\n  <script>\n    (function () {\n      const durationHours = 12; // change if needed\n      const endAt = Date.now() + durationHours * 60 * 60 * 1000;\n\n      const h = document.getElementById(\"st-hours\");\n      const m = document.getElementById(\"st-mins\");\n      const s = document.getElementById(\"st-secs\");\n\n      const pad = n => String(n).padStart(2, \"0\");\n\n      function update(){\n        let diff = endAt - Date.now();\n        if(diff < 0) diff = 0;\n\n        const total = Math.floor(diff / 1000);\n        h.textContent = pad(Math.floor(total / 3600));\n        m.textContent = pad(Math.floor((total % 3600) / 60));\n        s.textContent = pad(total % 60);\n\n        if(diff === 0) clearInterval(timer);\n      }\n\n      update();\n      const timer = setInterval(update, 1000);\n    })();\n  </script>\n</section>"
+          }
+        },
+        "liquid_JjrnbG": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<hr style=\"border: 0; border-top: 1px solid #e0e0e0; ;\">"
+          }
+        },
         "liquid_tGfrix": {
           "type": "liquid",
           "name": "Order now to receive by",
           "settings": {
             "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f5f5f5; font-size: 15px; border-radius: 13px; margin-top: 12px; margin-bottom: 12px; display: flex; align-items: center;\"> \n    <span class=\"em\" style=\"margin-right: 8px;\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#545454\">\n            <path d=\"M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z\"/>\n        </svg> \n    </span>\n    <span>Order now to receive by <span id=\"delivery-dates\" style=\"font-weight: bold;\"></span></span>\n</div>\n\n<script>\n    document.addEventListener('DOMContentLoaded', function() {\n        var currentDate = new Date();\n        var minDeliveryDate = new Date();\n        minDeliveryDate.setDate(currentDate.getDate() + 2);\n\n        var maxDeliveryDate = new Date();\n        maxDeliveryDate.setDate(currentDate.getDate() + 3);\n\n        var formatDate = function(date) {\n            var dayNames = [\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"];\n            var monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\",\n                \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"\n            ];\n            var day = date.getDate();\n            var month = monthNames[date.getMonth()];\n            var weekday = dayNames[date.getDay()];\n            return weekday + \", \" + month + \" \" + day;\n        };\n\n        var deliverySpan = document.getElementById('delivery-dates');\n        deliverySpan.textContent = formatDate(minDeliveryDate) + ' – ' + formatDate(maxDeliveryDate);\n    });\n</script>"
           }
+        },
+        "liquid_matJh4": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div id=\"sticky-conversion-bar\">\n  <div class=\"sticky-bar-content\">\n    <div class=\"sticky-info\">\n      <span class=\"sticky-event\">Weekend Flash Sale:</span>\n      <span id=\"sticky-timer\">00:00:00</span>\n    </div>\n    <button class=\"sticky-buy-button\" onclick=\"document.querySelector('form[action*=\\'/cart/add\\'] [type=\\'submit\\']').click();\">\n      <span class=\"old-price\">$47.00</span>\n      <span class=\"new-price\">BUY NOW — $28.00</span>\n    </button>\n  </div>\n</div>\n\n<style>\n  #sticky-conversion-bar {\n    position: fixed;\n    bottom: 0;\n    left: 0;\n    width: 100%;\n    background: #ffffff;\n    border-top: 1px solid #e2e2e2;\n    padding: 10px 15px;\n    box-shadow: 0 -4px 12px rgba(0,0,0,0.12);\n    z-index: 9999;\n    display: none; \n  }\n\n  .sticky-bar-content {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    max-width: 450px; \n    margin: 0 auto;\n  }\n\n  .sticky-info {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n  }\n\n  .sticky-event {\n    font-size: 10px;\n    font-weight: 800;\n    color: #ff0000;\n    text-transform: uppercase;\n    letter-spacing: 0.5px;\n    margin-bottom: 2px;\n  }\n\n  #sticky-timer {\n    font-family: 'Courier New', Courier, monospace;\n    font-size: 18px;\n    font-weight: 700;\n    color: #000;\n  }\n\n  .sticky-buy-button {\n    background: #000000;\n    color: #ffffff;\n    border: none;\n    padding: 10px 16px;\n    border-radius: 6px;\n    cursor: pointer;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    line-height: 1.2;\n  }\n\n  .old-price {\n    text-decoration: line-through;\n    font-size: 11px;\n    color: #aaaaaa;\n    font-weight: 400;\n  }\n\n  .new-price {\n    font-size: 13px;\n    font-weight: 700;\n  }\n\n  @media screen and (max-width: 768px) {\n    #sticky-conversion-bar { display: none; } \n  }\n</style>\n\n<script>\n  (function() {\n    function updateTimer() {\n      const now = new Date();\n      \n      // REPEATING LOGIC: Find the next 3-hour mark\n      const hours = now.getHours();\n      const nextInterval = 3; // 3 hour repeats\n      const targetHour = Math.ceil((hours + 0.1) / nextInterval) * nextInterval;\n      \n      const targetDate = new Date();\n      targetDate.setHours(targetHour, 0, 0, 0);\n\n      const diff = targetDate.getTime() - now.getTime();\n\n      const h = Math.floor((diff / (1000 * 60 * 60)) % 24);\n      const m = Math.floor((diff / (1000 * 60)) % 60);\n      const s = Math.floor((diff / 1000) % 60);\n      \n      document.getElementById(\"sticky-timer\").innerHTML = \n        (h < 10 ? \"0\"+h : h) + \":\" + (m < 10 ? \"0\"+m : m) + \":\" + (s < 10 ? \"0\"+s : s);\n    }\n    \n    updateTimer();\n    setInterval(updateTimer, 1000);\n\n    window.addEventListener('scroll', function() {\n      const bar = document.getElementById('sticky-conversion-bar');\n      if (window.scrollY > 400) {\n        bar.style.display = 'block';\n      } else {\n        bar.style.display = 'none';\n      }\n    });\n  })();\n</script>"
+          }
         }
       },
       "block_order": [
-        "liquid_KKiNTm",
-        "liquid_WqHpzt",
+        "liquid_gqtX9r",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "liquid_tGfrix"
+        "liquid_4hHKNF",
+        "liquid_a4czDX",
+        "liquid_KKiNTm",
+        "liquid_JjrnbG",
+        "liquid_tGfrix",
+        "liquid_matJh4"
       ],
       "settings": {
         "show_vendor": false,
         "show_sku": false,
         "show_taxes_included": false,
-        "show_product_rating": false,
+        "show_product_rating": true,
         "show_sticky_add_to_cart": true,
         "show_share_buttons": false,
         "help_page": "",
