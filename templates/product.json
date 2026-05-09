@@ -68,6 +68,15 @@
             "liquid": "<div id=\"delivery-estimate-block\" style=\"padding: 12px; text-align: left; background-color: #f5f5f5; font-size: 15px; border-radius: 13px; margin-top: -15px; margin-bottom: 12px; display: flex; align-items: center; border: 1px solid #e2e2e2;\"> \n    <span class=\"em\" style=\"margin-right: 8px; display: flex;\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#545454\">\n            <path d=\"M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z\"/>\n        </svg> \n    </span>\n    <span style=\"color: #333;\">Order now to receive by <span id=\"delivery-dates\" style=\"font-weight: bold; color: #000;\"></span></span>\n</div>\n\n<script>\n    (function() {\n        var addBusinessDays = function(startDate, daysToAdd) {\n            var cnt = 0;\n            var tmpDate = new Date(startDate);\n            while (cnt < daysToAdd) {\n                tmpDate.setDate(tmpDate.getDate() + 1);\n                // Skip weekends: 0 is Sunday, 6 is Saturday\n                if (tmpDate.getDay() !== 0 && tmpDate.getDay() !== 6) {\n                    cnt++;\n                }\n            }\n            return tmpDate;\n        };\n\n        var formatDate = function(date) {\n            var dayNames = [\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"];\n            var monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\", \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"];\n            return dayNames[date.getDay()] + \", \" + monthNames[date.getMonth()] + \" \" + date.getDate();\n        };\n\n        var now = new Date();\n        // Calculate 3-5 business days from today\n        var minDate = addBusinessDays(now, 3);\n        var maxDate = addBusinessDays(now, 5);\n\n        var deliverySpan = document.getElementById('delivery-dates');\n        if (deliverySpan) {\n            deliverySpan.textContent = formatDate(minDate) + ' – ' + formatDate(maxDate);\n        }\n    })();\n</script>"
           }
         },
+        "judge_me_reviews_review_widget_a8nd9g": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        },
         "liquid_matJh4": {
           "type": "liquid",
           "settings": {
@@ -84,6 +93,7 @@
         "liquid_a4czDX",
         "liquid_JjrnbG",
         "liquid_tGfrix",
+        "judge_me_reviews_review_widget_a8nd9g",
         "liquid_matJh4"
       ],
       "settings": {
@@ -441,36 +451,29 @@
         "question_adqrYK": {
           "type": "question",
           "settings": {
-            "title": "How do I properly apply the capsule cream?",
-            "answer": "<p>For the best results, use the provided spatula to scoop out one or two capsules along with the surrounding gel. Mix them together in your palm or apply directly to your face, gently \"popping\" the capsules as you massage the product into your skin until fully absorbed.</p>"
+            "title": "Is this product 100% authentic Medicube?",
+            "answer": "<p>Yes. We guarantee 100% authenticity for all our skincare products. Each unit is sourced directly and includes a quality seal for your protection.</p>"
           }
         },
         "question_TDP7NK": {
           "type": "question",
           "settings": {
-            "title": "Is this product suitable for sensitive skin?",
-            "answer": "<p>Yes, the formula is designed to be gentle enough for daily use, both day and night. It contains soothing ingredients that help calm irritation while refining your skin's texture and tone.</p>"
+            "title": "How long will it take to receive my order?",
+            "answer": "<p>We offer free delivery across Lebanon. Orders typically arrive within 3–5 business days from the date of purchase.</p>"
           }
         },
         "question_hPGXCN": {
           "type": "question",
           "settings": {
-            "title": "How long will it take to see results in my skin tone?",
-            "answer": "<p>While many users notice an instant \"glass-skin\" glow and increased hydration immediately, significant improvements in fading dark spots and hyperpigmentation typically appear after consistent use over several weeks.</p>"
+            "title": "What payment methods do you accept?",
+            "answer": "<p>We offer <strong>Cash on Delivery (COD)</strong> for all orders, allowing you to pay safely and conveniently when your package arrives at your door.</p>"
           }
         },
         "question_7Rxwez": {
           "type": "question",
           "settings": {
-            "title": "What are the main benefits of using 5% Niacinamide and TXA together?",
-            "answer": "<p>This powerful combination targets skin clarity from two angles: Tranexamic Acid (TXA) helps improve uneven skin tone and fading blemishes, while 5% Niacinamide revives dullness and smooths skin texture for a refreshed look.</p>"
-          }
-        },
-        "question_Pzgd7t": {
-          "type": "question",
-          "settings": {
-            "title": "What makes the TXA Niacinamide Capsule Cream different from regular moisturizers?",
-            "answer": "<p>Unlike traditional creams, this formula features a unique capsule-in-gel texture. Each capsule contains high-purity ingredients that are freshly released upon application to ensure maximum potency and targeted results for your skin.</p>"
+            "title": "What is your return policy?",
+            "answer": "<p>We offer a <strong>100% refund</strong> for any damaged or defective items. If you encounter an issue, contact our support team within 3 days for a hassle-free resolution.</p>"
           }
         }
       },
@@ -479,8 +482,7 @@
         "question_adqrYK",
         "question_TDP7NK",
         "question_hPGXCN",
-        "question_7Rxwez",
-        "question_Pzgd7t"
+        "question_7Rxwez"
       ],
       "name": "FAQ",
       "settings": {
