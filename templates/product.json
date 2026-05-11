@@ -19,7 +19,7 @@
         "liquid_gqtX9r": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"font-size:15px; color:#555; margin-top:-4%;margin-bottom:-4%;\">\n✨ Brightens dull skin & boosts glow\n</div>"
+            "liquid": "<div style=\"font-size:14px; color:#555; margin-top:-33%;margin-bottom:-4%;\">\n✨ Brightens dull skin & boosts glow\n</div>"
           }
         },
         "variant_picker": {
@@ -144,15 +144,15 @@
     "1772112756b71eda01": {
       "type": "_blocks",
       "blocks": {
-        "ai_gen_block_adef03d_DcHCBg": {
+        "ai_gen_block_adef03d_cVPFMx": {
           "type": "ai_gen_block_adef03d",
-          "name": "Free delivery on orders",
+          "name": "Marquee",
           "settings": {
-            "text_1": "Free Delivery all over Lebanon",
-            "text_2": "Free Delivery all over Lebanon",
-            "text_3": "Free Delivery all over Lebanon",
-            "text_4": "Free Delivery all over Lebanon",
-            "show_icon": false,
+            "text_1": "Free shipping on orders over $50",
+            "text_2": "Shop now and save 20%",
+            "text_3": "New arrivals every week",
+            "text_4": "100% satisfaction guaranteed",
+            "show_icon": true,
             "icon_type": "star",
             "icon_size": 20,
             "icon_color": "#0c1b54",
@@ -160,19 +160,19 @@
             "text_size": 16,
             "text_weight": "500",
             "text_transform": "none",
-            "text_color": "#ffffff",
-            "speed": 5,
+            "text_color": "#000000",
+            "speed": 30,
             "pause_on_hover": true,
             "item_spacing": 60,
-            "padding_vertical": 10,
+            "padding_vertical": 20,
             "desktop_width_percent": 100,
-            "background_color": "#000000"
+            "background_color": "#f7f7f7"
           },
           "blocks": {}
         }
       },
       "block_order": [
-        "ai_gen_block_adef03d_DcHCBg"
+        "ai_gen_block_adef03d_cVPFMx"
       ],
       "settings": {}
     },
