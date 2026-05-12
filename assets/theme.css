@@ -3318,13 +3318,14 @@ split-lines {
 }
 
   .rating {
-    margin-top:-20%;
     vertical-align: bottom;
     align-items: center;
     display: inline-flex;
   }
 
   .rating__stars {
+        margin-top:-20%;
+
     grid-auto-flow: column;
     column-gap: 2px;
     display: grid;
