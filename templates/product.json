@@ -58,6 +58,20 @@
             "liquid": "<div id=\"delivery-estimate-block\" style=\"padding: 12px; text-align: left; background-color: #f5f5f5; font-size: 15px; border-radius: 13px; margin-top: -15px; margin-bottom: 12px; display: flex; align-items: center; border: 1px solid #e2e2e2;\"> \n    <span class=\"em\" style=\"margin-right: 8px; display: flex;\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#545454\">\n            <path d=\"M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z\"/>\n        </svg> \n    </span>\n    <span style=\"color: #333;\">Order now to receive by <span id=\"delivery-dates\" style=\"font-weight: bold; color: #000;\"></span></span>\n</div>\n\n<script>\n    (function() {\n        var addBusinessDays = function(startDate, daysToAdd) {\n            var cnt = 0;\n            var tmpDate = new Date(startDate);\n            while (cnt < daysToAdd) {\n                tmpDate.setDate(tmpDate.getDate() + 1);\n                // Skip weekends: 0 is Sunday, 6 is Saturday\n                if (tmpDate.getDay() !== 0 && tmpDate.getDay() !== 6) {\n                    cnt++;\n                }\n            }\n            return tmpDate;\n        };\n\n        var formatDate = function(date) {\n            var dayNames = [\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"];\n            var monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\", \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"];\n            return dayNames[date.getDay()] + \", \" + monthNames[date.getMonth()] + \" \" + date.getDate();\n        };\n\n        var now = new Date();\n        // Calculate 3-5 business days from today\n        var minDate = addBusinessDays(now, 3);\n        var maxDate = addBusinessDays(now, 5);\n\n        var deliverySpan = document.getElementById('delivery-dates');\n        if (deliverySpan) {\n            deliverySpan.textContent = formatDate(minDate) + ' – ' + formatDate(maxDate);\n        }\n    })();\n</script>"
           }
         },
+        "image_zWgNtB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Before.png",
+            "image_alignment": "center",
+            "image_width": 500
+          }
+        },
+        "liquid_YTXyKT": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .reveah-trust-block {\n    display: flex;\n    flex-direction: column;\n    gap: 12px;\n    margin: 25px 0;\n    font-family: 'Poppins', sans-serif;\n    background: #fafafa;\n    padding: 15px;\n    border-radius: 12px;\n  }\n\n  .trust-item {\n    display: flex;\n    align-items: center;\n    gap: 12px;\n  }\n\n  .trust-icon {\n    width: 32px;\n    height: 32px;\n    background: #000;\n    color: #fff;\n    border-radius: 50%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 14px;\n    flex-shrink: 0;\n  }\n\n  .trust-content {\n    display: flex;\n    flex-direction: column;\n  }\n\n  .trust-label {\n    font-size: 12px;\n    font-weight: 800;\n    color: #000;\n    text-transform: uppercase;\n    letter-spacing: 0.5px;\n  }\n\n  .trust-desc {\n    font-size: 12px;\n    color: #666;\n    line-height: 1.3;\n  }\n</style>\n\n<div class=\"reveah-trust-block\">\n  <div class=\"trust-item\">\n    <div class=\"trust-icon\">✓</div>\n    <div class=\"trust-content\">\n      <span class=\"trust-label\">Dermatologist Tested</span>\n      <span class=\"trust-desc\">Clinically verified for safety on reactive skin.</span>\n    </div>\n  </div>\n\n  <div class=\"trust-item\">\n    <div class=\"trust-icon\">pH</div>\n    <div class=\"trust-content\">\n      <span class=\"trust-label\">Optimized pH 5.5</span>\n      <span class=\"trust-desc\">Matches your skin's natural barrier to prevent irritation.</span>\n    </div>\n  </div>\n\n  <div class=\"trust-item\">\n    <div class=\"trust-icon\">∅</div>\n    <div class=\"trust-content\">\n      <span class=\"trust-label\">Clean Formula</span>\n      <span class=\"trust-desc\">Zero parabens, artificial fragrances, or drying alcohols.</span>\n    </div>\n  </div>\n</div>"
+          }
+        },
         "judge_me_reviews_review_widget_fNg3rw": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
@@ -82,6 +96,8 @@
         "liquid_a4czDX",
         "liquid_JjrnbG",
         "liquid_tGfrix",
+        "image_zWgNtB",
+        "liquid_YTXyKT",
         "judge_me_reviews_review_widget_fNg3rw",
         "liquid_matJh4"
       ],
@@ -117,47 +133,6 @@
     },
     "1772112756b71eda01": {
       "type": "_blocks",
-      "settings": {}
-    },
-    "image_with_text_overlay_t9P3NJ": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "reveal_on_scroll": true,
-        "section_height": "auto",
-        "image": "shopify://shop_images/Before.png",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "button_text": "",
-        "button_link": "",
-        "link_style": "link",
-        "background_type": "boxed",
-        "text_width": "medium",
-        "text_position": "middle_center",
-        "text_color": "#ffffff",
-        "button_background": "#ffffff",
-        "button_text_color": "#000000",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "custom_liquid_UERqcC": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "liquid": "<style>\n  .reveah-trust-block {\n    display: flex;\n    flex-direction: column;\n    gap: 12px;\n    margin: 25px 0;\n    font-family: 'Poppins', sans-serif;\n    background: #fafafa;\n    padding: 15px;\n    border-radius: 12px;\n  }\n\n  .trust-item {\n    display: flex;\n    align-items: center;\n    gap: 12px;\n  }\n\n  .trust-icon {\n    width: 32px;\n    height: 32px;\n    background: #000;\n    color: #fff;\n    border-radius: 50%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 14px;\n    flex-shrink: 0;\n  }\n\n  .trust-content {\n    display: flex;\n    flex-direction: column;\n  }\n\n  .trust-label {\n    font-size: 12px;\n    font-weight: 800;\n    color: #000;\n    text-transform: uppercase;\n    letter-spacing: 0.5px;\n  }\n\n  .trust-desc {\n    font-size: 12px;\n    color: #666;\n    line-height: 1.3;\n  }\n</style>\n\n<div class=\"reveah-trust-block\">\n  <div class=\"trust-item\">\n    <div class=\"trust-icon\">✓</div>\n    <div class=\"trust-content\">\n      <span class=\"trust-label\">Dermatologist Tested</span>\n      <span class=\"trust-desc\">Clinically verified for safety on reactive skin.</span>\n    </div>\n  </div>\n\n  <div class=\"trust-item\">\n    <div class=\"trust-icon\">pH</div>\n    <div class=\"trust-content\">\n      <span class=\"trust-label\">Optimized pH 5.5</span>\n      <span class=\"trust-desc\">Matches your skin's natural barrier to prevent irritation.</span>\n    </div>\n  </div>\n\n  <div class=\"trust-item\">\n    <div class=\"trust-icon\">∅</div>\n    <div class=\"trust-content\">\n      <span class=\"trust-label\">Clean Formula</span>\n      <span class=\"trust-desc\">Zero parabens, artificial fragrances, or drying alcohols.</span>\n    </div>\n  </div>\n</div>",
-        "add_vertical_spacing": true,
-        "background_type": "full_width",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "blocks_DQCCVR": {
-      "type": "_blocks",
-      "name": "Marquee",
       "settings": {}
     },
     "image_with_text_XrnFrQ": {
@@ -444,9 +419,6 @@
     "main",
     "product-content",
     "1772112756b71eda01",
-    "image_with_text_overlay_t9P3NJ",
-    "custom_liquid_UERqcC",
-    "blocks_DQCCVR",
     "image_with_text_XrnFrQ",
     "com_6hdjLn",
     "faq_cbkQ3V",
