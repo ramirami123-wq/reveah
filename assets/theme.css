@@ -2523,12 +2523,10 @@ p a:not(.button), .rte a:not(.button), .link {
 .bubble-count--top {
   vertical-align: top;
 }
-.product-form__input .form__label,
-.quantity-selector + label,
-.quantity-label {
-  margin-bottom: 4px !important; /* Reduces space below the text */
-  margin-top: -55px !important; /* Pulls the text upward */
-  display: block;
+/* This targets the entire block (Text + Buttons) */
+[data-block-type="quantity-selector"],
+.product-form__item--quantity {
+  margin-top: -20px !important;
 }
 .quantity-selector {
   --quantity-selector-height: 46px;
