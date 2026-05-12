@@ -197,7 +197,7 @@
         "item_77LR69": {
           "type": "item",
           "settings": {
-            "row_heading": "100% Authentic Korean Skincare",
+            "row_heading": "100% Authentic Korean",
             "first_column": "Yes",
             "second_column": "No",
             "third_column": "",
@@ -227,7 +227,7 @@
         "item_jEyeCX": {
           "type": "item",
           "settings": {
-            "row_heading": "High-Purity 5% TXA + Niacinamide",
+            "row_heading": "High-Purity Grade",
             "first_column": "Yes",
             "second_column": "No",
             "third_column": "",
@@ -243,7 +243,7 @@
       ],
       "name": "SS - Comparison Table #4",
       "settings": {
-        "heading": "<h2>US VS OTHER BRANDS</h2>",
+        "heading": "<h2>REVEAH VS OTHER BRANDS</h2>",
         "heading_custom": false,
         "heading_font": "assistant_n4",
         "heading_size": 56,
@@ -260,8 +260,8 @@
         "table_column_active_border_thickness": 2,
         "table_heading_image_size": 66,
         "table_heading_image_size_mobile": 40,
-        "first_heading": "US",
-        "second_heading": "OTHERS",
+        "first_heading": "Reveah",
+        "second_heading": "other Brands",
         "third_heading": "",
         "four_heading": "",
         "table_heading_custom": false,
