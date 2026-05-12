@@ -158,7 +158,7 @@
         "judge_me_reviews_cards_carousel_Vi8ibk": {
           "type": "shopify://apps/judge-me-reviews/blocks/cards_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "show_sample_reviews": true,
+            "show_sample_reviews": false,
             "reviews_selection": "all",
             "products": [
               "medicube-txa-niacinamide-capsule-cream-red"
@@ -174,7 +174,7 @@
             "reviews_shown": 4,
             "show_reviewer_name": true,
             "show_product_name": true,
-            "hide_arrows_mobile": true,
+            "hide_arrows_mobile": false,
             "arrows_position": "sides",
             "max_width": 1100,
             "corner_styling": "soft",
