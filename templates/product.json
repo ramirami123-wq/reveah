@@ -125,21 +125,21 @@
       "settings": {
         "reveal_on_scroll": true,
         "section_height": "auto",
-        "image": "shopify://shop_images/comparison-image-female-face-before-600nw-2609891897.webp",
+        "image": "shopify://shop_images/Before.png",
         "subheading": "",
         "title": "",
         "content": "",
         "button_text": "",
         "button_link": "",
         "link_style": "link",
-        "background_type": "full_width",
+        "background_type": "boxed",
         "text_width": "medium",
         "text_position": "middle_center",
         "text_color": "#ffffff",
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "custom_liquid_UERqcC": {
