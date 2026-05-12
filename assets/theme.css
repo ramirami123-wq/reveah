@@ -3325,13 +3325,14 @@ split-lines {
 
   .rating__stars {
         margin-top:-20%;
-
     grid-auto-flow: column;
     column-gap: 2px;
     display: grid;
   }
 
   .rating__star {
+        margin-top:-20%;
+
     color: rgb(255, 193, 7);
     width: 16px !important;  /* Adjust this number for size */
     height: 16px !important;
