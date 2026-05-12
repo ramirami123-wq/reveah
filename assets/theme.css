@@ -3318,6 +3318,7 @@ split-lines {
 }
 
   .rating {
+    margin-top:-10%;
     vertical-align: bottom;
     align-items: center;
     display: inline-flex;
