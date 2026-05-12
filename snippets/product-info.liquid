@@ -1,3 +1,70 @@
+<style>
+  .reveah-urgency-box {
+    margin: 20px 0;
+    padding: 12px;
+    background: #fffafa;
+    border: 1px solid #ffebeb;
+    border-radius: 8px;
+  }
+
+  .urgency-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  .urgency-text {
+    font-size: 13px;
+    font-weight: 700;
+    color: #d0021b; /* Urgent Red */
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .stock-bar-container {
+    background: #e0e0e0;
+    height: 6px;
+    border-radius: 10px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .stock-bar-fill {
+    background: #d0021b;
+    height: 100%;
+    width: 25%; /* Change this % to show how much is left */
+    border-radius: 10px;
+    animation: pulse-red 2s infinite;
+  }
+
+  @keyframes pulse-red {
+    0% { opacity: 1; }
+    50% { opacity: 0.7; }
+    100% { opacity: 1; }
+  }
+
+  /* Mobile scaling */
+  @media screen and (max-width: 749px) {
+    .urgency-text {
+      font-size: 11px;
+    }
+    .reveah-urgency-box {
+      margin: 15px 0;
+      padding: 10px;
+    }
+  }
+</style>
+
+<div class="reveah-urgency-box">
+  <div class="urgency-header">
+    <span class="urgency-text">🔥 Low Stock: Only 6 left in Lebanon</span>
+    <span style="font-size: 12px; font-weight: bold; color: #444;">94% Sold</span>
+  </div>
+  <div class="stock-bar-container">
+    <div class="stock-bar-fill"></div>
+  </div>
+</div>
 <div class="product__info">
   <!-- PRODUCT META -->
   <product-meta data-block-type="meta" data-block-id="{{ section.id }}" price-class="price--large" class="product-meta">
