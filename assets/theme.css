@@ -3318,9 +3318,10 @@ split-lines {
 }
 
 .rating {
-  vertical-align: bottom;
+  vertical-align: middle;
   align-items: center;
   display: inline-flex;
+  margin-bottom: 10px; /* Adds a tiny gap under the stars */
 }
 
 .rating__stars {
@@ -3331,8 +3332,9 @@ split-lines {
 
 .rating__star {
   color: rgb(255, 193, 7);
-  width: 24px !important;  /* Adjust this number for size */
-  height: 24px !important;
+  /* Scales stars between 14px (mobile) and 20px (desktop) */
+  width: clamp(14px, 4vw, 20px) !important;
+  height: clamp(14px, 4vw, 20px) !important;
 }
 
 .rating__star--empty {
@@ -3341,7 +3343,10 @@ split-lines {
 
 .rating__caption {
   margin-inline-start: 8px;
-  font-size: 20px !important;
+  /* Scales text between 11px (mobile) and 14px (desktop) */
+  font-size: clamp(11px, 2.5vw, 14px) !important;
+  white-space: nowrap; /* Keeps the review count on one line */
+  color: #6a6a6a;
 }
 
 .openable__overlay {
