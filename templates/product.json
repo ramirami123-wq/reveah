@@ -97,7 +97,7 @@
             "card_color": "#F9F9F9",
             "stars_color": "",
             "arrows_color": "#000000",
-            "transition_speed": 5,
+            "transition_speed": 3,
             "header_text": "Reviews",
             "show_average_rating": true
           }
