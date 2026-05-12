@@ -14,17 +14,6 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "message_rMgqyj": {
-          "type": "message",
-          "settings": {
-            "text": "Flash Sale: 40% OFF ends in 2 days!",
-            "learn_more_text": "Learn more",
-            "title": "",
-            "content": "",
-            "button_text": "",
-            "button_link": ""
-          }
-        },
         "message-1": {
           "type": "message",
           "settings": {
@@ -38,7 +27,6 @@
         }
       },
       "block_order": [
-        "message_rMgqyj",
         "message-1"
       ],
       "custom_css": [
