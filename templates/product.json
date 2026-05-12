@@ -57,7 +57,7 @@
         "liquid_MixMmc": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"text-align: center; margin-top: 8px; padding: 0 15px;\">\n  <p style=\"font-size: 10px; color: #666; font-style: italic; margin-bottom: 5px;\">\n    *Actual results after 14 days of consistent use.\n  </p>"
+            "liquid": "<div style=\"text-align: center; margin-top: -12px; padding: 0 15px;\">\n  <p style=\"font-size: 10px; color: #666; font-style: italic; margin-bottom: 5px;\">\n    *Actual results after 14 days of consistent use.\n  </p>"
           }
         },
         "liquid_YTXyKT": {
