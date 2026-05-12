@@ -17,25 +17,32 @@
     {% unless featured %}
       <h1 class="product-meta__title heading h4">{{ product.title }}</h1>
     <style>
+  <style>
   .reveah-benefit-tag {
     background-color: #fce4ec;
     color: #880e4f;
     font-weight: bold;
     border-radius: 20px;
     display: inline-block;
+    width: auto;
     /* Desktop Settings */
     padding: 6px 14px;
     font-size: 14px;
-    margin: -5px 0 20px 0;
+    /* Increased negative margin to pull it much higher */
+    margin: -15px 0 20px 0; 
+    position: relative;
+    z-index: 1;
   }
 
   /* Mobile Settings (Phone & Tablet) */
   @media screen and (max-width: 749px) {
     .reveah-benefit-tag {
       padding: 4px 10px;
-      font-size: 11px; /* Smaller font to prevent overlapping */
-     margin: -2px -10px 15px 0;
-      letter-spacing: 0.2px;
+      font-size: 11px;
+      /* Stronger pull for mobile screens */
+      margin: -12px 0 15px 0;
+      letter-spacing: 0.1px;
+      line-height: 1;
     }
   }
 </style>
