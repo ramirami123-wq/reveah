@@ -206,7 +206,8 @@
         "judge_me_reviews_cards_carousel_Vi8ibk"
       ],
       "custom_css": [
-        ".jdgm-widget {margin-top: -10% !important; padding-top: 0 !important;}"
+        ".jdgm-widget {margin-top: -10% !important; padding-top: 0 !important;}",
+        "@media screen and (min-width: 768px) {.jdgm-widget {margin-top: -60px !important; /* Adjust this number for bigger screens */ padding-top: 0 !important; }}"
       ],
       "settings": {
         "include_horizontal_margins": false,
