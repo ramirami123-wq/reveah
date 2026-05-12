@@ -17,40 +17,25 @@
     {% unless featured %}
       <h1 class="product-meta__title heading h4">{{ product.title }}</h1>
     <style>
-  <style>
-  /* 1. Force the Title to stop pushing things down */
-  .product__title, 
-  .product__title h1, 
-  .product-item__title { 
-    margin-bottom: 0 !important; 
-    padding-bottom: 0 !important; 
-  }
-
-  /* 2. Style the Benefit Tag and pull it up */
   .reveah-benefit-tag {
     background-color: #fce4ec;
     color: #880e4f;
     font-weight: bold;
     border-radius: 20px;
     display: inline-block;
-    width: auto;
+    /* Desktop Settings */
     padding: 6px 14px;
     font-size: 14px;
-    /* Use a high negative margin to force it up */
-    margin-top: -10px !important; 
-    margin-bottom: 15px !important;
-    position: relative;
-    z-index: 10;
+    margin: -5px 0 20px 0;
   }
 
-  /* 3. Mobile adjustments */
+  /* Mobile Settings (Phone & Tablet) */
   @media screen and (max-width: 749px) {
     .reveah-benefit-tag {
       padding: 4px 10px;
-      font-size: 11px;
-      margin-top: -12px !important;
-      margin-bottom: 65px !important;
-      line-height: 1;
+      font-size: 11px; /* Smaller font to prevent overlapping */
+     margin: -2px 0 15px 0;
+      letter-spacing: 0.2px;
     }
   }
 </style>
