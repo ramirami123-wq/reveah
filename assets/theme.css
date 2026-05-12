@@ -3331,8 +3331,6 @@ split-lines {
   }
 
   .rating__star {
-        margin-top:-20%;
-
     color: rgb(255, 193, 7);
     width: 16px !important;  /* Adjust this number for size */
     height: 16px !important;
@@ -3343,6 +3341,7 @@ split-lines {
   }
 
   .rating__caption {
+        margin-top:-20%;
     margin-inline-start: 8px;
     font-size: 16px !important;
   }
