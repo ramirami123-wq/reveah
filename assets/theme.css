@@ -2525,7 +2525,9 @@ p a:not(.button), .rte a:not(.button), .link {
 }
 
 .quantity-selector {
-  --quantity-selector-height: 46px;
+  /* Change 46px to 55px to match your Add to Cart button height */
+  --quantity-selector-height: 55px; 
+  
   border: 1px solid rgb(var(--border-color));
   border-radius: var(--button-border-radius);
   vertical-align: middle;
@@ -2540,7 +2542,6 @@ p a:not(.button), .rte a:not(.button), .link {
   justify-content: center;
   align-items: center;
   display: flex;
-  margin-top:-5%;
 }
 
 .quantity-selector__input {
