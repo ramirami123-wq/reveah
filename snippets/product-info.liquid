@@ -1,4 +1,89 @@
+<style>
+  .reveah-time-box {
+    margin: 15px 0;
+    padding: 12px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
 
+  .time-icon {
+    font-size: 20px;
+    animation: rotate-clock 5s linear infinite;
+  }
+
+  @keyframes rotate-clock {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(10deg); }
+    20% { transform: rotate(0deg); }
+  }
+
+  .time-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .time-deadline {
+    font-size: 13px;
+    font-weight: 700;
+    color: #333;
+  }
+
+  #ship-countdown {
+    color: #d0021b; /* Urgent Red */
+    font-variant-numeric: tabular-nums;
+  }
+
+  .time-subtext {
+    font-size: 11px;
+    color: #666;
+    margin-top: 2px;
+  }
+
+  @media screen and (max-width: 749px) {
+    .time-deadline { font-size: 11px; }
+    .time-subtext { font-size: 10px; }
+    .reveah-time-box { padding: 10px; }
+  }
+</style>
+
+<div class="reveah-time-box">
+  <div class="time-icon">🕒</div>
+  <div class="time-content">
+    <div class="time-deadline">
+      Order within <span id="ship-countdown">00h 00m</span> for 
+      <span style="color: #2e7d32;">Tomorrow Delivery</span>
+    </div>
+    <div class="time-subtext">Fastest delivery across Lebanon 🇱🇧</div>
+  </div>
+</div>
+
+<script>
+  function updateCountdown() {
+    const now = new Date();
+    // Set cutoff to 4:00 PM (16:00)
+    const cutoff = new Date();
+    cutoff.setHours(16, 0, 0, 0);
+
+    // If it's already past 4 PM, set for tomorrow at 4 PM
+    if (now > cutoff) {
+      cutoff.setDate(cutoff.getDate() + 1);
+    }
+
+    const diff = cutoff - now;
+    const hours = Math.floor(diff / (1000 * 60 * 60));
+    const minutes = Math.floor((diff / (1000 * 60)) % 60);
+
+    document.getElementById('ship-countdown').innerHTML = 
+      `${hours}h ${minutes}m`;
+  }
+
+  updateCountdown();
+  setInterval(updateCountdown, 60000); // Update every minute
+</script>
 <div class="product__info">
   <!-- PRODUCT META -->
   <product-meta data-block-type="meta" data-block-id="{{ section.id }}" price-class="price--large" class="product-meta">
