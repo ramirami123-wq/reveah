@@ -10244,7 +10244,7 @@ input:checked + .popover__choice-label:is(:lang(ae), :lang(ar), :lang(arc), :lan
 }
 
 .product-meta__reviews-badge .rating__caption:after {
-  content: "reviews from customers";
+  content: "reviews from customers" !important;
   transform-origin: var(--transform-origin-end);
   background: currentColor;
   width: 100%;
