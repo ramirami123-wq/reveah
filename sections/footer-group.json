@@ -11,37 +11,6 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
-    "text-with-icons": {
-      "type": "text-with-icons",
-      "blocks": {
-        "item-1": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-box",
-            "custom_icon_width": 50,
-            "title": "Free Delivery Available",
-            "content": ""
-          }
-        },
-        "item-2": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-phone",
-            "custom_icon_width": 50,
-            "title": "24/7 Support",
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "item-1",
-        "item-2"
-      ],
-      "settings": {
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -88,7 +57,6 @@
     }
   },
   "order": [
-    "text-with-icons",
     "footer"
   ]
 }

@@ -39,12 +39,6 @@
             "liquid": "<div class=\"product-conversion-booster\" style=\"margin-bottom: 20px; font-family: inherit; line-height: 1.4;\">\n  \n  <div style=\"display: flex; gap: 10px; margin-bottom: 12px; margin-top: 15px; border-bottom: 1px solid #f0f0f0; padding-bottom: 8px; text-align: center;\">\n    <div style=\"flex: 1; font-size: 11px; letter-spacing: 0.5px;\">\n      <strong style=\"display: block; margin-bottom: 2px;\">SKIN TYPE</strong>\n      <span style=\"font-size: 13px; color: #444;\">All</span>\n    </div>\n    <div style=\"flex: 1; font-size: 11px; letter-spacing: 0.5px;\">\n      <strong style=\"display: block; margin-bottom: 2px;\">TEXTURE</strong>\n      <span style=\"font-size: 13px; color: #444;\">Melting Gel</span>\n    </div>\n    <div style=\"flex: 1; font-size: 11px; letter-spacing: 0.5px;\">\n      <strong style=\"display: block; margin-bottom: 2px;\">SIZE</strong>\n      <span style=\"font-size: 13px; color: #444;\">55g</span>\n    </div>\n  </div>\n\n  <div style=\"margin-bottom: 15px;\">\n    <p style=\"font-size: 13px; margin: 0 0 5px 0;\"><strong>✨ Brightening Power:</strong></p>\n    <ul style=\"margin: 0; padding-left: 18px; font-size: 13px; color: #444;\">\n      <li><strong>5% Niacinamide + TXA:</strong> Fades dark spots & marks.</li>\n      <li><strong>Glutathione:</strong> Delivers the \"Glass Skin\" glow.</li>\n    </ul>\n  </div>\n\n  <div style=\"background: #FAF8F6; padding: 10px; border-radius: 6px; border: 1px solid #E8E2DD;\">\n    <p style=\"font-size: 13px; margin: 0 0 5px 0;\"><strong>📝 How to Use:</strong></p>\n    <div style=\"font-size: 12px; color: #666; line-height: 1.6;\">\n      Mix 1-2 capsules with gel → Massage until melted → Use AM/PM\n    </div>\n  </div>\n\n</div>\n<p style=\"font-size: 11px; color: #888; margin-top: 8px; text-align: center;\">\n  Questions? See our <a href=\"/policies/refund-policy\" style=\"color: #666; text-decoration: underline;\">Return & Refund Policy</a>\n</p>"
           }
         },
-        "liquid_JjrnbG": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<hr style=\"border: 0; border-top: 1px solid #e0e0e0; ;\">"
-          }
-        },
         "liquid_tGfrix": {
           "type": "liquid",
           "name": "Order now to receive by",
@@ -87,7 +81,6 @@
         "buy_buttons",
         "liquid_4hHKNF",
         "liquid_a4czDX",
-        "liquid_JjrnbG",
         "liquid_tGfrix",
         "image_zWgNtB",
         "liquid_YTXyKT",
@@ -400,13 +393,6 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
-    },
-    "17739288934ec06d7a": {
-      "type": "apps",
-      "settings": {
-        "include_horizontal_margins": true,
-        "include_vertical_margins": true
-      }
     }
   },
   "order": [
@@ -416,7 +402,6 @@
     "image_with_text_XrnFrQ",
     "com_6hdjLn",
     "faq_cbkQ3V",
-    "product-recommendations",
-    "17739288934ec06d7a"
+    "product-recommendations"
   ]
 }
