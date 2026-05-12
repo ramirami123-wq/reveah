@@ -160,7 +160,9 @@
           "settings": {
             "show_sample_reviews": true,
             "reviews_selection": "all",
-            "products": [],
+            "products": [
+              "medicube-txa-niacinamide-capsule-cream-red"
+            ],
             "star_rating": "all",
             "show_review_media": true,
             "display_order": "media_first",
