@@ -1,6 +1,17 @@
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
 /*! PhotoSwipe main CSS by Dmitry Semenov | photoswipe.com | MIT license */
+/* Fix Judge.me horizontal scroll issue */
+.jdgm-all-reviews-page,
+.jdgm-rev-widg,
+.jdgm-widget,
+.jdgm-carousel-wrapper {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
 
+body {
+  overflow-x: hidden;
+}
 @media screen and (max-width: 740px) {
   .hidden-phone {
     display: none !important;
