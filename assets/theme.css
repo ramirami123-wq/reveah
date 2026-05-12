@@ -3317,36 +3317,31 @@ split-lines {
   }
 }
 
-/* Responsive Rating & Stars */
 .rating {
-  display: flex !important;
-  align-items: center !important;
-  gap: 5px !important;
-  margin-bottom: 15px !important;
-  flex-wrap: nowrap !important; /* Prevents stars from jumping to a new line */
+  vertical-align: bottom;
+  align-items: center;
+  display: inline-flex;
 }
 
-.rating-star {
-  /* Scales stars: 14px on small mobile, up to 18px on desktop */
-  --star-size: clamp(14px, 3vw, 18px);
-  width: var(--star-size) !important;
-  height: var(--star-size) !important;
+.rating__stars {
+  grid-auto-flow: column;
+  column-gap: 2px;
+  display: grid;
+}
+
+.rating__star {
+  color: rgb(255, 193, 7);
+  width: 24px !important;  /* Adjust this number for size */
+  height: 24px !important;
+}
+
+.rating__star--empty {
+  color: rgba(var(--product-star-rating), .4);
 }
 
 .rating__caption {
-  /* Scales "11 reviews from customers" text */
-  font-size: clamp(11px, 2.5vw, 13px) !important;
-  color: #6a6a6a !important;
-  white-space: nowrap !important;
-}
-
-/* Mobile Tweak: If the line is still too long, hide "from customers" on small phones */
-@media screen and (max-width: 400px) {
-  .rating__caption {
-    max-width: 150px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
+  margin-inline-start: 8px;
+  font-size: 20px !important;
 }
 
 .openable__overlay {
