@@ -146,39 +146,6 @@
       "type": "_blocks",
       "settings": {}
     },
-    "image_with_text_XrnFrQ": {
-      "type": "image-with-text",
-      "blocks": {
-        "item_3LGdCn": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/1776767547_php85tkucdhu95s7wYZtfr_0e802301-16a7-4faa-9f82-f0d22a9e31bb.jpg",
-            "tab_label": "",
-            "subheading": "",
-            "title": "The Science of Clearer Skin.",
-            "content": "<p> The unique \"Pop and Fade\" technology ensures high-purity ingredients are freshly released to target stubborn dullness.</p>",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_3LGdCn"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "reveal_on_scroll": true,
-        "background_type": "full_width",
-        "background_overlap": "image",
-        "image_position": "left",
-        "text_alignment": "center",
-        "cycle_speed": 8,
-        "accent_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
-      }
-    },
     "com_6hdjLn": {
       "type": "com",
       "blocks": {
@@ -423,7 +390,6 @@
     "main",
     "product-content",
     "1772112756b71eda01",
-    "image_with_text_XrnFrQ",
     "com_6hdjLn",
     "faq_cbkQ3V",
     "product-recommendations"
