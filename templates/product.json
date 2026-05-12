@@ -205,49 +205,12 @@
       "block_order": [
         "judge_me_reviews_cards_carousel_Vi8ibk"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".jdgm-widget {margin-top: -10% !important; padding-top: 0 !important;}"
+      ],
       "settings": {
         "include_horizontal_margins": false,
         "include_vertical_margins": false
-      }
-    },
-    "testimonials_qBKrWt": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_eG4tx4": {
-          "type": "testimonial",
-          "settings": {
-            "content": "Finally, something that actually fades my dark spots. My skin has never looked this clear! ✨",
-            "author": "Sara Hakim"
-          }
-        },
-        "testimonial_Tx6ji9": {
-          "type": "testimonial",
-          "settings": {
-            "content": "Write some content about what they are saying about your store.",
-            "author": "John S."
-          }
-        },
-        "testimonial_MUU4yd": {
-          "type": "testimonial",
-          "settings": {
-            "content": "Write some content about what they are saying about your store.",
-            "author": "John S."
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_eG4tx4",
-        "testimonial_Tx6ji9",
-        "testimonial_MUU4yd"
-      ],
-      "name": "Testimonials",
-      "settings": {
-        "reveal_on_scroll": true,
-        "subheading": "",
-        "title": "Let our Customers Speak",
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
       }
     },
     "com_6hdjLn": {
@@ -416,6 +379,45 @@
         "lazy": false
       }
     },
+    "testimonials_qBKrWt": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_eG4tx4": {
+          "type": "testimonial",
+          "settings": {
+            "content": "Finally, something that actually fades my dark spots. My skin has never looked this clear! ✨",
+            "author": "Sara Hakim"
+          }
+        },
+        "testimonial_Tx6ji9": {
+          "type": "testimonial",
+          "settings": {
+            "content": "Write some content about what they are saying about your store.",
+            "author": "John S."
+          }
+        },
+        "testimonial_MUU4yd": {
+          "type": "testimonial",
+          "settings": {
+            "content": "Write some content about what they are saying about your store.",
+            "author": "John S."
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_eG4tx4",
+        "testimonial_Tx6ji9",
+        "testimonial_MUU4yd"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "Let our Customers Speak",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "faq_cbkQ3V": {
       "type": "faq",
       "blocks": {
@@ -497,8 +499,8 @@
     "image_with_text_XrnFrQ",
     "custom_liquid_jz7wFY",
     "177859786984d4f648",
-    "testimonials_qBKrWt",
     "com_6hdjLn",
+    "testimonials_qBKrWt",
     "faq_cbkQ3V",
     "product-recommendations"
   ]
