@@ -3337,7 +3337,7 @@ split-lines {
   }
 
   .rating__star--empty {
-    color: rgb(255, 193, 7), .4);
+    color: rgba(var(--product-star-rating), .4);
   }
 
   .rating__caption {
