@@ -16,12 +16,6 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "liquid_DqmRr6": {
-          "type": "liquid",
-          "settings": {
-            "liquid": ""
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -90,7 +84,6 @@
       },
       "block_order": [
         "quantity_selector",
-        "liquid_DqmRr6",
         "buy_buttons",
         "liquid_4hHKNF",
         "liquid_a4czDX",
