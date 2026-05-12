@@ -3340,7 +3340,6 @@ split-lines {
   }
 
   .rating__caption {
-    margin-top:-10%;
     margin-inline-start: 8px;
     font-size: 20px !important;
   }
