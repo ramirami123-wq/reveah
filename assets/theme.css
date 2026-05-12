@@ -2527,7 +2527,7 @@ p a:not(.button), .rte a:not(.button), .link {
 .quantity-selector + label,
 .quantity-label {
   margin-bottom: 4px !important; /* Reduces space below the text */
-  margin-top: -15px !important; /* Pulls the text upward */
+  margin-top: -55px !important; /* Pulls the text upward */
   display: block;
 }
 .quantity-selector {

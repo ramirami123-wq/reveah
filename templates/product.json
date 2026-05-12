@@ -12,7 +12,7 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "quantity_selector": {
+        "quantity_selector_nfGPRe": {
           "type": "quantity_selector",
           "settings": {}
         },
@@ -83,7 +83,7 @@
         }
       },
       "block_order": [
-        "quantity_selector",
+        "quantity_selector_nfGPRe",
         "buy_buttons",
         "liquid_4hHKNF",
         "liquid_a4czDX",
@@ -94,6 +94,7 @@
         "judge_me_reviews_review_widget_fNg3rw",
         "liquid_matJh4"
       ],
+      "custom_css": [],
       "settings": {
         "show_vendor": false,
         "show_sku": false,
