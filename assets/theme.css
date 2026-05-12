@@ -2556,7 +2556,7 @@ p a:not(.button), .rte a:not(.button), .link {
 
 .quantity-selector__input::-webkit-outer-spin-button {
   -webkit-appearance: none;
-  margin: -10%;
+  margin: 0;
 }
 
 .quantity-selector__input::-webkit-inner-spin-button {
