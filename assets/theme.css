@@ -2532,8 +2532,7 @@ p a:not(.button), .rte a:not(.button), .link {
   justify-content: flex-start;
   align-items: center;
   display: inline-flex;
-  margin-top: -10px;
-}
+  margin-top: -10px;}
 
 .quantity-selector__button {
   height: var(--quantity-selector-height);
@@ -2553,6 +2552,8 @@ p a:not(.button), .rte a:not(.button), .link {
   background: none;
   border: none;
   padding: 0;
+    margin-top: -10px;
+
 }
 
 .quantity-selector__input::-webkit-outer-spin-button {
