@@ -2540,6 +2540,7 @@ p a:not(.button), .rte a:not(.button), .link {
   justify-content: center;
   align-items: center;
   display: flex;
+  margin-top:-5%;
 }
 
 .quantity-selector__input {
