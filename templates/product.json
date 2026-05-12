@@ -127,37 +127,6 @@
     },
     "1772112756b71eda01": {
       "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_adef03d_cVPFMx": {
-          "type": "ai_gen_block_adef03d",
-          "name": "Marquee",
-          "settings": {
-            "text_1": "Free shipping on orders over $50",
-            "text_2": "Shop now and save 20%",
-            "text_3": "New arrivals every week",
-            "text_4": "100% satisfaction guaranteed",
-            "show_icon": true,
-            "icon_type": "star",
-            "icon_size": 20,
-            "icon_color": "#0c1b54",
-            "icon_text_spacing": 8,
-            "text_size": 16,
-            "text_weight": "500",
-            "text_transform": "none",
-            "text_color": "#000000",
-            "speed": 30,
-            "pause_on_hover": true,
-            "item_spacing": 60,
-            "padding_vertical": 20,
-            "desktop_width_percent": 100,
-            "background_color": "#f7f7f7"
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_adef03d_cVPFMx"
-      ],
       "settings": {}
     },
     "image_with_text_8YkwVd": {
@@ -195,36 +164,6 @@
     },
     "blocks_DQCCVR": {
       "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_adef03d_CK93df": {
-          "type": "ai_gen_block_adef03d",
-          "settings": {
-            "text_1": "100% Guaranteed results",
-            "text_2": "100% Guaranteed results",
-            "text_3": "100% Guaranteed results",
-            "text_4": "100% Guaranteed results",
-            "show_icon": false,
-            "icon_type": "star",
-            "icon_size": 20,
-            "icon_color": "#0c1b54",
-            "icon_text_spacing": 8,
-            "text_size": 16,
-            "text_weight": "500",
-            "text_transform": "none",
-            "text_color": "#ffffff",
-            "speed": 5,
-            "pause_on_hover": true,
-            "item_spacing": 60,
-            "padding_vertical": 20,
-            "desktop_width_percent": 100,
-            "background_color": "#000000"
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_adef03d_CK93df"
-      ],
       "name": "Marquee",
       "settings": {}
     },
