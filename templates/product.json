@@ -12,10 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "judge_me_reviews_preview_badge_gD7Nb9": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -79,7 +75,6 @@
         }
       },
       "block_order": [
-        "judge_me_reviews_preview_badge_gD7Nb9",
         "quantity_selector",
         "liquid_DqmRr6",
         "buy_buttons",
@@ -94,7 +89,7 @@
         "show_vendor": false,
         "show_sku": false,
         "show_taxes_included": false,
-        "show_product_rating": false,
+        "show_product_rating": true,
         "show_sticky_add_to_cart": true,
         "show_share_buttons": false,
         "help_page": "",
