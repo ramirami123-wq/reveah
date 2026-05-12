@@ -119,6 +119,52 @@
       "type": "_blocks",
       "settings": {}
     },
+    "image_with_text_nEXNXX": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_7jDFHU": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/sidebyside-comparison-facial-skin-before-260nw-2628205983.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_7jDFHU"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_liquid_UERqcC": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<style>\n  .reveah-trust-block {\n    display: flex;\n    flex-direction: column;\n    gap: 12px;\n    margin: 25px 0;\n    font-family: 'Poppins', sans-serif;\n    background: #fafafa;\n    padding: 15px;\n    border-radius: 12px;\n  }\n\n  .trust-item {\n    display: flex;\n    align-items: center;\n    gap: 12px;\n  }\n\n  .trust-icon {\n    width: 32px;\n    height: 32px;\n    background: #000;\n    color: #fff;\n    border-radius: 50%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 14px;\n    flex-shrink: 0;\n  }\n\n  .trust-content {\n    display: flex;\n    flex-direction: column;\n  }\n\n  .trust-label {\n    font-size: 12px;\n    font-weight: 800;\n    color: #000;\n    text-transform: uppercase;\n    letter-spacing: 0.5px;\n  }\n\n  .trust-desc {\n    font-size: 12px;\n    color: #666;\n    line-height: 1.3;\n  }\n</style>\n\n<div class=\"reveah-trust-block\">\n  <div class=\"trust-item\">\n    <div class=\"trust-icon\">✓</div>\n    <div class=\"trust-content\">\n      <span class=\"trust-label\">Dermatologist Tested</span>\n      <span class=\"trust-desc\">Clinically verified for safety on reactive skin.</span>\n    </div>\n  </div>\n\n  <div class=\"trust-item\">\n    <div class=\"trust-icon\">pH</div>\n    <div class=\"trust-content\">\n      <span class=\"trust-label\">Optimized pH 5.5</span>\n      <span class=\"trust-desc\">Matches your skin's natural barrier to prevent irritation.</span>\n    </div>\n  </div>\n\n  <div class=\"trust-item\">\n    <div class=\"trust-icon\">∅</div>\n    <div class=\"trust-content\">\n      <span class=\"trust-label\">Clean Formula</span>\n      <span class=\"trust-desc\">Zero parabens, artificial fragrances, or drying alcohols.</span>\n    </div>\n  </div>\n</div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "image_with_text_8YkwVd": {
       "type": "image-with-text",
       "blocks": {
@@ -441,6 +487,8 @@
     "main",
     "product-content",
     "1772112756b71eda01",
+    "image_with_text_nEXNXX",
+    "custom_liquid_UERqcC",
     "image_with_text_8YkwVd",
     "blocks_DQCCVR",
     "image_with_text_XrnFrQ",
