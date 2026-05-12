@@ -128,8 +128,8 @@
             "image": "shopify://shop_images/1776767547_php85tkucdhu95s7wYZtfr_0e802301-16a7-4faa-9f82-f0d22a9e31bb.jpg",
             "tab_label": "",
             "subheading": "",
-            "title": "The Science of Clearer Skin.",
-            "content": "<p> The unique \"Pop and Fade\" technology ensures high-purity ingredients are freshly released to target stubborn dullness.</p>",
+            "title": "",
+            "content": "",
             "button_text": "",
             "button_link": ""
           }
@@ -138,7 +138,6 @@
       "block_order": [
         "item_3LGdCn"
       ],
-      "custom_css": [],
       "name": "Image with text",
       "settings": {
         "reveal_on_scroll": true,
@@ -151,6 +150,19 @@
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_liquid_jz7wFY": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<style>\n  .science-section {\n    padding: 30px 20px;\n    text-align: center;\n    background-color: #fff;\n  }\n  .science-title {\n    font-size: 24px;\n    font-weight: 700;\n    margin-bottom: 15px;\n    color: #000;\n  }\n  .science-description {\n    font-size: 15px;\n    line-height: 1.6;\n    color: #444;\n    margin-bottom: 25px;\n  }\n  .tech-highlight {\n    display: flex;\n    justify-content: center;\n    gap: 15px;\n    margin-top: 20px;\n  }\n  .tech-card {\n    background: #f9f9f9;\n    padding: 10px;\n    border-radius: 8px;\n    flex: 1;\n    font-size: 13px;\n    font-weight: bold;\n  }\n</style>\n\n<div class=\"science-section\">\n  <h2 class=\"science-title\">The Science of Clearer Skin</h2>\n  <p class=\"science-description\">\n    Our <strong>\"Pop and Fade\"</strong> technology keeps high-purity actives sealed in capsules, only releasing their full potency the moment they touch your skin to <strong>eliminate stubborn dark spots.</strong>\n  </p>\n  \n  <div class=\"tech-highlight\">\n    <div class=\"tech-card\">✨ Potency</div>\n    <div class=\"tech-card\">🎯 Precision</div>\n    <div class=\"tech-card\">💧 Hydration</div>\n  </div>\n</div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     },
     "177859786984d4f648": {
@@ -443,6 +455,7 @@
     "product-content",
     "1772112756b71eda01",
     "image_with_text_XrnFrQ",
+    "custom_liquid_jz7wFY",
     "177859786984d4f648",
     "com_6hdjLn",
     "faq_cbkQ3V",
