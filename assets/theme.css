@@ -3318,35 +3318,49 @@ split-lines {
 }
 
 .rating {
-  vertical-align: middle;
-  align-items: center;
-  display: inline-flex;
-  margin-bottom: 10px; /* Adds a tiny gap under the stars */
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  flex-wrap: nowrap !important; /* Forces stars and text to stay on one line */
+  margin-bottom: 15px !important;
+  width: 100% !important;
+  overflow: hidden;
 }
 
 .rating__stars {
-  grid-auto-flow: column;
-  column-gap: 2px;
-  display: grid;
+  display: flex !important;
+  gap: 2px !important;
+  flex-shrink: 0 !important; /* Prevents stars from being squeezed */
 }
 
 .rating__star {
   color: rgb(255, 193, 7);
-  /* Scales stars between 14px (mobile) and 20px (desktop) */
-  width: clamp(14px, 4vw, 20px) !important;
-  height: clamp(14px, 4vw, 20px) !important;
-}
-
-.rating__star--empty {
-  color: rgba(var(--product-star-rating), .4);
+  /* Responsive star size: 14px on mobile, 18px on desktop */
+  width: clamp(14px, 4vw, 18px) !important;
+  height: clamp(14px, 4vw, 18px) !important;
 }
 
 .rating__caption {
-  margin-inline-start: 8px;
-  /* Scales text between 11px (mobile) and 14px (desktop) */
-  font-size: clamp(11px, 2.5vw, 14px) !important;
-  white-space: nowrap; /* Keeps the review count on one line */
-  color: #6a6a6a;
+  margin-inline-start: 8px !important;
+  /* Responsive font size: 11px on mobile, 14px on desktop */
+  font-size: clamp(11px, 3vw, 14px) !important;
+  white-space: nowrap !important; /* Keeps "11 reviews" from wrapping */
+  color: #666;
+  flex-shrink: 1 !important;
+}
+
+/* Specific fix for very small phones (like iPhone SE) */
+@media screen and (max-width: 380px) {
+  .rating {
+    gap: 4px !important;
+  }
+  .rating__star {
+    width: 13px !important;
+    height: 13px !important;
+  }
+  .rating__caption {
+    font-size: 10px !important;
+  }
 }
 
 .openable__overlay {
