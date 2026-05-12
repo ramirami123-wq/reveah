@@ -2523,23 +2523,7 @@ p a:not(.button), .rte a:not(.button), .link {
 .bubble-count--top {
   vertical-align: top;
 }
-/* Reduce space above the quantity selector */
-.product-form__input, 
-.quantity-selector {
-  margin-top: 10px !important;  /* Default is often 25px+ */
-  margin-bottom: 10px !important;
-}
 
-/* Tighten space between price/reviews and the form */
-.product-info__block--price, 
-.product-info__block--rating {
-  margin-bottom: 5px !important;
-}
-
-/* Move the entire buy-box area up */
-.product-form {
-  margin-top: 5px !important;
-}
 .quantity-selector {
   --quantity-selector-height: 46px;
   border: 1px solid rgb(var(--border-color));
