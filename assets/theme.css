@@ -3318,7 +3318,6 @@ split-lines {
 }
 
   .rating {
-    margin-top:-10%;
     vertical-align: bottom;
     align-items: center;
     display: inline-flex;
@@ -3341,6 +3340,7 @@ split-lines {
   }
 
   .rating__caption {
+    margin-top:-10%;
     margin-inline-start: 8px;
     font-size: 20px !important;
   }
