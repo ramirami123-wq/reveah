@@ -142,7 +142,7 @@
       "settings": {
         "reveal_on_scroll": true,
         "background_type": "boxed",
-        "background_overlap": "image",
+        "background_overlap": "both",
         "image_position": "right",
         "text_alignment": "center",
         "cycle_speed": 8,
