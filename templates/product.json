@@ -161,7 +161,7 @@
             "show_review_media": true,
             "display_order": "media_first",
             "no_image_fallback": "product_image",
-            "max_reviews": 20,
+            "max_reviews": 12,
             "review_length": "medium",
             "text_size": "medium",
             "image_ratio": "1",
