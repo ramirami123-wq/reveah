@@ -2532,7 +2532,7 @@ p a:not(.button), .rte a:not(.button), .link {
   justify-content: flex-start;
   align-items: center;
   display: inline-flex;
-  margin-right: 10px;
+  margin-top: -10px;
 }
 
 .quantity-selector__button {
