@@ -393,22 +393,14 @@
         "testimonial_Tx6ji9": {
           "type": "testimonial",
           "settings": {
-            "content": "Write some content about what they are saying about your store.",
-            "author": "John S."
-          }
-        },
-        "testimonial_MUU4yd": {
-          "type": "testimonial",
-          "settings": {
-            "content": "Write some content about what they are saying about your store.",
-            "author": "John S."
+            "content": "بصراحة، الفرق واضح من أول أسبوع!🥰 بشرتي صارت أصفى بكتير والحبوب خفّت بنصح فيه الكل.",
+            "author": "Nour k."
           }
         }
       },
       "block_order": [
         "testimonial_eG4tx4",
-        "testimonial_Tx6ji9",
-        "testimonial_MUU4yd"
+        "testimonial_Tx6ji9"
       ],
       "name": "Testimonials",
       "settings": {
