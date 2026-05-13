@@ -156,7 +156,7 @@
         "item_77LR69": {
           "type": "item",
           "settings": {
-            "row_heading": "Authentic",
+            "row_heading": "Authentic K-Beauty",
             "first_column": "Yes",
             "second_column": "No",
             "third_column": "",
@@ -176,7 +176,7 @@
         "item_KWPwtH": {
           "type": "item",
           "settings": {
-            "row_heading": "Targeted Blemish Fading",
+            "row_heading": "Encapsulated Vita-Pearls",
             "first_column": "Yes",
             "second_column": "No",
             "third_column": "",
@@ -186,7 +186,7 @@
         "item_jEyeCX": {
           "type": "item",
           "settings": {
-            "row_heading": "Instant Glass-Skin Glow",
+            "row_heading": "50% Vitamin Water Base",
             "first_column": "Yes",
             "second_column": "No",
             "third_column": "",
@@ -379,16 +379,6 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "subheading": "",
-        "title": "You may also like",
-        "recommendations_count": 4,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
     "17739288934ec06d7a": {
       "type": "apps",
       "blocks": {
@@ -408,6 +398,16 @@
       "settings": {
         "include_horizontal_margins": true,
         "include_vertical_margins": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "subheading": "",
+        "title": "You may also like",
+        "recommendations_count": 4,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     }
   },
