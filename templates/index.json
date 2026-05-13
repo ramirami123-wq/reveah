@@ -361,36 +361,6 @@
     },
     "blocks_hek9nx": {
       "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_adef03d_F7KPrG": {
-          "type": "ai_gen_block_adef03d",
-          "settings": {
-            "text_1": "Free Delivery all over Lebanon",
-            "text_2": "Free Delivery all over Lebanon",
-            "text_3": "Free Delivery all over Lebanon",
-            "text_4": "Free Delivery all over Lebanon",
-            "show_icon": false,
-            "icon_type": "star",
-            "icon_size": 20,
-            "icon_color": "#0c1b54",
-            "icon_text_spacing": 8,
-            "text_size": 16,
-            "text_weight": "500",
-            "text_transform": "none",
-            "text_color": "#ffffff",
-            "speed": 5,
-            "pause_on_hover": true,
-            "item_spacing": 60,
-            "padding_vertical": 20,
-            "desktop_width_percent": 100,
-            "background_color": "#000000"
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_adef03d_F7KPrG"
-      ],
       "name": "Marquee",
       "settings": {}
     },
