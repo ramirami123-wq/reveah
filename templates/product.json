@@ -112,6 +112,7 @@
       "block_order": [
         "item_3LGdCn"
       ],
+      "custom_css": [],
       "name": "Image with text",
       "settings": {
         "reveal_on_scroll": true,
@@ -388,13 +389,6 @@
     "faq_cbkQ3V": {
       "type": "faq",
       "blocks": {
-        "category_y3mKtw": {
-          "type": "category",
-          "disabled": true,
-          "settings": {
-            "title": "Shipping"
-          }
-        },
         "question_adqrYK": {
           "type": "question",
           "settings": {
@@ -432,7 +426,6 @@
         }
       },
       "block_order": [
-        "category_y3mKtw",
         "question_adqrYK",
         "question_TDP7NK",
         "question_hPGXCN",
