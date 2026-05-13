@@ -54,16 +54,10 @@
             "image_width": 500
           }
         },
-        "liquid_MixMmc": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div style=\"text-align: center; margin-top: -12px; padding: 0 15px;\">\n  <p style=\"font-size: 10px; color: #666; font-style: italic; margin-bottom: 5px;\">\n    *Actual results after 14 days of consistent use.\n  </p>"
-          }
-        },
         "liquid_YTXyKT": {
           "type": "liquid",
           "settings": {
-            "liquid": "<style>\n  .reveah-trust-block {\n    display: flex;\n    flex-direction: column;\n    gap: 16px;\n    margin: 25px auto;\n    font-family: inherit;\n    background: #FFF5F6; \n    padding: 20px;\n    border-radius: 12px;\n    border: 1px solid #FADADD;\n    max-width: 600px; \n    box-sizing: border-box;\n  }\n\n  .trust-item {\n    display: flex;\n    flex-direction: column; /* Stacks icon on top of text */\n    align-items: center;    /* Centers the icon and text horizontally */\n    text-align: center;     /* Centers the text lines */\n    gap: 8px;\n  }\n\n  .trust-icon {\n    width: 36px;\n    height: 36px;\n    background: #D11C3D; \n    color: #fff;\n    border-radius: 50%;\n    font-weight: bold;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 14px;\n    flex-shrink: 0;\n    box-shadow: 0 2px 4px rgba(209, 28, 61, 0.2);\n  }\n\n  .trust-content {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n  }\n\n  .trust-label {\n    font-size: 12px;\n    font-weight: 800;\n    color: #D11C3D; \n    text-transform: uppercase;\n    letter-spacing: 0.8px;\n    margin-bottom: 4px;\n  }\n\n  .trust-desc {\n    font-size: 13px;\n    color: #555;\n    line-height: 1.4;\n    max-width: 280px; /* Keeps text from stretching too wide when centered */\n  }\n\n  @media screen and (max-width: 480px) {\n    .reveah-trust-block {\n      padding: 15px;\n      margin: 0px 10px;\n    }\n    .trust-desc {\n      max-width: 100%;\n    }\n  }\n</style>\n\n<div class=\"reveah-trust-block\">\n  <div class=\"trust-item\">\n    <div class=\"trust-icon\">✓</div>\n    <div class=\"trust-content\">\n      <span class=\"trust-label\">Dermatologist Tested</span>\n      <span class=\"trust-desc\">Clinically verified for safety on reactive skin.</span>\n    </div>\n  </div>\n\n  <div class=\"trust-item\">\n    <div class=\"trust-icon\" style=\"font-size: 11px;\">pH</div>\n    <div class=\"trust-content\">\n      <span class=\"trust-label\">Optimized pH 5.5</span>\n      <span class=\"trust-desc\">Matches your skin's natural barrier to prevent irritation.</span>\n    </div>\n  </div>\n\n  <div class=\"trust-item\">\n    <div class=\"trust-icon\">∅</div>\n    <div class=\"trust-content\">\n      <span class=\"trust-label\">Clean Formula</span>\n      <span class=\"trust-desc\">Zero parabens, artificial fragrances, or drying alcohols.</span>\n    </div>\n  </div>\n</div>"
+            "liquid": "<div style=\"text-align: center; margin-top: -12px; padding: 0 15px;\">\n  <p style=\"font-size: 10px; color: #666; font-style: italic; margin-bottom: 5px;\">\n    *Actual results after 14 days of consistent use.\n  </p> \n  \n  <style>\n  .reveah-trust-block {\n    display: flex;\n    flex-direction: column;\n    gap: 16px;\n    margin: 25px auto;\n    font-family: inherit;\n    background: #FFF5F6; \n    padding: 20px;\n    border-radius: 12px;\n    border: 1px solid #FADADD;\n    max-width: 600px; \n    box-sizing: border-box;\n  }\n\n  .trust-item {\n    display: flex;\n    flex-direction: column;\n    align-items: center;  \n    text-align: center;      \n    gap: 8px;\n  }\n\n  .trust-icon {\n    width: 36px;\n    height: 36px;\n    background: #D11C3D; \n    color: #fff;\n    border-radius: 50%;\n    font-weight: bold;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 14px;\n    flex-shrink: 0;\n    box-shadow: 0 2px 4px rgba(209, 28, 61, 0.2);\n  }\n\n  .trust-content {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n  }\n\n  .trust-label {\n    font-size: 12px;\n    font-weight: 800;\n    color: #D11C3D; \n    text-transform: uppercase;\n    letter-spacing: 0.8px;\n    margin-bottom: 4px;\n  }\n\n  .trust-desc {\n    font-size: 13px;\n    color: #555;\n    line-height: 1.4;\n    max-width: 280px; \n  }\n\n  @media screen and (max-width: 480px) {\n    .reveah-trust-block {\n      padding: 15px;\n      margin: 10px 10px;\n    }\n    .trust-desc {\n      max-width: 100%;\n    }\n  }\n  </style>\n\n  <div class=\"reveah-trust-block\">\n    <div class=\"trust-item\">\n      <div class=\"trust-icon\">✓</div>\n      <div class=\"trust-content\">\n        <span class=\"trust-label\">Dermatologist Tested</span>\n        <span class=\"trust-desc\">Clinically verified for safety on reactive skin.</span>\n      </div>\n    </div>\n\n    <div class=\"trust-item\">\n      <div class=\"trust-icon\" style=\"font-size: 11px;\">pH</div>\n      <div class=\"trust-content\">\n        <span class=\"trust-label\">Optimized pH 5.5</span>\n        <span class=\"trust-desc\">Matches your skin's natural barrier to prevent irritation.</span>\n      </div>\n    </div>\n\n    <div class=\"trust-item\">\n      <div class=\"trust-icon\">∅</div>\n      <div class=\"trust-content\">\n        <span class=\"trust-label\">Clean Formula</span>\n        <span class=\"trust-desc\">Zero parabens, artificial fragrances, or drying alcohols.</span>\n      </div>\n    </div>\n  </div>\n</div>"
           }
         },
         "liquid_matJh4": {
@@ -80,7 +74,6 @@
         "liquid_a4czDX",
         "liquid_tGfrix",
         "image_zWgNtB",
-        "liquid_MixMmc",
         "liquid_YTXyKT",
         "liquid_matJh4"
       ],
@@ -93,7 +86,7 @@
         "show_sticky_add_to_cart": true,
         "show_share_buttons": false,
         "help_page": "",
-        "enable_video_autoplay": true,
+        "enable_video_autoplay": false,
         "enable_video_looping": false,
         "enable_image_zoom": true,
         "show_thumbnails_on_mobile": false,
