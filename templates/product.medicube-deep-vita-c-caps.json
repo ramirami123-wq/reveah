@@ -359,54 +359,69 @@
         "lazy": false
       }
     },
+    "testimonials_Qcg9a4": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_tyYq8w": {
+          "type": "testimonial",
+          "settings": {
+            "content": "The fresh 'burst' of the capsules is addictive. My dark spots faded in 10 days and my skin looks filtered even without makeup.",
+            "author": "Carla"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_tyYq8w"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "Let our Customers Speak",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "faq_cbkQ3V": {
       "type": "faq",
       "blocks": {
-        "category_y3mKtw": {
-          "type": "category",
-          "disabled": true,
-          "settings": {
-            "title": "Shipping"
-          }
-        },
         "question_TDP7NK": {
           "type": "question",
           "settings": {
-            "title": "What are the benefits of the Vitamin C Pads?",
-            "answer": "<p>These pads are designed for a multi-action approach to skincare, providing gentle exfoliation, deep hydration, and targeted treatment to reduce visible pigmentation while enhancing natural skin radiance.</p>"
+            "title": "What are the benefits of the Deep Vita C Capsule Cream?",
+            "answer": "<p>This cream provides an intensive brightening treatment that fades dark spots and blemishes using a high-purity <strong>5% Niacinamide</strong> formula. It is designed to deliver a \"Glass Skin\" glow by combining deep hydration with antioxidant protection from <strong>Ascorbic and Ferulic Acids</strong>.</p>"
           }
         },
         "question_hPGXCN": {
           "type": "question",
           "settings": {
-            "title": "How effective are these pads for improving skin tone?",
-            "answer": "<p>In clinical use tests, the formula achieved a 100% satisfaction rate after 4 weeks for improving pigmentation and overall skin radiance, ensuring a visibly clearer and more perfected complexion.</p>"
+            "title": "How does the capsule technology improve my skin tone?",
+            "answer": "<p>The \"Active-Burst\" capsules act as a protective seal for the pure Vitamin C, preventing it from oxidizing or losing potency before it reaches your skin. When massaged in, the capsules pop to release fresh actives that target uneven skin tone and dullness directly.<br/></p>"
           }
         },
         "question_7Rxwez": {
           "type": "question",
           "settings": {
-            "title": "What makes the formula of the Vitamin C pads unique?",
-            "answer": "<p>The pads utilize a high-concentration \"Vitamin Water\" base (500,000ppm) that is suitable for all skin types, ensuring that the skin receives maximum nutrient delivery without irritation.</p>"
+            "title": "What makes the capsule-in-gel formula unique?",
+            "answer": "<p>Unlike traditional creams, this formula uses a dual-texture approach: a moisturizing gel base made of <strong>50% Vitamin Water</strong> and suspended Vitamin C capsules. This ensures the product feels lightweight and non-greasy while providing the maximum concentration of vitamins <strong>E, Q, and P</strong> for skin rejuvenation.</p>"
           }
         },
         "question_xRq4aa": {
           "type": "question",
           "settings": {
-            "title": "How often should I use the Vitamin C treatment for best results?",
-            "answer": "<p>For optimal transformation, consistent daily use over a 4-week period is recommended to reach the full satisfaction levels for hydration, scent, and overall feeling of use reported by clinical participants.</p>"
+            "title": "Should I use this cream every day for best results?",
+            "answer": "<p>Yes, for maximum results, we recommend using it <strong>twice daily</strong> (AM and PM). Consistent use allows the <strong>Sea Buckthorn Extract</strong> and <strong>Niacinamide</strong> to continuously smooth skin texture and minimize the appearance of fine lines.</p>"
           }
         },
         "question_Pzgd7t": {
           "type": "question",
           "settings": {
-            "title": "Can I use these pads if I have textured or dull skin?",
-            "answer": "<p>yes, the pads provide 100% satisfaction in exfoliation, helping to refine skin texture by removing dead skin cells and smoothing out the surface for a refreshed, soft feel.</p>"
+            "title": "Is this cream safe for sensitive or acne-prone skin?",
+            "answer": "<p>Absolutely. The formula is specifically optimized to improve complexion and smooth rough textures. It has been <strong>dermatologist tested</strong> and features an <strong>optimized pH 5.5</strong> to ensure it remains gentle on the skin barrier while delivering powerful brightening results.</p>"
           }
         }
       },
       "block_order": [
-        "category_y3mKtw",
         "question_TDP7NK",
         "question_hPGXCN",
         "question_7Rxwez",
@@ -420,27 +435,6 @@
         "content": "",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "17739288934ec06d7a": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_eTHqed": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "review_data": "real_data",
-            "max_width": 1200,
-            "show_shop_reviews": false,
-            "empty_state": "empty_widget"
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_eTHqed"
-      ],
-      "settings": {
-        "include_horizontal_margins": true,
-        "include_vertical_margins": true
       }
     },
     "product-recommendations": {
@@ -461,8 +455,8 @@
     "custom_liquid_KyLPg3",
     "1778675560b1b34b6b",
     "com_6hdjLn",
+    "testimonials_Qcg9a4",
     "faq_cbkQ3V",
-    "17739288934ec06d7a",
     "product-recommendations"
   ]
 }
