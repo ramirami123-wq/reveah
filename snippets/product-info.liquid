@@ -44,6 +44,33 @@
 <div class="reveah-benefit-tag">
   ✨ BRIGHTENS DULL SKIN & BOOSTS GLOW
 </div>
+{% if product.handle == 'medicube-deep-vita-c-capsule-cream' %}
+<style>
+  .reveah-benefit-tag-vita {
+    background-color: #fff9c4; /* Light yellow to match Vitamin C theme */
+    color: #f57f17; /* Darker orange/gold text */
+    font-weight: bold;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 6px 14px;
+    font-size: 14px;
+    margin: -5px 0 20px 0;
+  }
+
+  @media screen and (max-width: 749px) {
+    .reveah-benefit-tag-vita {
+      padding: 4px 10px;
+      font-size: 11px;
+      margin: -2px 0 15px 0;
+      letter-spacing: 0.2px;
+    }
+  }
+</style>
+
+<div class="reveah-benefit-tag-vita">
+  🍊 HIGH-POTENCY VITAMIN C FOR RADIANT SKIN
+</div>
+{% endif %}
 {% endif %}
     {% else %}
       <h2 class="product-meta__title heading h3">
