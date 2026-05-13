@@ -120,11 +120,11 @@
         "item_tc7FcQ": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/1763644046_php4cviuke9jeng80U1nGa.jpg",
+            "image": "shopify://shop_images/1763644046_phpqt7u8r0dbfahejFoWUZ_1.jpg",
             "tab_label": "",
             "subheading": "",
-            "title": "Proven Results. Pure Satisfaction.",
-            "content": "<p>Real results you can trust. After just 4 weeks, users reported a 100% satisfaction rate in skin radiance, hydration, and the fading of pigmentation. Experience a perfected complexion with a formula that delivers on every promise.</p>",
+            "title": "",
+            "content": "",
             "button_text": "",
             "button_link": ""
           }
@@ -145,6 +145,19 @@
         "text_color": "rgba(0,0,0,0)",
         "button_background": "rgba(0,0,0,0)",
         "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_liquid_KyLPg3": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "{% if product.handle == 'medicube-deep-vita-c-capsule-cream-brown' %}\n<style>\n  .vita-science-section {\n    padding: 40px 20px;\n    margin-top: 10px;\n    text-align: center;\n    background-color: #fffdf5; /* Soft glowing yellow tint */\n    border-radius: 20px;\n    margin: 20px 15px;\n    border: 1px solid #f9ebbe;\n  }\n  .vita-science-title {\n    font-size: 22px;\n    font-weight: 800;\n    margin-bottom: 12px;\n    color: #3e2723; /* Deep brown from image_395d1d.png */\n    text-transform: uppercase;\n    letter-spacing: 1px;\n  }\n  .vita-science-description {\n    font-size: 15px;\n    line-height: 1.6;\n    color: #5d4037;\n    margin-bottom: 25px;\n    max-width: 500px;\n    margin-left: auto;\n    margin-right: auto;\n  }\n  .vita-science-description strong {\n    color: #a67c00; /* Gold accent */\n  }\n  .vita-tech-highlight {\n    display: flex;\n    justify-content: center;\n    gap: 12px;\n    margin-top: 20px;\n  }\n  .vita-tech-card {\n    background: #ffffff;\n    padding: 12px 8px;\n    border-radius: 12px;\n    flex: 1;\n    font-size: 12px;\n    font-weight: 700;\n    color: #3e2723;\n    border: 1px solid #ffecb3;\n    box-shadow: 0 4px 6px rgba(166, 124, 0, 0.05);\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 5px;\n  }\n  .vita-tech-icon {\n    font-size: 18px;\n  }\n</style>\n\n<div class=\"vita-science-section\">\n  <h2 class=\"vita-science-title\">The Science of The Glow</h2>\n  <p class=\"vita-science-description\">\n    Our <strong>\"Active-Burst\"</strong> capsules shield high-purity <strong>Ascorbic Acid</strong> from oxidation. Each pearl pops on contact, releasing a fresh surge of Vitamin C and <strong>Ferulic Acid</strong> to illuminate dullness and lock in a glass-skin finish.\n  </p>\n  \n  <div class=\"vita-tech-highlight\">\n    <div class=\"vita-tech-card\">\n      <span class=\"vita-tech-icon\">🍋</span>\n      <span>Pure Potency</span>\n    </div>\n    <div class=\"vita-tech-card\">\n      <span class=\"vita-tech-icon\">🛡️</span>\n      <span>Anti-Oxidant</span>\n    </div>\n    <div class=\"vita-tech-card\">\n      <span class=\"vita-tech-icon\">📸</span>\n      <span>Filter-Free</span>\n    </div>\n  </div>\n</div>\n{% endif %}",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     },
     "com_6hdjLn": {
@@ -403,6 +416,7 @@
     "product-content",
     "product-recommendations",
     "image_with_text_MGKt3b",
+    "custom_liquid_KyLPg3",
     "com_6hdjLn",
     "faq_cbkQ3V",
     "17739288934ec06d7a"
