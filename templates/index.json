@@ -124,12 +124,6 @@
             "liquid": "<style>\n  .star-review-wrapper {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    flex-shrink: 0;\nmargin-top:-7%;\nmargin-bottom:-7%;\n  }\n\n  .star-icons svg {\n    width: 20px;\n    height: 20px;\n    fill: #FFD700; /* Your deep red color */\n  }\n\n  .review-text {\n    font-size: 15px;\n    font-weight: 500;\n    color: #333;\n    white-space: nowrap;\n  }\n\n  @media (max-width: 480px) {\n    .star-review-wrapper {\n      flex-direction: row;\n      justify-content: left;\n    }\n\n    .review-text {\n      font-size: 14px;\n    }\n  }\n</style>\n<div class=\"star-review-wrapper\">\n  <div class=\"star-icons\">\n    <!-- 5 Rounded Stars -->\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n  </div>\n  <div class=\"review-text\">\n    <strong>5</strong> by <strong>20+</strong> Customers\n  </div>\n</div>"
           }
         },
-        "liquid_QwNeVg": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div style=\"font-size:15px; color:#555; margin-top:-4%;margin-bottom:-4%;\">\n✨ Brightens dull skin & boosts glow\n</div>"
-          }
-        },
         "variant_picker_wEqQPV": {
           "type": "variant_picker",
           "disabled": true,
@@ -155,28 +149,13 @@
             "buy_now_button_background": "rgba(0,0,0,0)",
             "buy_now_button_text_color": "rgba(0,0,0,0)"
           }
-        },
-        "liquid_dyMKrp": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div style=\"margin-top:-12px; ;font-size:13px; line-height:1.9; color:#444;\">\n<div>✓🛡️ 100% Authentic Korean Skincare</div>\n<div>✓💵 100% refund for damaged or defective items.</div>\n<div>✓🚚Free Delivery Across Lebanon</div>\n<div>✓💳Cash on Delivery Available</div>\n</div>"
-          }
-        },
-        "liquid_rJ676C": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"product-conversion-booster\" style=\"margin-bottom: 20px; font-family: inherit; line-height: 1.4;\">\n  \n  <div style=\"display: flex; gap: 10px; margin-bottom: 12px; border-bottom: 1px solid #f0f0f0; padding-bottom: 8px;\">\n    <div style=\"flex: 1; font-size: 12px;\"><strong>SKIN TYPE</strong><br>All</div>\n  <div style=\"flex: 1; font-size: 12px;\"><strong>TEXTURE</strong><br>Melting Gel</div>\n    <div style=\"flex: 1; font-size: 12px;\"><strong>SIZE</strong><br>55g / 1.94oz</div>\n  </div>\n\n  <div style=\"margin-bottom: 15px;\">\n    <p style=\"font-size: 13px; margin: 0 0 5px 0;\"><strong>✨ Brightening Power:</strong></p>\n    <ul style=\"margin: 0; padding-left: 18px; font-size: 13px; color: #444;\">\n      <li><strong>5% Niacinamide + TXA:</strong> Fades dark spots & marks.</li>\n      <li><strong>Glutathione:</strong> Delivers the \"Glass Skin\" glow.</li>\n    </ul>\n  </div>\n\n  <div style=\"background: #FAF8F6; padding: 10px; border-radius: 6px; border: 1px solid #E8E2DD;\">\n    <p style=\"font-size: 13px; margin: 0 0 5px 0;\"><strong>📝 How to Use:</strong></p>\n    <div style=\"font-size: 12px; color: #666; line-height: 1.6;\">\n      Mix 1-2 capsules with gel → Massage until melted → Use AM/PM\n    </div>\n  </div>\n\n</div>\n<p style=\"font-size: 11px; color: #888; margin-top: 8px; text-align: center;\">\n  Questions? See our <a href=\"/policies/refund-policy\" style=\"color: #666; text-decoration: underline;\">Return & Refund Policy</a>\n</p>"
-          }
         }
       },
       "block_order": [
         "liquid_B99Ag8",
-        "liquid_QwNeVg",
         "variant_picker_wEqQPV",
         "quantity_selector_FxNdca",
-        "buy_buttons_G7pwtX",
-        "liquid_dyMKrp",
-        "liquid_rJ676C"
+        "buy_buttons_G7pwtX"
       ],
       "custom_css": [],
       "name": "Featured product",
@@ -216,12 +195,6 @@
     "featured_product_PRMUbw": {
       "type": "featured-product",
       "blocks": {
-        "liquid_Drgdww": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div style=\"font-size:15px; color:#555; margin-top:-4%;margin-bottom:-4%;\">\n✨ Visible spot reduction in just 7 days\n</div>"
-          }
-        },
         "liquid_yhVVWw": {
           "type": "liquid",
           "disabled": true,
@@ -253,28 +226,13 @@
             "buy_now_button_background": "rgba(0,0,0,0)",
             "buy_now_button_text_color": "rgba(0,0,0,0)"
           }
-        },
-        "liquid_YnVmCB": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div style=\"margin-top:-12px; ;font-size:13px; line-height:1.9; color:#444;\">\n<div>✓🛡️ 100% Authentic Korean Skincare</div>\n<div>✓💵 100% refund for damaged or defective items.</div>\n<div>✓🚚Free Delivery Across Lebanon</div>\n<div>✓💳Cash on Delivery Available</div>\n</div>"
-          }
-        },
-        "liquid_hYNxgg": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"product-conversion-booster\" style=\"margin-bottom: 20px; font-family: inherit; line-height: 1.4;\">\n  \n  <div style=\"display: flex; gap: 10px; margin-bottom: 12px; border-bottom: 1px solid #f0f0f0; padding-bottom: 8px;\">\n    <div style=\"flex: 1; font-size: 12px;\"><strong>SKIN TYPE</strong><br>All</div>\n    <div style=\"flex: 1; font-size: 12px;\"><strong>TEXTURE</strong><br>Vita-Capsule Gel</div>\n    <div style=\"flex: 1; font-size: 12px;\"><strong>SIZE</strong><br>50g / 1.76oz</div>\n  </div>\n\n  <div style=\"margin-bottom: 15px;\">\n    <p style=\"font-size: 13px; margin: 0 0 5px 0;\"><strong>☀️ Vitamin C Radiance:</strong></p>\n    <ul style=\"margin: 0; padding-left: 18px; font-size: 13px; color: #444;\">\n      <li><strong>Pure Vitamin C Liposomes:</strong> High-stability brightening.</li>\n      <li><strong>Ferulic Acid:</strong> Boosts the power of Vitamin C for faster results.</li>\n      <li><strong>Vitamin E:</strong> Deeply nourishes and protects the skin barrier.</li>\n    </ul>\n  </div>\n\n  <div style=\"background: #FAF8F6; padding: 10px; border-radius: 6px; border: 1px solid #F3E6CB;\">\n    <p style=\"font-size: 13px; margin: 0 0 5px 0;\"><strong>📝 How to Use:</strong></p>\n    <div style=\"font-size: 12px; color: #705E3D; line-height: 1.6;\">\n      Scoop 1 capsule + gel → Blend on skin → Pat gently to absorb → Use AM/PM\n    </div>\n  </div>\n\n</div>\n<p style=\"font-size: 11px; color: #888; margin-top: 8px; text-align: center;\">\n  Questions? See our <a href=\"/policies/refund-policy\" style=\"color: #666; text-decoration: underline;\">Return & Refund Policy</a>\n</p>"
-          }
         }
       },
       "block_order": [
-        "liquid_Drgdww",
         "liquid_yhVVWw",
         "variant_picker_V3NB38",
         "quantity_selector_X38AwW",
-        "buy_buttons_Hkq8PW",
-        "liquid_YnVmCB",
-        "liquid_hYNxgg"
+        "buy_buttons_Hkq8PW"
       ],
       "name": "Featured product",
       "settings": {
@@ -313,12 +271,6 @@
     "featured_product_cHi8jN": {
       "type": "featured-product",
       "blocks": {
-        "liquid_3xnHtr": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div style=\"font-size:15px; color:#555; margin-top:-4%;margin-bottom:-4%;\">\n✨ 3-in-1: Sun Protection, Collagen Boost & Glowy Makeup Base\n</div>"
-          }
-        },
         "variant_picker_MT3fQQ": {
           "type": "variant_picker",
           "settings": {
@@ -344,34 +296,19 @@
             "buy_now_button_text_color": "rgba(0,0,0,0)"
           }
         },
-        "liquid_WUfNV8": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div style=\"margin-top:-12px; ;font-size:13px; line-height:1.9; color:#444;\">\n<div>✓🛡️ 100% Authentic Korean Skincare</div>\n<div>✓💵 100% refund for damaged or defective items.</div>\n<div>✓🚚Free Delivery Across Lebanon</div>\n<div>✓💳Cash on Delivery Available</div>\n</div>"
-          }
-        },
         "liquid_6BVGJe": {
           "type": "liquid",
           "disabled": true,
           "settings": {
             "liquid": "<style>\n  .star-review-wrapper {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    flex-shrink: 0;\n  }\n\n  .star-icons svg {\n    width: 20px;\n    height: 20px;\n    fill: #D2D2D2; /* Your deep red color */\n  }\n\n  .review-text {\n    font-size: 16px;\n    font-weight: 500;\n    color: #333;\n    white-space: nowrap;\n  }\n\n  @media (max-width: 480px) {\n    .star-review-wrapper {\n      flex-direction: row;\n      justify-content: center;\n    }\n\n    .review-text {\n      font-size: 15px;\n    }\n  }\n</style>\n\n<div class=\"star-review-wrapper\">\n  <div class=\"star-icons\">\n    <!-- 5 Rounded Stars -->\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n  </div>\n  <div class=\"review-text\">\n    <strong>5</strong> by <strong>20</strong> Customers\n  </div>\n</div>"
           }
-        },
-        "liquid_9Ajh3U": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"product-conversion-booster\" style=\"margin-bottom: 20px; font-family: inherit; line-height: 1.4;\">\n  \n  <div style=\"display: flex; gap: 10px; margin-bottom: 12px; border-bottom: 1px solid #f0f0f0; padding-bottom: 8px;\">\n    <div style=\"flex: 1; font-size: 12px;\"><strong>PROTECTION</strong><br>SPF50+ PA++++</div>\n    <div style=\"flex: 1; font-size: 12px;\"><strong>FINISH</strong><br>Glowy / Dewy</div>\n    <div style=\"flex: 1; font-size: 12px;\"><strong>SIZE</strong><br>50ml / 1.69fl.oz</div>\n  </div>\n\n  <div style=\"margin-bottom: 15px;\">\n    <p style=\"font-size: 13px; margin: 0 0 5px 0;\"><strong>🌸 Elasticity & Shield:</strong></p>\n    <ul style=\"margin: 0; padding-left: 18px; font-size: 13px; color: #444;\">\n      <li><strong>Hydrolyzed Collagen:</strong> Visibly firms and plumps skin texture.</li>\n      <li><strong>Ceramides:</strong> Strengthens the moisture barrier while you wear it.</li>\n      <li><strong>Triple Hyaluronic Acid:</strong> Deep hydration for a glass-skin finish.</li>\n    </ul>\n  </div>\n\n  <div style=\"background: #FAF8F6; padding: 10px; border-radius: 6px; border: 1px solid #FADADD;\">\n    <p style=\"font-size: 13px; margin: 0 0 5px 0;\"><strong>📝 How to Use:</strong></p>\n    <div style=\"font-size: 12px; color: #8A5A62; line-height: 1.6;\">\n      Apply as the last step of skincare → Reapply every 2-3 hours for maximum protection → Works perfectly under makeup.\n    </div>\n  </div>\n\n</div>\n<p style=\"font-size: 11px; color: #888; margin-top: 8px; text-align: center;\">\n  Questions? See our <a href=\"/policies/refund-policy\" style=\"color: #666; text-decoration: underline;\">Return & Refund Policy</a>\n</p>"
-          }
         }
       },
       "block_order": [
-        "liquid_3xnHtr",
         "variant_picker_MT3fQQ",
         "quantity_selector_EjjfFX",
         "buy_buttons_bx6VaR",
-        "liquid_WUfNV8",
-        "liquid_6BVGJe",
-        "liquid_9Ajh3U"
+        "liquid_6BVGJe"
       ],
       "name": "Featured product",
       "settings": {
@@ -396,36 +333,6 @@
     },
     "blocks_W6eMYL": {
       "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_adef03d_gqxWGc": {
-          "type": "ai_gen_block_adef03d",
-          "settings": {
-            "text_1": "Free Delivery all over Lebanon",
-            "text_2": "100% satisfaction guaranteed",
-            "text_3": "Free Delivery all over Lebanon",
-            "text_4": "100% satisfaction guaranteed",
-            "show_icon": false,
-            "icon_type": "star",
-            "icon_size": 20,
-            "icon_color": "#0c1b54",
-            "icon_text_spacing": 8,
-            "text_size": 16,
-            "text_weight": "500",
-            "text_transform": "none",
-            "text_color": "#ffffff",
-            "speed": 5,
-            "pause_on_hover": true,
-            "item_spacing": 60,
-            "padding_vertical": 20,
-            "desktop_width_percent": 100,
-            "background_color": "#000000"
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_adef03d_gqxWGc"
-      ],
       "name": "Marquee",
       "settings": {}
     },
