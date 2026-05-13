@@ -104,16 +104,6 @@
       "disabled": true,
       "settings": {}
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "subheading": "",
-        "title": "You may also like",
-        "recommendations_count": 4,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
     "image_with_text_MGKt3b": {
       "type": "image-with-text",
       "blocks": {
@@ -389,6 +379,16 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "subheading": "",
+        "title": "You may also like",
+        "recommendations_count": 4,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "17739288934ec06d7a": {
       "type": "apps",
       "blocks": {
@@ -414,11 +414,11 @@
   "order": [
     "main",
     "product-content",
-    "product-recommendations",
     "image_with_text_MGKt3b",
     "custom_liquid_KyLPg3",
     "com_6hdjLn",
     "faq_cbkQ3V",
-    "17739288934ec06d7a"
+    "17739288934ec06d7a",
+    "product-recommendations"
   ]
 }
