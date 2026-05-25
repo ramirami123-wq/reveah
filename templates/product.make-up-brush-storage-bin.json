@@ -12,7 +12,7 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "buy_buttons_7GD4Ac": {
+        "buy_buttons_mhXrEJ": {
           "type": "buy_buttons",
           "settings": {
             "show_payment_button": false,
@@ -25,7 +25,7 @@
         }
       },
       "block_order": [
-        "buy_buttons_7GD4Ac"
+        "buy_buttons_mhXrEJ"
       ],
       "custom_css": [],
       "settings": {
