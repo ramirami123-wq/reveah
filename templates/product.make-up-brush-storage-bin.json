@@ -29,23 +29,11 @@
             "buy_now_button_background": "rgba(0,0,0,0)",
             "buy_now_button_text_color": "rgba(0,0,0,0)"
           }
-        },
-        "line_item_property_8jPNnH": {
-          "type": "line_item_property",
-          "settings": {
-            "label": "",
-            "type": "text",
-            "required": false,
-            "allow_long_text": false,
-            "checked_value": "Yes",
-            "unchecked_value": "No"
-          }
         }
       },
       "block_order": [
         "pumper_bundles_app_block_qb_YQWWEQ",
-        "buy_buttons_mhXrEJ",
-        "line_item_property_8jPNnH"
+        "buy_buttons_mhXrEJ"
       ],
       "custom_css": [
         "[id*=\"pumper\"],.pumper-container,div[class*=\"pumper-\"] {margin-top: -15px !important; position: relative; z-index: 2;}"
@@ -64,6 +52,58 @@
         "show_thumbnails_on_mobile": false,
         "desktop_thumbnails_position": "left",
         "transition_effect": "slide"
+      }
+    },
+    "slideshow_A4R6Rk": {
+      "type": "slideshow",
+      "blocks": {
+        "image_4tNAAW": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle_center",
+            "subheading": "Tell your story",
+            "title": "Slide 1",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "image_7FCHtb": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle_center",
+            "subheading": "Tell your story",
+            "title": "Slide 2",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "image_4tNAAW",
+        "image_7FCHtb"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "show_initial_transition": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
       }
     },
     "product-content": {
@@ -96,6 +136,7 @@
   },
   "order": [
     "main",
+    "slideshow_A4R6Rk",
     "product-content",
     "product-recommendations"
   ]
