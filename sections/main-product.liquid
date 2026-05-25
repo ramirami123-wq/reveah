@@ -1,43 +1,4 @@
 
-<style>
-  .reveah-btn-urgency {
-    background-color: #d0021b; /* The same red from your screenshot */
-    color: white;
-    text-align: center;
-    padding: 6px 12px;
-    font-size: 12px;
-    font-weight: 800;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    border-radius: 4px 4px 0 0; /* Rounds the top to sit on the button */
-    display: inline-block;
-    width: 100%;
-    animation: simple-pulse 2s infinite;
-  }
-
-  /* Makes the Add to Cart button sit flush against the red bar */
-  .product-form__buttons {
-    margin-top: 0 !important;
-  }
-
-  @keyframes simple-pulse {
-    0% { background-color: #d0021b; }
-    50% { background-color: #ff4d4d; }
-    100% { background-color: #d0021b; }
-  }
-
-  @media screen and (max-width: 749px) {
-    .reveah-btn-urgency {
-      font-size: 10px;
-      padding: 4px 10px;
-    }
-  }
-</style>
-
-<div class="reveah-btn-urgency">
-  ⚠️ Limited Stock: Only 6 Units Left in Stock
-</div>
-<style>
   #shopify-section-{{ section.id }} {
     {%- assign buy_buttons_block = section.blocks | where: 'type', 'buy_buttons' | first -%}
 
