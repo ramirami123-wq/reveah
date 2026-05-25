@@ -5,7 +5,7 @@
  
   #shopify-section-{{ section.id }} {
     {%- assign buy_buttons_block = section.blocks | where: 'type', 'buy_buttons' | first -%}
-
+{%- render 'product-info', product: product, product_form_id: product_form_id, update_url: true -%}
     {%- if buy_buttons_block.settings.show_payment_button -%}
       {%- if buy_buttons_block.settings.atc_button_background == 'rgba(0,0,0,0)' -%}
         {%- assign secondary_button_background = settings.secondary_button_background -%}
