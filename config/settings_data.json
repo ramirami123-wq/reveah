@@ -48,7 +48,7 @@
     "show_product_rating": true,
     "discount_mode": "percentage",
     "product_color_display": "hide",
-    "product_image_size": "square",
+    "product_image_size": "natural",
     "cart_type": "drawer",
     "cart_icon": "tote_bag",
     "cart_show_free_shipping_threshold": false,
@@ -87,11 +87,6 @@
       },
       "6544682535036668446": {
         "type": "shopify://apps/pumper-bundles/blocks/app-embed/0856870d-2aca-4b1e-a662-cf1797f61270",
-        "disabled": false,
-        "settings": {}
-      },
-      "15557474716127144420": {
-        "type": "shopify://apps/kaching-bundles/blocks/app-embed-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
         "disabled": false,
         "settings": {}
       }
@@ -262,5 +257,8 @@
       "checkout_error_color": "#de2a2a",
       "accent_color": "#405de6"
     }
+  },
+  "platform_customizations": {
+    "custom_css": []
   }
 }
