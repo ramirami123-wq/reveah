@@ -12,10 +12,11 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "text_CG3pGH": {
-          "type": "text",
+        "pumper_bundles_app_block_qb_L6zF3Q": {
+          "type": "shopify://apps/pumper-bundles/blocks/app-block-qb/0856870d-2aca-4b1e-a662-cf1797f61270",
           "settings": {
-            "text": "<p>Free Del</p>"
+            "selected_product": "{{product}}",
+            "using_page_builder": false
           }
         },
         "buy_buttons_7GD4Ac": {
@@ -31,7 +32,7 @@
         }
       },
       "block_order": [
-        "text_CG3pGH",
+        "pumper_bundles_app_block_qb_L6zF3Q",
         "buy_buttons_7GD4Ac"
       ],
       "custom_css": [],
