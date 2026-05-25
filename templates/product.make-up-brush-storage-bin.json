@@ -15,8 +15,8 @@
         "pumper_bundles_app_block_qb_L6zF3Q": {
           "type": "shopify://apps/pumper-bundles/blocks/app-block-qb/0856870d-2aca-4b1e-a662-cf1797f61270",
           "settings": {
-            "selected_product": "{{product}}",
-            "using_page_builder": false
+            "selected_product": "make-up-brush-storage-bin",
+            "using_page_builder": true
           }
         },
         "buy_buttons_7GD4Ac": {
