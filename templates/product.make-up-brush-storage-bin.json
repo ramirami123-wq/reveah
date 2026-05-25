@@ -12,10 +12,10 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "kaching_bundles_app_block_H7DgT4": {
+        "kaching_bundles_app_block_Dykw8B": {
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
-            "product": "make-up-brush-storage-bin",
+            "product": "{{product}}",
             "manual_deal_block_id": ""
           }
         },
@@ -32,7 +32,7 @@
         }
       },
       "block_order": [
-        "kaching_bundles_app_block_H7DgT4",
+        "kaching_bundles_app_block_Dykw8B",
         "buy_buttons_mhXrEJ"
       ],
       "custom_css": [],
