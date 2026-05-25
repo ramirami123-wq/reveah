@@ -1,3 +1,44 @@
+<style>
+  /* Flex layout restructuring to reposition the Pumper Bundle box */
+  .product__info {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  /* Keeps the top details (vendor, title, price) at the very top */
+  .product-meta {
+    order: 1 !important;
+  }
+
+  /* Forces the price list to be the layout floor for the bundle */
+  .product-meta__price-list-container {
+    margin-bottom: 5px !important;
+  }
+
+  /* Targets the Pumper bundle snippet and positions it right below the price */
+  .pumper-container, [id^="pumper-"], .pumper-bundle, [data-pumper-id] {
+    order: 2 !important;
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+  }
+
+  /* Pushes the review ratings container right below the bundle */
+  .product-meta__reference {
+    order: 3 !important;
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+  }
+
+  /* Keeps the add to cart / variant options underneath the bundle and reviews */
+  #product-form-{{ section.id }}-{{ product.id }}, 
+  .product-form {
+    order: 4 !important;
+  }
+
+  .product-meta__aside {
+    order: 5 !important;
+  }
+</style>
 <div class="product__info">
   <!-- PRODUCT META -->
   <product-meta data-block-type="meta" data-block-id="{{ section.id }}" price-class="price--large" class="product-meta">
@@ -21,11 +62,7 @@
 
 {% endif %}
 {% if product.handle == 'medicube-deep-vita-c-capsule-cream-brown' %}
-<style>
-  
 
-  
-</style>
 {% endif %}
     {% else %}
       <h2 class="product-meta__title heading h3">
