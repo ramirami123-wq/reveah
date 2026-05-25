@@ -35,7 +35,9 @@
         "pumper_bundles_app_block_qb_YQWWEQ",
         "buy_buttons_mhXrEJ"
       ],
-      "custom_css": [],
+      "custom_css": [
+  "[id*='pumper'], .pumper-container, div[class*='pumper-'] { margin-top: -35px !important; position: relative; z-index: 2; }"
+],
       "settings": {
         "show_vendor": false,
         "show_sku": false,
