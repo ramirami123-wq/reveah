@@ -3,7 +3,7 @@
 /* Pulls the Pumper Bundle box upward */
 .pumper-container, [id^="pumper-"], .pumper-bundle {
     margin-top: 0px !important;
-    padding-top: 0px !important;
+    padding-top: -30px !important;
 }
 @media screen and (max-width: 740px) {
   .hidden-phone {
