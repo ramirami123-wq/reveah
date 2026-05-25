@@ -29,11 +29,23 @@
             "buy_now_button_background": "rgba(0,0,0,0)",
             "buy_now_button_text_color": "rgba(0,0,0,0)"
           }
+        },
+        "line_item_property_8jPNnH": {
+          "type": "line_item_property",
+          "settings": {
+            "label": "",
+            "type": "text",
+            "required": false,
+            "allow_long_text": false,
+            "checked_value": "Yes",
+            "unchecked_value": "No"
+          }
         }
       },
       "block_order": [
         "pumper_bundles_app_block_qb_YQWWEQ",
-        "buy_buttons_mhXrEJ"
+        "buy_buttons_mhXrEJ",
+        "line_item_property_8jPNnH"
       ],
       "custom_css": [
         "[id*=\"pumper\"],.pumper-container,div[class*=\"pumper-\"] {margin-top: -15px !important; position: relative; z-index: 2;}"
