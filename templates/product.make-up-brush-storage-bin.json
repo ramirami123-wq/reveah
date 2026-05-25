@@ -11,6 +11,15 @@
   "sections": {
     "main": {
       "type": "main-product",
+      "blocks": {
+        "quantity_selector_zqMCim": {
+          "type": "quantity_selector",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "quantity_selector_zqMCim"
+      ],
       "custom_css": [],
       "settings": {
         "show_vendor": false,
