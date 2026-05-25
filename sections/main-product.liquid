@@ -2,7 +2,6 @@
 
 
 <style>
- 
   #shopify-section-{{ section.id }} {
     {%- assign buy_buttons_block = section.blocks | where: 'type', 'buy_buttons' | first -%}
 
@@ -49,8 +48,21 @@
     --secondary-button-background: {{ secondary_button_background.red }}, {{ secondary_button_background.green }}, {{ secondary_button_background.blue }};
     --secondary-button-text-color: {{ secondary_button_text_color.red }}, {{ secondary_button_text_color.green }}, {{ secondary_button_text_color.blue }};
   }
-</style>
 
+  /* CUSTOM OVERRIDE TO REMOVE BUNDLE GAP */
+  #shopify-section-{{ section.id }} .product-form hr, 
+  #shopify-section-{{ section.id }} .product__info-container hr {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+  }
+
+  #shopify-section-{{ section.id }} .pumper-container, 
+  #shopify-section-{{ section.id }} [id^="pumper-"], 
+  #shopify-section-{{ section.id }} .pumper-bundle {
+    margin-top: -10px !important;
+    padding-top: 0px !important;
+  }
+</style>
 {%- capture product_form_id -%}product-form-main-{{ product.id }}-{{ section.id }}{%- endcapture -%}
 
 <section>
