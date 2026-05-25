@@ -22,7 +22,7 @@
         "buy_buttons_mhXrEJ": {
           "type": "buy_buttons",
           "settings": {
-            "show_payment_button": false,
+            "show_payment_button": true,
             "show_gift_card_recipient": true,
             "atc_button_background": "rgba(0,0,0,0)",
             "atc_button_text_color": "rgba(0,0,0,0)",
@@ -36,8 +36,8 @@
         "buy_buttons_mhXrEJ"
       ],
       "custom_css": [
-  "[id*='pumper'], .pumper-container, div[class*='pumper-'] { margin-top: -15px !important; position: relative; z-index: 2; }"
-],
+        "[id*=\"pumper\"],.pumper-container,div[class*=\"pumper-\"] {margin-top: -15px !important; position: relative; z-index: 2;}"
+      ],
       "settings": {
         "show_vendor": false,
         "show_sku": false,
