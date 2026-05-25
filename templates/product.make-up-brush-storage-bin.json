@@ -12,6 +12,12 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "text_CG3pGH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Free Del</p>"
+          }
+        },
         "buy_buttons_7GD4Ac": {
           "type": "buy_buttons",
           "settings": {
@@ -25,6 +31,7 @@
         }
       },
       "block_order": [
+        "text_CG3pGH",
         "buy_buttons_7GD4Ac"
       ],
       "custom_css": [],
