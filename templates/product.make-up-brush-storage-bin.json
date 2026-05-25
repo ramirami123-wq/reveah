@@ -1,0 +1,469 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "quantity_selector_nfGPRe": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "liquid_4hHKNF": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .reveah-trust-wrapper {\n    display: flex;\n    justify-content: space-around;\n    align-items: center;\n    margin: 25px 0;\n    padding: 15px 5px;\n    border-top: 1px solid #f0f0f0;\n    border-bottom: 1px solid #f0f0f0;\n    gap: 10px;\n  }\n\n  .trust-item {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    text-align: center;\n  }\n\n  .trust-icon {\n    font-size: 24px;\n    margin-bottom: 8px;\n  }\n\n  .trust-text {\n    font-size: 11px;\n    font-weight: 700;\n    text-transform: uppercase;\n    color: #333;\n    letter-spacing: 0.5px;\n    line-height: 1.2;\n  }\n\n  /* Mobile Responsive Adjustment */\n  @media screen and (max-width: 480px) {\n    .reveah-trust-wrapper {\n      padding: 12px 0;\n      gap: 5px;\nmargin-top:-5%;\nmargin-bottom:-6%;\n    }\n    .trust-text {\n      font-size: 10px; /* Smaller font so text doesn't wrap weirdly on mobile */\n    }\n    .trust-icon {\n      font-size: 20px;\n    }\n  }\n</style>\n\n<div class=\"reveah-trust-wrapper\">\n  <div class=\"trust-item\">\n    <span class=\"trust-icon\">🛡️</span>\n    <span class=\"trust-text\">100%<br>Authentic</span>\n  </div>\n  \n  <div class=\"trust-item\" style=\"border-left: 1px solid #eee; border-right: 1px solid #eee;\">\n    <span class=\"trust-icon\">🚚</span>\n    <span class=\"trust-text\">Free<br>Delivery</span>\n  </div>\n  \n  <div class=\"trust-item\">\n    <span class=\"trust-icon\">💵</span>\n    <span class=\"trust-text\">Cash on<br>Delivery</span>\n  </div>\n</div>\n<style>\n  .reveah-product-story {\n    font-family: inherit;\n    color: #333;\n    max-width: 100%;\n    margin: 20px 0;\n    line-height: 1.5;\n  }\n\n  /* Section Titles */\n  .story-header {\n    font-size: 1.1rem;\n    font-weight: bold;\n    color: #b0465a; /* Matching the pinkish tone in your image */\n    margin-bottom: 12px;\n    display: flex;\n    align-items: center;\n    gap: 8px;\n  }\n\n  /* Specification Grid */\n  .spec-grid {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 10px;\n    border-top: 1px solid #eee;\n    border-bottom: 1px solid #eee;\n    padding: 15px 0;\n    margin-bottom: 20px;\n    text-align: center;\n  }\n\n  .spec-item label {\n    display: block;\n    font-size: 0.75rem;\n    text-transform: uppercase;\n    color: #b0465a;\n    font-weight: bold;\n    margin-bottom: 4px;\n  }\n\n  .spec-item span {\n    font-size: 0.9rem;\n    font-weight: 500;\n  }\n\n  /* Ingredients/What it does List */\n  .story-list {\n    list-style: none;\n    padding: 0;\n    margin: 0 0 20px 0;\n  }\n\n  .story-list li {\n    margin-bottom: 10px;\n    font-size: 0.95rem;\n  }\n\n  .story-list strong {\n    color: #000;\n  }\n\n  /* How to Use Box (Suggested Fix) */\n  .usage-box {\n    background-color: #fff5f6; /* Soft pink background */\n    border-radius: 8px;\n    padding: 15px;\n    border: 1px solid #fce4e6;\n  }\n\n  .usage-title {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    font-weight: bold;\n    font-size: 0.85rem;\n    color: #b0465a;\n    margin-bottom: 8px;\n    text-transform: uppercase;\n  }\n\n  /* Responsive Adjustments */\n  @media (max-width: 480px) {\n    .spec-grid {\n      grid-template-columns: repeat(3, 1fr);\n      font-size: 0.8rem;\n    }\n  }\n</style>\n\n<div class=\"reveah-product-story\">\n  \n  <!-- Step 1: Skin Specs -->\n  <div class=\"spec-grid\">\n    <div class=\"spec-item\">\n      <label>Skin Type</label>\n      <span>All Skin</span>\n    </div>\n    <div class=\"spec-item\">\n      <label>Texture</label>\n      <span>Capsule Gel</span>\n    </div>\n    <div class=\"spec-item\">\n      <label>Size</label>\n      <span>55g</span>\n    </div>\n  </div>\n\n  <!-- Step 2: What it does & Why it works -->\n  <div class=\"story-header\">\n    <span>✨</span> Brightening Power\n  </div>\n  \n  <ul class=\"story-list\">\n    <li>\n      <strong>5% Niacinamide + TXA:</strong> Fades dark spots & marks.\n    </li>\n    <li>\n      <strong>Glutathione:</strong> Delivers the \"Glass Skin\" glow.\n    </li>\n  </ul>\n\n  <!-- Step 3: How to Use (Separated for clarity) -->\n  <div class=\"usage-box\">\n    <div class=\"usage-title\">\n      <span>📝</span> How to Use:\n    </div>\n    <p style=\"margin: 0; font-size: 0.9rem;\">\n      Mix <strong>1-2 capsules</strong> with gel. Massage until melted. Use <strong>AM & PM</strong>.\n    </p>\n  </div>\n\n</div>\n<div id=\"delivery-estimate-block\" style=\"padding: 12px; text-align: left; background-color: #FFF5F6; font-size: 14px; border-radius: 12px; margin: -10px auto; display: flex; align-items: center; border: 1px solid #FADADD; max-width: 600px; box-sizing: border-box;\"> \n    <span class=\"em\" style=\"margin-right: 10px; display: flex;\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"22px\" viewBox=\"0 -960 960 960\" width=\"22px\" fill=\"#D11C3D\">\n            <path d=\"M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z\"/>\n        </svg> \n    </span>\n    <span style=\"color: #444;\">Order now to receive by <span id=\"delivery-dates\" style=\"font-weight: 700; color: #D11C3D;\"></span></span>\n</div>\n\n<script>\n    (function() {\n        var addBusinessDays = function(startDate, daysToAdd) {\n            var cnt = 0;\n            var tmpDate = new Date(startDate);\n            while (cnt < daysToAdd) {\n                tmpDate.setDate(tmpDate.getDate() + 1);\n                if (tmpDate.getDay() !== 0 && tmpDate.getDay() !== 6) {\n                    cnt++;\n                }\n            }\n            return tmpDate;\n        };\n\n        var formatDate = function(date) {\n            var dayNames = [\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"];\n            var monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\", \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"];\n            return dayNames[date.getDay()] + \", \" + monthNames[date.getMonth()] + \" \" + date.getDate();\n        };\n\n        var now = new Date();\n        var minDate = addBusinessDays(now, 3);\n        var maxDate = addBusinessDays(now, 5);\n\n        var deliverySpan = document.getElementById('delivery-dates');\n        if (deliverySpan) {\n            deliverySpan.textContent = formatDate(minDate) + ' – ' + formatDate(maxDate);\n        }\n    })();\n</script>"
+          }
+        },
+        "image_zWgNtB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Before_1.png",
+            "image_alignment": "center",
+            "image_width": 500
+          }
+        },
+        "liquid_YTXyKT": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"text-align: center; margin-top: -12px; padding: 0 15px;\">\n  <p style=\"font-size: 10px; color: #666; font-style: italic; margin-bottom: 5px;\">\n    *Actual results after 14 days of consistent use.\n  </p> \n  \n  <style>\n  .reveah-trust-block {\n    display: flex;\n    flex-direction: column;\n    gap: 16px;\n    margin: 25px auto;\n    font-family: inherit;\n    background: #FFF5F6; \n    padding: 20px;\n    border-radius: 12px;\n    border: 1px solid #FADADD;\n    max-width: 600px; \n    box-sizing: border-box;\n  }\n\n  .trust-item {\n    display: flex;\n    flex-direction: column;\n    align-items: center;  \n    text-align: center;      \n    gap: 8px;\n  }\n\n  .trust-icon {\n    width: 36px;\n    height: 36px;\n    background: #D11C3D; \n    color: #fff;\n    border-radius: 50%;\n    font-weight: bold;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 14px;\n    flex-shrink: 0;\n    box-shadow: 0 2px 4px rgba(209, 28, 61, 0.2);\n  }\n\n  .trust-content {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n  }\n\n  .trust-label {\n    font-size: 12px;\n    font-weight: 800;\n    color: #D11C3D; \n    text-transform: uppercase;\n    letter-spacing: 0.8px;\n    margin-bottom: 4px;\n  }\n\n  .trust-desc {\n    font-size: 13px;\n    color: #555;\n    line-height: 1.4;\n    max-width: 280px; \n  }\n\n  @media screen and (max-width: 480px) {\n    .reveah-trust-block {\n      padding: 15px;\n      margin: 10px 10px;\n    }\n    .trust-desc {\n      max-width: 100%;\n    }\n  }\n  </style>\n\n  <div class=\"reveah-trust-block\">\n    <div class=\"trust-item\">\n      <div class=\"trust-icon\">✓</div>\n      <div class=\"trust-content\">\n        <span class=\"trust-label\">Dermatologist Tested</span>\n        <span class=\"trust-desc\">Clinically verified for safety on reactive skin.</span>\n      </div>\n    </div>\n\n    <div class=\"trust-item\">\n      <div class=\"trust-icon\" style=\"font-size: 11px;\">pH</div>\n      <div class=\"trust-content\">\n        <span class=\"trust-label\">Optimized pH 5.5</span>\n        <span class=\"trust-desc\">Matches your skin's natural barrier to prevent irritation.</span>\n      </div>\n    </div>\n\n    <div class=\"trust-item\">\n      <div class=\"trust-icon\">∅</div>\n      <div class=\"trust-content\">\n        <span class=\"trust-label\">Clean Formula</span>\n        <span class=\"trust-desc\">Zero parabens, artificial fragrances, or drying alcohols.</span>\n      </div>\n    </div>\n  </div>\n</div>"
+          }
+        },
+        "liquid_matJh4": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<link href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap\" rel=\"stylesheet\">\n\n<div id=\"sticky-conversion-bar\">\n  <div class=\"sticky-bar-content\">\n    <div class=\"sticky-info\">\n      <span class=\"sticky-event\">Flash Sale:</span>\n      <span id=\"sticky-timer\">12:00:00</span>\n    </div>\n    \n    <div class=\"sticky-button-wrapper\">\n      <button class=\"sticky-buy-button\" onclick=\"document.querySelector('form[action*=\\'/cart/add\\'] [type=\\'submit\\']').click();\">\n        <span class=\"old-price\">$47.00</span>\n        <span class=\"new-price\">BUY NOW — $28.00</span>\n      </button>\n      <span class=\"sticky-delivery-badge\">FREE DELIVERY</span>\n    </div>\n  </div>\n</div>\n\n<style>\n  #sticky-conversion-bar {\n    position: fixed;\n    bottom: 0;\n    left: 0;\n    width: 100%;\n    background: #ffffff;\n    border-top: 1px solid #e2e2e2;\n    padding: 10px 15px;\n    box-shadow: 0 -4px 15px rgba(0,0,0,0.15);\n    z-index: 9999;\n    display: none; \n    font-family: 'Poppins', sans-serif;\n  }\n\n  .sticky-bar-content {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    max-width: 450px; \n    margin: 0 auto;\n  }\n\n  .sticky-info {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n  }\n\n  .sticky-event {\n    font-size: 10px;\n    font-weight: 800;\n    color: #ff0000;\n    text-transform: uppercase;\n    letter-spacing: 0.8px;\n    margin-bottom: 0px;\n  }\n\n  #sticky-timer {\n    font-size: 20px;\n    font-weight: 600;\n    color: #000;\n    line-height: 1;\n    letter-spacing: -0.5px;\n  }\n\n  .sticky-button-wrapper {\n    position: relative;\n    display: flex;\n  }\n\n  .sticky-delivery-badge {\n    position: absolute;\n    top: -8px;\n    right: -5px;\n    background: #d0021b;\n    color: #fff;\n    font-size: 8px;\n    font-weight: 800;\n    padding: 2px 6px;\n    border-radius: 4px;\n    letter-spacing: 0.5px;\n    box-shadow: 0 2px 4px rgba(0,0,0,0.2);\n    z-index: 10000;\n    white-space: nowrap;\n  }\n\n  .sticky-buy-button {\n    background: #000000;\n    color: #ffffff;\n    border: none;\n    padding: 12px 20px;\n    border-radius: 8px;\n    cursor: pointer;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    line-height: 1.1;\n    font-family: 'Poppins', sans-serif;\n    transition: transform 0.2s ease;\n  }\n  \n  .sticky-buy-button:active {\n    transform: scale(0.95);\n  }\n\n  .old-price {\n    text-decoration: line-through;\n    font-size: 11px;\n    color: #aaaaaa;\n    font-weight: 400;\n  }\n\n  .new-price {\n    font-size: 14px;\n    font-weight: 700;\n  }\n\n  @media screen and (max-width: 768px) {\n    .sticky-bar-content { gap: 10px; }\n    #sticky-timer { font-size: 18px; }\n    .sticky-delivery-badge { font-size: 7px; top: -6px; right: -2px; }\n  }\n</style>\n\n<script>\n  (function() {\n    function updateTimer() {\n      const now = new Date();\n      const hours = now.getHours();\n      const targetHour = hours < 12 ? 12 : 24;\n      const targetDate = new Date();\n      targetDate.setHours(targetHour, 0, 0, 0);\n      const diff = targetDate.getTime() - now.getTime();\n      let h = Math.floor((diff / (1000 * 60 * 60)) % 24);\n      const m = Math.floor((diff / (1000 * 60)) % 60);\n      const s = Math.floor((diff / 1000) % 60);\n      if (h === 0) { h = 12; }\n      const displayH = h < 10 ? \"0\" + h : h;\n      const displayM = m < 10 ? \"0\" + m : m;\n      const displayS = s < 10 ? \"0\" + s : s;\n      const timerEl = document.getElementById(\"sticky-timer\");\n      if(timerEl) { timerEl.innerHTML = displayH + \":\" + displayM + \":\" + displayS; }\n    }\n    \n    updateTimer();\n    setInterval(updateTimer, 1000);\n\n    // DYNAMIC SCROLL LOGIC\n    window.addEventListener('scroll', function() {\n      const bar = document.getElementById('sticky-conversion-bar');\n      // Target the main Add to Cart button in Shopify themes\n      const mainAddToCart = document.querySelector('form[action*=\"/cart/add\"] [type=\"submit\"]');\n      \n      if (mainAddToCart) {\n        const buttonRect = mainAddToCart.getBoundingClientRect();\n        // If the bottom of the main button is past the top of the screen (scrolled out of view)\n        if (buttonRect.bottom < 0) {\n          bar.style.display = 'block';\n        } else {\n          bar.style.display = 'none';\n        }\n      } else {\n        // Fallback if the button can't be found\n        if (window.scrollY > 600) {\n          bar.style.display = 'block';\n        } else {\n          bar.style.display = 'none';\n        }\n      }\n    });\n  })();\n</script>"
+          }
+        }
+      },
+      "block_order": [
+        "quantity_selector_nfGPRe",
+        "buy_buttons",
+        "liquid_4hHKNF",
+        "image_zWgNtB",
+        "liquid_YTXyKT",
+        "liquid_matJh4"
+      ],
+      "custom_css": [],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": true,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "left",
+        "transition_effect": "slide"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "description"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "image_with_text_XrnFrQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_3LGdCn": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1776767547_php85tkucdhu95s7wYZtfr_0e802301-16a7-4faa-9f82-f0d22a9e31bb.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_3LGdCn"
+      ],
+      "custom_css": [],
+      "name": "Image with text",
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "boxed",
+        "background_overlap": "both",
+        "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "custom_liquid_jz7wFY": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<style>\n  .science-section {\n    padding: 30px 20px;\n    margin-top: -90px;\n    text-align: center;\n    background-color: #fff;\n  }\n  .science-title {\n    font-size: 24px;\n    font-weight: 700;\n    margin-bottom: -15px;\n    color: #000;\n  }\n  .science-description {\n    font-size: 15px;\n    line-height: 1.6;\n    color: #444;\n    margin-bottom: 25px;\n  }\n  .tech-highlight {\n    display: flex;\n    justify-content: center;\n    gap: 15px;\n    margin-top: 20px;\n  }\n  .tech-card {\n    background: #f9f9f9;\n    padding: 10px;\n    border-radius: 8px;\n    flex: 1;\n    font-size: 13px;\n    font-weight: bold;\n  }\n</style>\n\n<div class=\"science-section\">\n  <h2 class=\"science-title\">The Science of Clearer Skin</h2>\n  <p class=\"science-description\">\n    Our <strong>\"Pop and Fade\"</strong> technology keeps high-purity actives sealed in capsules, only releasing their full potency the moment they touch your skin to <strong>eliminate stubborn dark spots.</strong>\n  </p>\n  \n  <div class=\"tech-highlight\">\n    <div class=\"tech-card\">✨ Potency</div>\n    <div class=\"tech-card\">🎯 Precision</div>\n    <div class=\"tech-card\">💧 Hydration</div>\n  </div>\n</div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "177859786984d4f648": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_cards_carousel_Vi8ibk": {
+          "type": "shopify://apps/judge-me-reviews/blocks/cards_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": false,
+            "reviews_selection": "current_product",
+            "products": [
+              "medicube-txa-niacinamide-capsule-cream-red"
+            ],
+            "star_rating": "all",
+            "show_review_media": true,
+            "display_order": "media_first",
+            "no_image_fallback": "product_image",
+            "max_reviews": 12,
+            "review_length": "medium",
+            "text_size": "medium",
+            "image_ratio": "1",
+            "reviews_shown": 4,
+            "show_reviewer_name": true,
+            "show_product_name": true,
+            "hide_arrows_mobile": false,
+            "arrows_position": "sides",
+            "max_width": 1100,
+            "corner_styling": "soft",
+            "header_text_color": "#000000",
+            "text_color": "#000000",
+            "card_color": "#f9f9f9",
+            "stars_color": "#ffc107",
+            "arrows_color": "#000000",
+            "transition_speed": 5,
+            "header_text": "Reviews",
+            "show_average_rating": false
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_cards_carousel_Vi8ibk"
+      ],
+      "custom_css": [
+        ".jdgm-widget {margin-top: -10% !important; padding-top: 0 !important;}",
+        "@media screen and (min-width: 768px) {.jdgm-widget {margin-top: -60px !important; /* Adjust this number for bigger screens */ padding-top: 0 !important; }}"
+      ],
+      "settings": {
+        "include_horizontal_margins": false,
+        "include_vertical_margins": false
+      }
+    },
+    "com_6hdjLn": {
+      "type": "com",
+      "blocks": {
+        "item_77LR69": {
+          "type": "item",
+          "settings": {
+            "row_heading": "100% Authentic Korean",
+            "first_column": "Yes",
+            "second_column": "No",
+            "third_column": "",
+            "four_column": ""
+          }
+        },
+        "item_dEPCJH": {
+          "type": "item",
+          "settings": {
+            "row_heading": "High-Purity 5% TXA + Niacinamide",
+            "first_column": "Yes",
+            "second_column": "No",
+            "third_column": "",
+            "four_column": ""
+          }
+        },
+        "item_KWPwtH": {
+          "type": "item",
+          "settings": {
+            "row_heading": "Fresh Capsule-in-Gel Technology",
+            "first_column": "Yes",
+            "second_column": "No",
+            "third_column": "",
+            "four_column": ""
+          }
+        },
+        "item_jEyeCX": {
+          "type": "item",
+          "settings": {
+            "row_heading": "High-Purity Grade",
+            "first_column": "Yes",
+            "second_column": "No",
+            "third_column": "",
+            "four_column": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_77LR69",
+        "item_dEPCJH",
+        "item_KWPwtH",
+        "item_jEyeCX"
+      ],
+      "name": "SS - Comparison Table #4",
+      "settings": {
+        "heading": "<h2>REVEAH VS OTHER BRANDS</h2>",
+        "heading_custom": false,
+        "heading_font": "assistant_n4",
+        "heading_size": 56,
+        "heading_size_mobile": 32,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "table_width": 80,
+        "table_columns": 2,
+        "table_align": "center",
+        "table_mt": 44,
+        "table_column_active": "1",
+        "table_column_active_radius": 16,
+        "table_column_active_border_thickness": 2,
+        "table_heading_image_size": 66,
+        "table_heading_image_size_mobile": 40,
+        "first_heading": "Reveah",
+        "second_heading": "other Brands",
+        "third_heading": "",
+        "four_heading": "",
+        "table_heading_custom": false,
+        "table_heading_font": "assistant_n4",
+        "table_heading_size": 16,
+        "table_heading_size_mobile": 10,
+        "table_heading_height": 100,
+        "table_heading_align": "center",
+        "table_heading_padding_horizontal": 12,
+        "table_heading_padding_horizontal_mobile": 4,
+        "table_heading_padding_vertical": 10,
+        "table_heading_padding_vertical_mobile": 10,
+        "table_row_padding_horizontal": 16,
+        "table_row_padding_horizontal_mobile": 10,
+        "table_row_padding_vertical": 16,
+        "table_row_padding_vertical_mobile": 10,
+        "table_row_border_thickness": 1,
+        "table_row_heading_image_size": 66,
+        "table_row_heading_image_size_mobile": 40,
+        "table_row_heading_width_mobile": 66,
+        "table_row_heading_custom": false,
+        "table_row_heading_font": "assistant_n4",
+        "table_row_heading_size": 22,
+        "table_row_heading_size_mobile": 16,
+        "table_row_heading_height": 130,
+        "table_row_heading_align": "left",
+        "table_row_text_custom": false,
+        "table_row_text_font": "assistant_n4",
+        "table_row_text_size": 20,
+        "table_row_text_size_mobile": 16,
+        "table_row_text_height": 130,
+        "table_row_text_align": "center",
+        "table_row_image_size": 52,
+        "table_row_image_size_mobile": 40,
+        "buttons_mt": 44,
+        "buttons_gap": 16,
+        "button": "",
+        "button_url": "",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 22,
+        "button_size_mobile": 18,
+        "button_height": 100,
+        "button_padding_vertical": 20,
+        "button_padding_horizontal": 40,
+        "button_radius": 6,
+        "button_border_thickness": 2,
+        "second_button": "",
+        "second_button_url": "",
+        "second_button_custom": false,
+        "second_button_font": "josefin_sans_n4",
+        "second_button_size": 22,
+        "second_button_size_mobile": 18,
+        "second_button_height": 100,
+        "second_button_padding_vertical": 20,
+        "second_button_padding_horizontal": 40,
+        "second_button_radius": 6,
+        "second_button_border_thickness": 2,
+        "table_heading_color": "#2f1718",
+        "table_heading_active_color": "#ffffff",
+        "table_heading_bg_active_color": "#000000",
+        "table_column_active_bg_color": "#ffffff",
+        "table_column_active_border_color": "#000000",
+        "table_row_border_color": "#d3cabc",
+        "table_row_heading_color": "#2f1718",
+        "table_row_text_color": "#2f1718",
+        "table_row_active_text_color": "#000000",
+        "button_color": "#000000",
+        "button_hover_color": "#ffffff",
+        "button_bg_color": "",
+        "button_bg_hover_color": "#000000",
+        "button_border_color": "#000000",
+        "button_border_hover_color": "#000000",
+        "second_button_color": "#ffffff",
+        "second_button_hover_color": "#ffffff",
+        "second_button_bg_color": "#000000",
+        "second_button_bg_hover_color": "#000000",
+        "second_button_border_color": "#2a3e79",
+        "second_button_border_hover_color": "#2a3e79",
+        "heading_color": "#2f1718",
+        "background_color": "#fffaed",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": false
+      }
+    },
+    "testimonials_qBKrWt": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_eG4tx4": {
+          "type": "testimonial",
+          "settings": {
+            "content": "Finally, something that actually fades my dark spots. My skin has never looked this clear! ✨",
+            "author": "Sara Hakim"
+          }
+        },
+        "testimonial_Tx6ji9": {
+          "type": "testimonial",
+          "settings": {
+            "content": "بصراحة، الفرق واضح من أول أسبوع!🥰 بشرتي صارت أصفى بكتير والحبوب خفّت بنصح فيه الكل.",
+            "author": "Nour k."
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_eG4tx4",
+        "testimonial_Tx6ji9"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "Let our Customers Speak",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#000000"
+      }
+    },
+    "faq_cbkQ3V": {
+      "type": "faq",
+      "blocks": {
+        "question_adqrYK": {
+          "type": "question",
+          "settings": {
+            "title": "Is this product 100% authentic Medicube?",
+            "answer": "<p>Yes. We guarantee 100% authenticity for all our skincare products. Each unit is sourced directly and includes a quality seal for your protection.</p>"
+          }
+        },
+        "question_TDP7NK": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to receive my order?",
+            "answer": "<p>We offer free delivery across Lebanon. Orders typically arrive within 3–5 business days from the date of purchase.</p>"
+          }
+        },
+        "question_hPGXCN": {
+          "type": "question",
+          "settings": {
+            "title": "What payment methods do you accept?",
+            "answer": "<p><br/>We offer <strong>Cash on Delivery (COD)</strong> for all orders, allowing you to pay safely and conveniently when your package arrives at your door.</p>"
+          }
+        },
+        "question_7Rxwez": {
+          "type": "question",
+          "settings": {
+            "title": "What are the main benefits of using 5% Niacinamide and TXA together?",
+            "answer": "<p>This powerful combination targets skin clarity from two angles: Tranexamic Acid (TXA) helps improve uneven skin tone and fading blemishes, while 5% Niacinamide revives dullness and smooths skin texture for a refreshed look.</p>"
+          }
+        },
+        "question_Pzgd7t": {
+          "type": "question",
+          "settings": {
+            "title": "What makes the TXA Niacinamide Capsule Cream different from regular moisturizers?",
+            "answer": "<p>Unlike traditional creams, this formula features a unique capsule-in-gel texture. Each capsule contains high-purity ingredients that are freshly released upon application to ensure maximum potency and targeted results for your skin.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_adqrYK",
+        "question_TDP7NK",
+        "question_hPGXCN",
+        "question_7Rxwez",
+        "question_Pzgd7t"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "custom_css": [
+        "h3 {font-size: 20px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "You may also like",
+        "recommendations_count": 4,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-content",
+    "image_with_text_XrnFrQ",
+    "custom_liquid_jz7wFY",
+    "177859786984d4f648",
+    "com_6hdjLn",
+    "testimonials_qBKrWt",
+    "faq_cbkQ3V",
+    "product-recommendations"
+  ]
+}
