@@ -2,7 +2,13 @@
 
 
 <style>
- 
+ /* Remove line under product rating */
+.shopify-section--main-product .product-rating, 
+.shopify-section--main-product .rating-wrapper {
+  border-bottom: none !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
   #shopify-section-{{ section.id }} {
     {%- assign buy_buttons_block = section.blocks | where: 'type', 'buy_buttons' | first -%}
 
