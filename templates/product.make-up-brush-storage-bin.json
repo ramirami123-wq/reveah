@@ -112,6 +112,39 @@
       "name": "Marquee",
       "settings": {}
     },
+    "image_with_text_f7YVxJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_9fLTE8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/H8183864cf5144898bacd5aa951a7da6ac.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Say Goodbye to Vanity Clutter",
+            "content": "<p>Transform your vanity instantly. This elegant organizer keeps your daily essentials neatly sorted, dust-free, and always within reach.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_9fLTE8"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "boxed",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "product-content": {
       "type": "product-content",
       "blocks": {
@@ -137,39 +170,6 @@
         "recommendations_count": 4,
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
-      }
-    },
-    "image_with_text_f7YVxJ": {
-      "type": "image-with-text",
-      "blocks": {
-        "item_9fLTE8": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/H8183864cf5144898bacd5aa951a7da6ac.jpg",
-            "tab_label": "",
-            "subheading": "",
-            "title": "",
-            "content": "",
-            "button_text": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_9fLTE8"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "reveal_on_scroll": true,
-        "background_type": "boxed",
-        "background_overlap": "image",
-        "image_position": "left",
-        "text_alignment": "center",
-        "cycle_speed": 8,
-        "accent_background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)",
-        "button_background": "rgba(0,0,0,0)",
-        "button_text_color": "rgba(0,0,0,0)"
       }
     }
   },
