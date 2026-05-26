@@ -12,6 +12,10 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "judge_me_reviews_preview_badge_QGeGTx": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
         "pumper_bundles_app_block_qb_YQWWEQ": {
           "type": "shopify://apps/pumper-bundles/blocks/app-block-qb/0856870d-2aca-4b1e-a662-cf1797f61270",
           "settings": {
@@ -32,6 +36,7 @@
         }
       },
       "block_order": [
+        "judge_me_reviews_preview_badge_QGeGTx",
         "pumper_bundles_app_block_qb_YQWWEQ",
         "buy_buttons_mhXrEJ"
       ],
@@ -42,7 +47,7 @@
         "show_vendor": false,
         "show_sku": false,
         "show_taxes_included": false,
-        "show_product_rating": true,
+        "show_product_rating": false,
         "show_sticky_add_to_cart": true,
         "show_share_buttons": false,
         "help_page": "",
