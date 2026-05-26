@@ -33,7 +33,7 @@
         "h1,h2,h3,h4,h5,p {padding: 0px;}"
       ],
       "settings": {
-        "announcement_bar_position": "non_sticky",
+        "announcement_bar_position": "sticky_mobile",
         "announcement_text_size": "small",
         "autoplay": false,
         "cycle_speed": 3,
