@@ -33,12 +33,21 @@
             "buy_now_button_background": "rgba(0,0,0,0)",
             "buy_now_button_text_color": "rgba(0,0,0,0)"
           }
+        },
+        "image_cLdjBd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Hc8513794789b4daba11385e9a20c809eM_480x480_1720172b-380f-408d-8ec6-00ec89e14c45.webp",
+            "image_alignment": "center",
+            "image_width": 500
+          }
         }
       },
       "block_order": [
         "judge_me_reviews_preview_badge_QGeGTx",
         "pumper_bundles_app_block_qb_YQWWEQ",
-        "buy_buttons_mhXrEJ"
+        "buy_buttons_mhXrEJ",
+        "image_cLdjBd"
       ],
       "custom_css": [
         "[id*=\"pumper\"],.pumper-container,div[class*=\"pumper-\"] {margin-top: -20px !important; position: relative; z-index: 2;}",
@@ -59,41 +68,6 @@
         "show_thumbnails_on_mobile": false,
         "desktop_thumbnails_position": "left",
         "transition_effect": "slide"
-      }
-    },
-    "slideshow_A4R6Rk": {
-      "type": "slideshow",
-      "blocks": {
-        "image_4tNAAW": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/41wz95YlfAL._AC_UF1000_1000_QL80.jpg",
-            "text_position": "middle_center",
-            "subheading": "Tell your story",
-            "title": "Slide 1",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "image_4tNAAW"
-      ],
-      "name": "Slideshow",
-      "settings": {
-        "section_height": "small",
-        "transition_type": "sweep",
-        "show_initial_transition": false,
-        "autoplay": true,
-        "cycle_speed": 5,
-        "background": "rgba(0,0,0,0)"
       }
     },
     "product-content": {
@@ -126,7 +100,6 @@
   },
   "order": [
     "main",
-    "slideshow_A4R6Rk",
     "product-content",
     "product-recommendations"
   ]
