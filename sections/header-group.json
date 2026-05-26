@@ -54,7 +54,7 @@
         "sidebar_navigation_menu": "",
         "header_layout": "logo_left_navigation_center",
         "show_icons": false,
-        "reduce_desktop_padding": false,
+        "reduce_desktop_padding": true,
         "show_locale_selector": true,
         "show_country_selector": false,
         "enable_transparent_header": false,
