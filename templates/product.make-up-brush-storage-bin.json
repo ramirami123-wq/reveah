@@ -33,30 +33,12 @@
             "buy_now_button_background": "rgba(0,0,0,0)",
             "buy_now_button_text_color": "rgba(0,0,0,0)"
           }
-        },
-        "image_wzNNCf": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Hc8513794789b4daba11385e9a20c809eM_480x480_1720172b-380f-408d-8ec6-00ec89e14c45.webp",
-            "image_alignment": "center",
-            "image_width": 500
-          }
-        },
-        "image_zbpCY3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Untitledvideo-MadewithClipchamp-ezgif.com-optimize_3ec16634-d29d-47cd-883c-7c89589c083a_1.webp",
-            "image_alignment": "center",
-            "image_width": 500
-          }
         }
       },
       "block_order": [
         "judge_me_reviews_preview_badge_QGeGTx",
         "pumper_bundles_app_block_qb_YQWWEQ",
-        "buy_buttons_mhXrEJ",
-        "image_wzNNCf",
-        "image_zbpCY3"
+        "buy_buttons_mhXrEJ"
       ],
       "custom_css": [
         "[id*=\"pumper\"],.pumper-container,div[class*=\"pumper-\"] {margin-top: -20px !important; position: relative; z-index: 2;}",
@@ -77,6 +59,22 @@
         "show_thumbnails_on_mobile": false,
         "desktop_thumbnails_position": "left",
         "transition_effect": "slide"
+      }
+    },
+    "video_WCUCwp": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video": "shopify://files/videos/download.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "background_type": "boxed",
+        "video_size": "auto",
+        "autoplay": true,
+        "show_video_controls": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     },
     "product-content": {
@@ -105,28 +103,12 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
-    },
-    "video_WCUCwp": {
-      "type": "video",
-      "name": "Video",
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "video": "shopify://files/videos/download.mp4",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "background_type": "full_width",
-        "video_size": "auto",
-        "autoplay": true,
-        "show_video_controls": false,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
     }
   },
   "order": [
     "main",
+    "video_WCUCwp",
     "product-content",
-    "product-recommendations",
-    "video_WCUCwp"
+    "product-recommendations"
   ]
 }
