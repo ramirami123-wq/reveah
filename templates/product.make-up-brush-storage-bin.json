@@ -145,33 +145,6 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "product-content": {
-      "type": "product-content",
-      "blocks": {
-        "description": {
-          "type": "description",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "description"
-      ],
-      "disabled": true,
-      "settings": {}
-    },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "custom_css": [
-        "h3 {font-size: 20px;}"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "You may also like",
-        "recommendations_count": 4,
-        "background": "rgba(0,0,0,0)",
-        "text_color": "rgba(0,0,0,0)"
-      }
-    },
     "blocks_34NbxY": {
       "type": "_blocks",
       "blocks": {
@@ -206,6 +179,33 @@
       ],
       "name": "Marquee",
       "settings": {}
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "description"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "custom_css": [
+        "h3 {font-size: 20px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "You may also like",
+        "recommendations_count": 4,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -213,8 +213,8 @@
     "video_WCUCwp",
     "blocks_rYEGty",
     "image_with_text_f7YVxJ",
+    "blocks_34NbxY",
     "product-content",
-    "product-recommendations",
-    "blocks_34NbxY"
+    "product-recommendations"
   ]
 }
