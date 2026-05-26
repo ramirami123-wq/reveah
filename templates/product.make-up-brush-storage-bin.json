@@ -171,6 +171,41 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
+    },
+    "blocks_34NbxY": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_adef03d_eXrPDU": {
+          "type": "ai_gen_block_adef03d",
+          "settings": {
+            "text_1": "Dust & Moisture Resistant",
+            "text_2": "Seven compartments",
+            "text_3": "",
+            "text_4": "",
+            "show_icon": true,
+            "icon_type": "star",
+            "icon_size": 20,
+            "icon_color": "#ffffff",
+            "icon_text_spacing": 8,
+            "text_size": 16,
+            "text_weight": "500",
+            "text_transform": "none",
+            "text_color": "#ffffff",
+            "speed": 30,
+            "pause_on_hover": true,
+            "item_spacing": 60,
+            "padding_vertical": 20,
+            "desktop_width_percent": 100,
+            "background_color": "#000000"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_adef03d_eXrPDU"
+      ],
+      "name": "Marquee",
+      "settings": {}
     }
   },
   "order": [
@@ -179,6 +214,7 @@
     "blocks_rYEGty",
     "image_with_text_f7YVxJ",
     "product-content",
-    "product-recommendations"
+    "product-recommendations",
+    "blocks_34NbxY"
   ]
 }
