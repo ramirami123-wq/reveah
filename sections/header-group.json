@@ -34,8 +34,8 @@
       ],
       "settings": {
         "announcement_bar_position": "non_sticky",
-        "announcement_text_size": "normal",
-        "autoplay": true,
+        "announcement_text_size": "small",
+        "autoplay": false,
         "cycle_speed": 3,
         "background": "#000000",
         "text_color": "#ffffff",
