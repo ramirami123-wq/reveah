@@ -96,7 +96,7 @@
             "text_weight": "500",
             "text_transform": "none",
             "text_color": "#ffffff",
-            "speed": 30,
+            "speed": 15,
             "pause_on_hover": true,
             "item_spacing": 60,
             "padding_vertical": 20,
