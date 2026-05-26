@@ -42,7 +42,7 @@
       ],
       "custom_css": [
         "[id*=\"pumper\"],.pumper-container,div[class*=\"pumper-\"] {margin-top: -15px !important; position: relative; z-index: 2;}",
-        "@media screen and (max-width: 749px) {.jdgm-preview-badge {margin-top: -14% !important; margin-bottom: 5px !important; padding: 0 !important; }}"
+        "@media screen and (max-width: 749px) {.jdgm-preview-badge {margin-top: -13% !important; margin-bottom: 5px !important; padding: 0 !important; }}"
       ],
       "settings": {
         "show_vendor": false,
