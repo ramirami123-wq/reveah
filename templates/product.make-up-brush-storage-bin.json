@@ -67,6 +67,7 @@
         "image_4tNAAW": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/41wz95YlfAL._AC_UF1000_1000_QL80.jpg",
             "text_position": "middle_center",
             "subheading": "Tell your story",
             "title": "Slide 1",
@@ -80,28 +81,10 @@
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
-        },
-        "image_7FCHtb": {
-          "type": "image",
-          "settings": {
-            "text_position": "middle_center",
-            "subheading": "Tell your story",
-            "title": "Slide 2",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
         }
       },
       "block_order": [
-        "image_4tNAAW",
-        "image_7FCHtb"
+        "image_4tNAAW"
       ],
       "name": "Slideshow",
       "settings": {
