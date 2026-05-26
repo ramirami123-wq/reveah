@@ -49,7 +49,7 @@
         "enable_sticky_header": false,
         "logo": "shopify://shop_images/lolo.png",
         "logo_max_width": 110,
-        "mobile_logo_max_width": 65,
+        "mobile_logo_max_width": 70,
         "navigation_menu": "main-menu",
         "sidebar_navigation_menu": "",
         "header_layout": "logo_left_navigation_center",
