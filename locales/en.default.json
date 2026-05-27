@@ -168,7 +168,7 @@
       "discount_html": "Save {{ savings }} ",
       "from_price_html": "From {{ price_min }}",
       "add_to_cart": "+ Add to cart",
-      "add_to_cart_short": "+ Buy Now",
+      "add_to_cart_short": "+ Add to cart",
       "quick_view": "Quick view",
       "available_colors_count": {
         "one": "{{ count }} color available",
@@ -208,7 +208,7 @@
       "variant": "Variant",
       "unavailable": "Unavailable",
       "pre_order": "Pre-order",
-      "add_to_cart": "Add to cart →",
+      "add_to_cart": "Buy Now",
       "sold_out": "Sold out",
       "in_stock": "In stock",
       "oversell_stock": "Re-stocking soon",
