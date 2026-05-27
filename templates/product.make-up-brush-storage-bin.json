@@ -187,7 +187,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/41wz95YlfAL._AC_UF1000_1000_QL80.jpg",
+            "image": "shopify://shop_images/H283553c50fce409b88a2f1c9bc92499bp_212ea0ef-776c-4891-9d2f-0f7b26be09f0.webp",
             "subheading": "",
             "title": "",
             "link_text": "",
@@ -238,13 +238,28 @@
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
+        },
+        "collection_PHVHHf": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/71W5LePOCNL._AC_SL1500.webp",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
         }
       },
       "block_order": [
         "collection_Awt7tq",
         "collection_8aaBwJ",
         "collection_GRcYm3",
-        "collection_jBCJTh"
+        "collection_jBCJTh",
+        "collection_PHVHHf"
       ],
       "name": "Collection list",
       "settings": {
