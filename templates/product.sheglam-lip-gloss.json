@@ -74,8 +74,8 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "video": "shopify://files/videos/download.mp4",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video": "shopify://files/videos/download (1).mp4",
+        "video_url": "",
         "background_type": "boxed",
         "video_size": "auto",
         "autoplay": true,
@@ -90,11 +90,11 @@
         "ai_gen_block_adef03d_xUtBJJ": {
           "type": "ai_gen_block_adef03d",
           "settings": {
-            "text_1": "360° Smooth Rotation",
-            "text_2": "Compact & Spacious",
-            "text_3": "Spin. Select. Style",
-            "text_4": "",
-            "show_icon": true,
+            "text_1": "💋 Ultra-Glossy Finish",
+            "text_2": "💧 Moisturizing Formula",
+            "text_3": "✨ Non-Sticky Comfort",
+            "text_4": "🎁 Trendy & Affordable ",
+            "show_icon": false,
             "icon_type": "star",
             "icon_size": 20,
             "icon_color": "#ffffff",
