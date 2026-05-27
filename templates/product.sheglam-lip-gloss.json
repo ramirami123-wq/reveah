@@ -194,7 +194,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/H283553c50fce409b88a2f1c9bc92499bp_212ea0ef-776c-4891-9d2f-0f7b26be09f0.webp",
+            "image": "shopify://shop_images/Screenshot_20260528_003216_SHEIN.jpg",
             "subheading": "",
             "title": "",
             "link_text": "",
@@ -208,7 +208,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/H5854d40392b14be29fcfe95054d2c16cv.webp",
+            "image": "shopify://shop_images/Screenshot_20260528_003243_SHEIN.jpg",
             "subheading": "",
             "title": "",
             "link_text": "",
@@ -222,49 +222,7 @@
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify://shop_images/H3eb7ec163a6442be9d96c21b52beb5ecu_9bcbb018-bc31-4ccd-b3e4-b64171bea4cf.webp",
-            "subheading": "",
-            "title": "",
-            "link_text": "",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_jBCJTh": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/Hc8513794789b4daba11385e9a20c809eM_480x480_e27752b4-68f0-4f6a-a5d5-0c29439ccd01.webp",
-            "subheading": "",
-            "title": "",
-            "link_text": "",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_PHVHHf": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/71W5LePOCNL._AC_SL1500.webp",
-            "subheading": "",
-            "title": "",
-            "link_text": "",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_XQjxHq": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/Hefce3b04738c4f3288970a62a4307f25V_1.webp",
+            "image": "shopify://shop_images/Screenshot_20260528_003301_SHEIN.jpg",
             "subheading": "",
             "title": "",
             "link_text": "",
@@ -278,10 +236,7 @@
       "block_order": [
         "collection_Awt7tq",
         "collection_8aaBwJ",
-        "collection_GRcYm3",
-        "collection_jBCJTh",
-        "collection_PHVHHf",
-        "collection_XQjxHq"
+        "collection_GRcYm3"
       ],
       "name": "Collection list",
       "settings": {
