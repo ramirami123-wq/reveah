@@ -23,6 +23,12 @@
             "using_page_builder": false
           }
         },
+        "text_wMrBWx": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>*Contact Us For More Information*</em></p>"
+          }
+        },
         "buy_buttons_mhXrEJ": {
           "type": "buy_buttons",
           "settings": {
@@ -38,6 +44,7 @@
       "block_order": [
         "judge_me_reviews_preview_badge_QGeGTx",
         "pumper_bundles_app_block_qb_YQWWEQ",
+        "text_wMrBWx",
         "buy_buttons_mhXrEJ"
       ],
       "custom_css": [
