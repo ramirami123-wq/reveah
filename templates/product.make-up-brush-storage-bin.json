@@ -252,6 +252,20 @@
             "overlay_color": "#000000",
             "overlay_opacity": 30
           }
+        },
+        "collection_XQjxHq": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Hefce3b04738c4f3288970a62a4307f25V_1.webp",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
         }
       },
       "block_order": [
@@ -259,7 +273,8 @@
         "collection_8aaBwJ",
         "collection_GRcYm3",
         "collection_jBCJTh",
-        "collection_PHVHHf"
+        "collection_PHVHHf",
+        "collection_XQjxHq"
       ],
       "name": "Collection list",
       "settings": {
