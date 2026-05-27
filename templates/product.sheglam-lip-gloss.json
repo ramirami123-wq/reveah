@@ -47,11 +47,7 @@
         "liquid_TtqEQC",
         "buy_buttons_mhXrEJ"
       ],
-      "custom_css": [
-        "[id*=\"pumper\"],.pumper-container,div[class*=\"pumper-\"] {margin-top: -10px !important; position: relative; z-index: 2;}",
-        "@media screen and (max-width: 749px) {.jdgm-preview-badge {margin-top: -13% !important; margin-bottom: 5px !important; padding: 0 !important; }}",
-        "@media screen and (min-width: 750px) {.jdgm-preview-badge {margin-top: -10% !important; margin-bottom: 12px; padding: 0; }}"
-      ],
+      "custom_css": [],
       "settings": {
         "show_vendor": false,
         "show_sku": false,
