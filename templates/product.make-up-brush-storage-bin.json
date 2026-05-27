@@ -26,7 +26,7 @@
         "liquid_e3chmr": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"bought-text\">\n  <span class=\"number\">600+</span><span class=\"grey-text\"> bought in past month</span>\n</div>\n\n<style>\n.bought-text{\n  text-align:center;\n  font-weight:700;\n  font-size:20px;\n  color:#111;\n  margin-bottom:10px;\n  margin-top:-40px;\n  line-height:1.2;\n}\n\n.number{\n  color:#111;\n}\n\n.grey-text{\n  color:#777;\n  font-weight:600;\n}\n\n/* Tablet */\n@media screen and (max-width:768px){\n  .bought-text{\n    font-size:18px;\n  }\n}\n\n/* Small phones */\n@media screen and (max-width:480px){\n  .bought-text{\n    font-size:13px;\n  }\n}\n</style>"
+            "liquid": "<div class=\"bought-text\">\n  <span class=\"number\">600+</span><span class=\"grey-text\"> bought in past month</span>\n</div>\n\n<style>\n@media (min-width: 769px) {\n  .bought-text { display: none; }\n}\n.bought-text{\n  text-align:center;\n  font-weight:700;\n  font-size:20px;\n  color:#111;\n  margin-bottom:10px;\n  margin-top:-40px;\n  line-height:1.2;\n}\n\n.number{\n  color:#111;\n}\n\n.grey-text{\n  color:#777;\n  font-weight:600;\n}\n\n/* Tablet */\n@media screen and (max-width:768px){\n  .bought-text{\n    font-size:18px;\n  }\n}\n\n/* Small phones */\n@media screen and (max-width:480px){\n  .bought-text{\n    font-size:13px;\n  }\n}\n</style>"
           }
         },
         "liquid_TtqEQC": {
