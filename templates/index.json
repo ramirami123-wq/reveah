@@ -15,7 +15,7 @@
         "image_pMTVDn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Untitledvideo-MadewithClipchamp-ezgif.com-optimize_3ec16634-d29d-47cd-883c-7c89589c083a_1.webp",
+            "image": "shopify://shop_images/H7e5690eae5ea4e429ddb288550ab838ce.jpg",
             "mobile_image": "shopify://shop_images/H7e5690eae5ea4e429ddb288550ab838ce.jpg",
             "text_position": "middle_center",
             "subheading": "✨ LUXURY BEAUTY ESSENTIALS",
@@ -130,19 +130,6 @@
             "overlay_opacity": 30
           }
         },
-        "collection_jGXEUh": {
-          "type": "collection",
-          "settings": {
-            "collection": "products",
-            "subheading": "",
-            "title": "",
-            "link_text": "",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
         "collection_4dtCCP": {
           "type": "collection",
           "settings": {
@@ -211,7 +198,6 @@
       },
       "block_order": [
         "collection_B3bX7J",
-        "collection_jGXEUh",
         "collection_4dtCCP",
         "collection_YbD9pM",
         "collection_EXyCmz",
