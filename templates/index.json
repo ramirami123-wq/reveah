@@ -172,6 +172,16 @@
     "featured_product_jcWeLg": {
       "type": "featured-product",
       "blocks": {
+        "variant_picker_8JfbMY": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "none",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
         "quantity_selector_78NMmB": {
           "type": "quantity_selector",
           "settings": {}
@@ -189,6 +199,7 @@
         }
       },
       "block_order": [
+        "variant_picker_8JfbMY",
         "quantity_selector_78NMmB",
         "buy_buttons_YxTGhb"
       ],
