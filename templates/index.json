@@ -114,102 +114,112 @@
         "text_color": "#000000"
       }
     },
-    "collection_list_ArhfHV": {
-      "type": "collection-list",
+    "featured_product_YDq7pa": {
+      "type": "featured-product",
       "blocks": {
-        "collection_B3bX7J": {
-          "type": "collection",
+        "variant_picker_AkHpzQ": {
+          "type": "variant_picker",
           "settings": {
-            "collection": "products",
-            "subheading": "",
-            "title": "",
-            "link_text": "",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
           }
         },
-        "collection_4dtCCP": {
-          "type": "collection",
-          "settings": {
-            "collection": "makeup",
-            "subheading": "",
-            "title": "",
-            "link_text": "",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
+        "quantity_selector_h4br63": {
+          "type": "quantity_selector",
+          "settings": {}
         },
-        "collection_YbD9pM": {
-          "type": "collection",
+        "buy_buttons_bGwfwG": {
+          "type": "buy_buttons",
           "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "link_text": "",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_EXyCmz": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "link_text": "",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_BEghNe": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "link_text": "",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_BEeNUz": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "link_text": "",
-            "link_url": "",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
           }
         }
       },
       "block_order": [
-        "collection_B3bX7J",
-        "collection_4dtCCP",
-        "collection_YbD9pM",
-        "collection_EXyCmz",
-        "collection_BEghNe",
-        "collection_BEeNUz"
+        "variant_picker_AkHpzQ",
+        "quantity_selector_h4br63",
+        "buy_buttons_bGwfwG"
       ],
-      "name": "Collection list",
+      "name": "Featured product",
       "settings": {
-        "reveal_on_scroll": true,
-        "layout": "grid",
-        "subheading": "Subheading",
-        "title": "Collection list",
+        "product": "make-up-brush-storage-bin",
+        "subheading": "Products",
+        "title": "Featured product",
+        "show_vendor": true,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": true,
+        "show_share_buttons": true,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "featured_product_jcWeLg": {
+      "type": "featured-product",
+      "blocks": {
+        "variant_picker_Lk9Pbm": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_78NMmB": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_YxTGhb": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "variant_picker_Lk9Pbm",
+        "quantity_selector_78NMmB",
+        "buy_buttons_YxTGhb"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "product": "sheglam-lip-gloss",
+        "subheading": "",
+        "title": "",
+        "show_vendor": true,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": true,
+        "show_share_buttons": true,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "bottom",
+        "transition_effect": "slide",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
@@ -312,7 +322,8 @@
   "order": [
     "slideshow_j8D4he",
     "multi_column_agU6dC",
-    "collection_list_ArhfHV",
+    "featured_product_YDq7pa",
+    "featured_product_jcWeLg",
     "rich_text_8iDkdx",
     "blocks_hek9nx",
     "faq_cK3d7r",
