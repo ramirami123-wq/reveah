@@ -57,7 +57,7 @@
       "custom_css": [
         "[id*=\"pumper\"],.pumper-container,div[class*=\"pumper-\"] {margin-top: -20px !important; position: relative; z-index: 2;}",
         "@media screen and (max-width: 749px) {.jdgm-preview-badge {margin-top: -10% !important; margin-bottom: 5px !important; padding: 0 !important; }}",
-        "@media screen and (min-width: 750px) {.jdgm-preview-badge {margin-top: -7% !important; margin-bottom: 12px; padding: 0; }}"
+        "@media screen and (min-width: 750px) {.jdgm-preview-badge {margin-top: 0% !important; margin-bottom: 12px; padding: 0; }}"
       ],
       "settings": {
         "show_vendor": false,
