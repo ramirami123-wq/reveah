@@ -76,12 +76,13 @@
     },
     "video_WCUCwp": {
       "type": "video",
+      "disabled": true,
       "name": "Video",
       "settings": {
         "subheading": "",
         "title": "",
-        "video": "shopify://files/videos/62yfmi-h264-hd.mp4",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_url": "",
+        "image": "shopify://shop_images/1762268156_phptm7gprbmvujufOSOl8a.webp",
         "background_type": "boxed",
         "video_size": "auto",
         "autoplay": true,
@@ -90,40 +91,28 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
-    "blocks_rYEGty": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_adef03d_xUtBJJ": {
-          "type": "ai_gen_block_adef03d",
-          "settings": {
-            "text_1": "Anti-Tangle ",
-            "text_2": "Automatic Shut-Off",
-            "text_3": "3 Temperatures",
-            "text_4": "",
-            "show_icon": true,
-            "icon_type": "star",
-            "icon_size": 20,
-            "icon_color": "#ffffff",
-            "icon_text_spacing": 4,
-            "text_size": 16,
-            "text_weight": "500",
-            "text_transform": "none",
-            "text_color": "#ffffff",
-            "speed": 15,
-            "pause_on_hover": true,
-            "item_spacing": 60,
-            "padding_vertical": 20,
-            "desktop_width_percent": 100,
-            "background_color": "#000000"
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_adef03d_xUtBJJ"
-      ],
-      "name": "Marquee",
-      "settings": {}
+    "image_with_text_overlay_FcBQV9": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify://shop_images/1762268156_phptm7gprbmvujufOSOl8a.webp",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
     },
     "image_with_text_f7YVxJ": {
       "type": "image-with-text",
@@ -131,11 +120,11 @@
         "item_9fLTE8": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/H52f41f69f17248cf9d36b29099a4dffbm.jpg",
+            "image": "shopify://shop_images/1762268156_php2cp0invc5ab22CU20Lr.webp",
             "tab_label": "",
             "subheading": "",
-            "title": "Precision Styling Made Simple",
-            "content": "<p>Ditch the complex beauty routine. This automatic curler features three temperature modes (160C to 200C) to match your hair type, plus dual-direction buttons for easy, salon-grade curls at home.</p>",
+            "title": "The Ultimate Post-Shower Essential",
+            "content": "<p>Our <strong>Quick Dry Hair Wrap</strong> cuts your drying time in half while completely eliminating frizz and friction. It’s lightweight, securely buttons in place, and keeps your hair protected so you can get ready hands-free.</p>",
             "button_text": "",
             "button_link": ""
           }
@@ -351,7 +340,7 @@
   "order": [
     "main",
     "video_WCUCwp",
-    "blocks_rYEGty",
+    "image_with_text_overlay_FcBQV9",
     "image_with_text_f7YVxJ",
     "blocks_34NbxY",
     "collection_list_fpeCdF",
