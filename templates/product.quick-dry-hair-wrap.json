@@ -153,9 +153,9 @@
         "ai_gen_block_adef03d_eXrPDU": {
           "type": "ai_gen_block_adef03d",
           "settings": {
-            "text_1": "Effortless Automatic Curls",
-            "text_2": "3 Smart Temperature Modes",
-            "text_3": "Dual-Direction Rotation",
+            "text_1": "NO MORE FRIZZ",
+            "text_2": "PREMIUM MICROFIBER QUALITY",
+            "text_3": "PREMIUM QUALITY",
             "text_4": "",
             "show_icon": true,
             "icon_type": "star",
@@ -278,6 +278,7 @@
         "collection_PHVHHf",
         "collection_XQjxHq"
       ],
+      "disabled": true,
       "name": "Collection list",
       "settings": {
         "reveal_on_scroll": false,
