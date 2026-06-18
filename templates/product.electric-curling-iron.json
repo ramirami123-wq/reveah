@@ -1,0 +1,363 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "judge_me_reviews_preview_badge_QGeGTx": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "pumper_bundles_app_block_qb_YQWWEQ": {
+          "type": "shopify://apps/pumper-bundles/blocks/app-block-qb/0856870d-2aca-4b1e-a662-cf1797f61270",
+          "settings": {
+            "selected_product": "make-up-brush-storage-bin",
+            "using_page_builder": false
+          }
+        },
+        "liquid_e3chmr": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"bought-text\">\n  <span class=\"number\">600+</span><span class=\"grey-text\"> bought in past month</span>\n</div>\n\n<style>\n.bought-text{\n  text-align:center;\n  font-weight:700;\n  font-size:20px;\n  color:#111;\n  margin-bottom:10px;\n  margin-top:-40px;\n  line-height:1.2;\n}\n\n.number{\n  color:#111;\n}\n\n.grey-text{\n  color:#777;\n  font-weight:600;\n}\n\n/* Tablet */\n@media screen and (max-width:768px){\n  .bought-text{\n    font-size:18px;\n  }\n}\n\n/* Small phones */\n@media screen and (max-width:480px){\n  .bought-text{\n    font-size:13px;\n  }\n}\n</style>"
+          }
+        },
+        "liquid_TtqEQC": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"risk-free-box\">\n  ✅ RISK FREE! Get a refund and keep the item.\n</div>\n\n<style>\n.risk-free-box{\n  background: linear-gradient(90deg,#27ae60,#2ecc71);\n  color: white;\n  \n  display: flex;\n  align-items: center;\n  justify-content: center;\n  \n  text-align: center;\n  white-space: nowrap;\n\n  padding: 10px 14px;\n  border-radius: 8px;\n\n  font-weight: 700;\n  font-size: 14px;\n\n  margin-top: -65px;\n  width: 100%;\n  box-sizing: border-box;\n}\n\n/* Mobile */\n@media screen and (max-width: 768px){\n  \n  .risk-free-box{\n    font-size: 13px;\n    padding: 9px 10px;\n margin-top: -35px;\n  }\n}\n\n/* Small phones */\n@media screen and (max-width: 480px){\n  .risk-free-box{\n    font-size: 12px;\n    letter-spacing: -0.2px;\n  }\n}\n</style>"
+          }
+        },
+        "buy_buttons_mhXrEJ": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "rgba(0,0,0,0)",
+            "atc_button_text_color": "rgba(0,0,0,0)",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_preview_badge_QGeGTx",
+        "pumper_bundles_app_block_qb_YQWWEQ",
+        "liquid_e3chmr",
+        "liquid_TtqEQC",
+        "buy_buttons_mhXrEJ"
+      ],
+      "custom_css": [
+        "[id*=\"pumper\"],.pumper-container,div[class*=\"pumper-\"] {margin-top: -20px !important; position: relative; z-index: 2;}",
+        "@media screen and (max-width: 749px) {.jdgm-preview-badge {margin-top: -13% !important; margin-bottom: 5px !important; padding: 0 !important; }}",
+        "@media screen and (min-width: 750px) {.jdgm-preview-badge {margin-top: -10% !important; margin-bottom: 12px; padding: 0; }}"
+      ],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "left",
+        "transition_effect": "slide"
+      }
+    },
+    "video_WCUCwp": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "video": "shopify://files/videos/download.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "background_type": "boxed",
+        "video_size": "auto",
+        "autoplay": true,
+        "show_video_controls": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "blocks_rYEGty": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_adef03d_xUtBJJ": {
+          "type": "ai_gen_block_adef03d",
+          "settings": {
+            "text_1": "360° Smooth Rotation",
+            "text_2": "Compact & Spacious",
+            "text_3": "Spin. Select. Style",
+            "text_4": "",
+            "show_icon": true,
+            "icon_type": "star",
+            "icon_size": 20,
+            "icon_color": "#ffffff",
+            "icon_text_spacing": 8,
+            "text_size": 16,
+            "text_weight": "500",
+            "text_transform": "none",
+            "text_color": "#ffffff",
+            "speed": 15,
+            "pause_on_hover": true,
+            "item_spacing": 60,
+            "padding_vertical": 20,
+            "desktop_width_percent": 100,
+            "background_color": "#000000"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_adef03d_xUtBJJ"
+      ],
+      "name": "Marquee",
+      "settings": {}
+    },
+    "image_with_text_f7YVxJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "item_9fLTE8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/H8183864cf5144898bacd5aa951a7da6ac.jpg",
+            "tab_label": "",
+            "subheading": "",
+            "title": "Say Goodbye to Vanity Clutter",
+            "content": "<p>Transform your vanity instantly. This elegant organizer keeps your daily essentials neatly sorted, dust-free, and always within reach.</p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_9fLTE8"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "boxed",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "blocks_34NbxY": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_adef03d_eXrPDU": {
+          "type": "ai_gen_block_adef03d",
+          "settings": {
+            "text_1": "Dust & Moisture Resistant",
+            "text_2": "Seven compartments",
+            "text_3": "",
+            "text_4": "",
+            "show_icon": true,
+            "icon_type": "star",
+            "icon_size": 20,
+            "icon_color": "#ffffff",
+            "icon_text_spacing": 8,
+            "text_size": 16,
+            "text_weight": "500",
+            "text_transform": "none",
+            "text_color": "#ffffff",
+            "speed": 30,
+            "pause_on_hover": true,
+            "item_spacing": 60,
+            "padding_vertical": 20,
+            "desktop_width_percent": 100,
+            "background_color": "#000000"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_adef03d_eXrPDU"
+      ],
+      "name": "Marquee",
+      "settings": {}
+    },
+    "collection_list_fpeCdF": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_Awt7tq": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/H283553c50fce409b88a2f1c9bc92499bp_212ea0ef-776c-4891-9d2f-0f7b26be09f0.webp",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_8aaBwJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/H5854d40392b14be29fcfe95054d2c16cv.webp",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_GRcYm3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/H3eb7ec163a6442be9d96c21b52beb5ecu_9bcbb018-bc31-4ccd-b3e4-b64171bea4cf.webp",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_jBCJTh": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Hc8513794789b4daba11385e9a20c809eM_480x480_e27752b4-68f0-4f6a-a5d5-0c29439ccd01.webp",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_PHVHHf": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/71W5LePOCNL._AC_SL1500.webp",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_XQjxHq": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/Hefce3b04738c4f3288970a62a4307f25V_1.webp",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_Awt7tq",
+        "collection_8aaBwJ",
+        "collection_GRcYm3",
+        "collection_jBCJTh",
+        "collection_PHVHHf",
+        "collection_XQjxHq"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "reveal_on_scroll": false,
+        "layout": "carousel",
+        "subheading": "",
+        "title": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "description"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "custom_css": [
+        "h3 {font-size: 20px;}"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "You may also like",
+        "recommendations_count": 4,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "17798791019a6b466c": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_emmype": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "real_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_emmype"
+      ],
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_WCUCwp",
+    "blocks_rYEGty",
+    "image_with_text_f7YVxJ",
+    "blocks_34NbxY",
+    "collection_list_fpeCdF",
+    "product-content",
+    "product-recommendations",
+    "17798791019a6b466c"
+  ]
+}
