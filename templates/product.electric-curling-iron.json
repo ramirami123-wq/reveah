@@ -55,7 +55,8 @@
         "buy_buttons_mhXrEJ"
       ],
       "custom_css": [
-        "[id*=\"pumper\"],.pumper-container,div[class*=\"pumper-\"] {margin-top: -20px !important; position: relative; z-index: 2;}"
+        "[id*=\"pumper\"],.pumper-container,div[class*=\"pumper-\"] {margin-top: -20px !important; position: relative; z-index: 2;}",
+        ".jdgm-widget.jdgm-preview-badge {margin-top: -45px !important;}"
       ],
       "settings": {
         "show_vendor": false,
