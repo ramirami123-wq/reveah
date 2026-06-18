@@ -131,11 +131,11 @@
         "item_9fLTE8": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/H8183864cf5144898bacd5aa951a7da6ac.jpg",
+            "image": "shopify://shop_images/1780576337_phpum4kd1s25tavdnUk1Dn.jpg",
             "tab_label": "",
             "subheading": "",
-            "title": "Say Goodbye to Vanity Clutter",
-            "content": "<p>Transform your vanity instantly. This elegant organizer keeps your daily essentials neatly sorted, dust-free, and always within reach.</p>",
+            "title": "Precision Styling Made Simple",
+            "content": "<p>Ditch the complex beauty routine. This automatic curler features three temperature modes (160C to 200C) to match your hair type, plus dual-direction buttons for easy, salon-grade curls at home.</p>",
             "button_text": "",
             "button_link": ""
           }
@@ -164,9 +164,9 @@
         "ai_gen_block_adef03d_eXrPDU": {
           "type": "ai_gen_block_adef03d",
           "settings": {
-            "text_1": "Dust & Moisture Resistant",
-            "text_2": "Seven compartments",
-            "text_3": "",
+            "text_1": "Effortless Automatic Curls",
+            "text_2": "3 Smart Temperature Modes",
+            "text_3": "Dual-Direction Rotation",
             "text_4": "",
             "show_icon": true,
             "icon_type": "star",
